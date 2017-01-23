@@ -1,0 +1,161 @@
+.wrapper
+{
+	width: 1200px;
+	height: 972px;
+	background-color: #ffffff;
+	
+	padding-top: 40px;
+	box-sizing:border-box;
+}
+
+.main
+{
+
+}
+
+.heading
+{		width: 1198px;
+	    height: 120px;
+	    box-sizing:border-box;
+	background-color: #eeeeee;
+	    padding-left: 170px;
+    padding-right: 170px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+
+}
+
+.heading .img img
+ {
+	float: left;
+}
+
+.heading .nav nav
+{
+	margin-left: 10px;
+	padding: 10px;
+}
+
+
+.nav nav a
+{
+	padding-top: 0px;
+	padding-left: 100px;
+	text-decoration: none;
+	color: #888492;
+
+}
+
+
+.content
+{
+	width: 70%;
+	margin: 0 auto;
+	height: 300px;
+	
+	box-sizing:border-box;
+}
+
+
+.leftContent
+{	 padding: 10px;
+	width: 50%;float: left;
+	
+}
+
+.ideas
+{
+	font-size: 35px;
+
+}
+
+.placeholder
+{
+	    margin-top: -36px;
+}
+
+.para
+{
+	    margin-top: -11px;
+}
+
+.submit
+{
+	margin-left: 35px;
+	/*background: url("../images/bg-button.png") 0px  70px;*/
+	float: left;
+	z-index: -1;
+
+
+}
+.buttons
+{
+	    background: url("../images/bg-button.png") 0px 159px;
+ 	
+}
+
+.clear
+{
+	clear: both;
+	margin-bottom: 40px;
+}
+
+.belowContent
+{
+	width: 70%;
+	margin: 0 auto;box-sizing:border-box;
+	height: 350px;
+	
+	padding: 30px;
+}
+
+.place
+{
+	width: 48%;
+	float: left;
+	
+}
+
+
+.plc
+{
+	font-size: 30px;
+}
+
+.remove
+{
+	    margin-top: 78px;width: 48%;
+	    float: right;
+
+}
+
+.footer
+{
+	width: 1198px;
+	    height: 120px;box-sizing:border-box;
+	   background-color: #eeeeee;
+	   	    padding-left: 170px;
+    padding-right: 170px;
+        padding-top: 30px;
+
+
+}
+
+.fb
+{
+	background: url("../images/social.png") 0px 0px;
+	width: 30px;float: left;
+	height: 30px;    padding: 5px;
+
+}
+
+.comp
+{
+	float: left;
+
+}
+
+.social
+{
+	float: right;
+}

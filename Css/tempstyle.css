@@ -1,0 +1,40 @@
+body
+{width:95%;}
+img
+{
+float:left;
+}
+
+.maindiv
+{
+padding:10px;
+background-color:#b1f2cf;
+border:5px solid blue;
+height:150px;
+width:90%;
+}
+
+.int
+{
+float:left;
+display:inline;
+width:50%;
+font-size:15px;
+}
+
+.ul1
+{
+float:left;
+margin:30px;
+list-style:none;
+padding:10px 10px 10px 20px;
+}
+
+.main2
+{
+border:1px solid blue;
+background-color:red;
+}
+
+
+

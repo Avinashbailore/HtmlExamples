@@ -1,0 +1,64 @@
+	img
+	{
+		float: right;
+	}
+
+	h1:hover
+	{
+		cursor: pointer;
+	}
+
+	.divv,.divvv
+	{	float: left;
+		margin-left: 20px;
+		margin-bottom: 10px;
+		height: 200px;
+		width: 200px;
+		background-color: blue;
+		box-sizing:border-box;
+		padding: 40px;
+
+	}
+
+	.divv p,.divvv p
+	{
+		font-size: 25px;
+	}
+
+	#para
+	{
+		clear: both;
+	}
+
+	.dhoni
+	{
+		float: left;
+		clear: both;
+	}
+
+	.dhoni img:hover
+	{
+		cursor: pointer;
+	}
+
+
+.myimage
+{
+	float: left;
+}
+
+.many
+{
+	clear: both;
+}
+
+.dhoni2
+{
+	float: left;
+	margin-bottom: 30px;
+}
+
+#eventimg:hover
+{
+	cursor: pointer;
+}

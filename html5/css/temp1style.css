@@ -1,0 +1,314 @@
+body
+{
+	/*border:3px solid blue;*/
+}
+
+ul
+{
+	list-style-type: none;
+}
+
+li
+{
+	display: inline-block;
+}
+
+
+.clear
+{
+	clear: both;
+
+}
+.logo
+{
+	float:left;
+	padding-left: 10px;
+	margin-right: 10px;
+}
+
+
+.companyName
+{
+	float: left;
+	padding-left: 35px;
+
+}
+
+.companyName nav
+{
+	margin-left: 50px;    padding-top: 15px;
+
+}
+
+
+.compnayName nav article
+{
+	padding: 10px;
+}
+.companyName p
+{
+	font-size: 20px;margin-left: 50px;
+}
+
+.companyName article
+{
+	margin-left: 50px;
+	    margin-top: -20px;
+}
+
+
+.companyName nav ul
+{
+	   margin-left: 10px;
+}
+
+.companyName nav ul li
+{
+	    padding-right: 82px;
+    padding-left: 33px;
+    background-color: #369b01;
+
+}
+
+.companyName a
+{
+	padding-right: 88px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	text-decoration: none;
+	background-color:#369b01;
+
+}
+
+.side
+{
+	float: right;
+}
+
+
+.side p
+{
+	color: #a5a5a5;
+}
+
+.search
+{
+	    margin-left: -68px;
+	    float: left;background-color: #dcdcdc;
+}
+
+.search1
+{
+	float: right;
+}
+.search1 img
+
+{   float: right;
+       margin-top: -22px;
+    margin-left: 39px;
+}
+
+
+.content
+{
+	border-bottom: 2px solid white;
+}
+
+.green
+{
+	background-color: #329902;
+	    padding: 3px;margin-top: -5px;
+
+}
+
+.mainContent
+{
+	width: 98%;
+	padding: 15px;
+
+}
+
+.vrt,.news,.data
+{
+	width: 31%;
+	float: left;
+   
+}
+
+.data
+{
+	border-right: 1px solid #d7d7d9;
+}
+
+.news
+{
+	    padding-left: 70px;
+}
+
+.headervrt,.headerdata,.headernews
+{
+	float: left;
+	    padding-left: 60px;
+}
+.headervrt header,.headerdata header,.headernews header
+{
+font-size: 20px;
+}
+
+.img2
+{
+	float: right;
+}
+
+
+.mainContent
+{
+	
+}
+.vrtcontent,.datacontent,.newscontent
+{
+	    padding-left: 60px;
+}
+
+ 
+.datacontent p,.newscontent p
+{  clear: left;
+	width: 40%;
+	
+	float: left;
+	color: #868686;
+
+}
+
+.vrtcontent p
+{  clear: left;
+	width: 45%;
+	
+	float: left;
+	color: #868686;
+
+}
+.learnmore,.data1,.news1
+{ clear: both;
+	float: left;  padding-left: 60px;
+
+}
+
+.learnmore a,.data1 a,.news1 a
+{
+	text-decoration: none;
+	color: #416a04;    padding-right: 6px;
+}
+
+.lorem,.lorem1,.lorem2,.lorem3
+{
+	padding-right: 10px;
+}
+
+.lorem1
+{
+	margin-top: -10px;
+}
+.para1
+{
+	clear: left;
+	float: left;
+	color: #519737;
+}
+
+.no
+{
+	
+	float: left;
+}
+
+.sed
+{
+	clear: left;
+	float: left;    margin-top: -30px;
+	padding-right: 10px;
+}
+
+.readmore
+{
+	
+	float: left;
+	        margin-top: -15px;
+	            padding-left: 65px;
+}
+
+.readmore a
+{
+	text-decoration: none;
+	color: #456b04;
+}
+
+
+.clear1
+{
+	margin-top: 225px;
+	padding-bottom: 5px;
+	background-color: green;
+}
+
+footer
+{
+	padding:10px;
+}
+
+.footnav nav a
+{   padding:5px;
+	border-right: 1px solid black;
+	text-decoration: none;
+	color: #0c0c0e;
+	font-weight: bold;
+}
+
+
+.bigpara
+{
+	width: 75%;
+	float: left;
+}
+
+.bigpara p
+{
+	float: left;
+}
+
+.free img
+{
+	position: absolute;
+       left: 1062px;
+    top: 927px;
+    z-index: -1;
+}
+
+
+.free
+{   float: left;
+	
+	
+}
+
+.free p
+{
+	font-weight: bold;float: left;
+	color: black;   
+	margin-top: 91px;
+    padding-left: 20px;
+}
+
+
+.companyName nav a::after
+{
+  /* background-image: url("../images/arrow.png");*/
+   width: 9px;
+   height: 6px;
+   content: url("../images/arrow.png");
+   display: inline-block;
+
+   padding-left: 24px;
+
+}

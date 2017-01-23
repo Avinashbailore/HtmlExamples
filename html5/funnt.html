@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Calc</title>
+	<style>
+		#calc
+		{
+			width: 400px;
+			height: 400px;
+			box-sizing:border-box;
+			padding: 10px;
+
+		}
+
+		#keys span
+		{
+			box-sizing:border-box;
+			padding: 10px;
+			background-color: blue;
+			border:1px solid green;
+			margin-top: 20px;
+
+		}
+
+		#keys span:hover
+		{
+			cursor: pointer;
+			background-color: yellow;
+
+		}
+	</style>
+</head>
+<body>
+
+	<div id="calc">
+		<div id="keys">
+			<!-- span id="one" onclick="myfunc1(1)">1</span>
+			<span id="two" onclick="myfunc1(2)">2</span>
+			<span id="three" onclick="myfunc1(3)">3</span><br><br>
+			<span id="four" onclick="myfunc1(4)">4</span>
+			<span id="five" onclick="myfunc1(5)">5</span>		
+			<span id="six" onclick="myfunc1(6)">6</span><br><br>
+			<span id="seven" onclick="myfunc1(7)">7</span>
+			<span id="eight" onclick="myfunc1(8)">8</span>
+			<span id="nine" onclick="myfunc1(9)">9</span><br><br>
+			<span id="plus" onclick="myfunc1()">+</span>
+			<span id="minus" onclick="myfunc1()">-</span>
+			<span id="equals" onclick="myfunc1()">=</span> -->
+
+			<span id="one" >1</span>
+			<span id="two" >2</span>
+			<span id="three" >3</span><br><br>
+			<span id="four" >4</span>
+			<span id="five" >5</span>		
+			<span id="six" >6</span><br><br>
+			<span id="seven" >7</span>
+			<span id="eight" >8</span>
+			<span id="nine" >9</span><br><br>
+			<span id="plus" >+</span>
+			<span id="minus" >-</span>
+			<span id="equals" >=</span>
+
+		</div>
+
+	</div>
+
+
+
+
+
+
+
+
+
+<script type="text/javascript">
+	
+	
+
+	var x=document.getElementById('one');
+	x.addEventListener("click",func);
+
+	function func()
+	{
+		return 1;
+	}
+
+	function myfunc9()
+	{
+
+	}
+	document.getElementById('plus').innerHTML=x;
+
+	var keeys=document.querySelectorAll(#calc span);
+	for (var i = 0; i < 9; i++) {
+		keeys[i].onclick=myfunction(i)
+		
+	};
+
+	var operators=document.querySelectorAll(#keys span);
+
+	
+		operators[0].onclick=function()
+		{
+			operators[0].style.backgroundColor="red";
+		}
+	
+
+
+
+
+
+	
+</script>
+</body>
+</html>

@@ -1,0 +1,379 @@
+html,body,ul,li,h1,h2,p{
+	margin:0px;
+	padding:0px;
+	
+}
+/*wrapper*/
+#wrapper{
+width:1345px;
+height:auto;
+background-color:#337071;}
+
+/*start of header*/
+#header{
+width:1345px;
+margin:0px auto;}
+
+#header #Title{
+width:960px;
+height:auto;
+margin:0px auto;
+overflow:hidden;}
+
+#header #Title #TitleOne{
+width:460px;
+height:auto;
+padding-top:60px;
+color:#fff;
+font-size:40px;
+float:left;
+text-align:center;
+font-family:"Times New Roman";
+margin-bottom:50px;
+}
+
+#header #Title #TitleTwo{
+width:460px;
+height:auto;
+padding-top:55px;
+color:#fff;
+font-size:19px;
+padding-right:32px;
+text-align:right;
+font-family:"Arial";
+float:right;}
+
+.contact{
+width:460px;
+height:auto;
+color:#fff;
+font-size:33px;
+padding-top:5px;
+float:right;}
+/*End of header*/
+
+/*start of main content*/
+#mainContent{
+width:960px;
+height:auto;
+margin:0px auto;
+border-top:4px solid #0BAEB5;
+border-bottom:4px solid #0BAEB5;}
+
+
+#navigation{
+width:960px;
+height:auto;
+margin:0px auto;}
+
+.one{
+width:160px;
+height:32px;
+float:left;
+background-color:#000;
+padding-top:10px;
+text-align:center;}
+
+.one a{
+text-decoration:none;
+color:gray;
+font-family:"Arial";
+font-size:15px;}
+
+.one:hover{
+color:#16DBD2;
+background-color:#262626;}
+
+.one a:hover{
+color:#16DBD2;}
+
+.selected{
+background-color:#262626 !important;
+height:32px;}
+
+.selected a{
+color:#16DBD2 !important;}
+
+
+#contentOne{
+width:960px;
+height:auto;
+background-color:#fff;
+margin:0px auto;
+font-family:"Verdana";
+line-height: 200%;
+padding-top:50px;
+padding-bottom:50px;
+text-align:left;
+}
+
+.subheading{
+font-size:42px; 
+text-align:center;
+padding-bottom:30px;
+padding-top:60px;
+color:#008081;
+font-family:"Times New Roman";}
+
+.paragraph{
+padding-left:40px}
+
+.paragraph a{
+color:#000;}
+
+
+#contentTwo{
+width:960px;
+height:auto;
+background-color:#000;
+padding-bottom:50px;
+margin:0px auto;
+overflow:hidden;
+}
+
+#contentTwo .paraOne{
+font-size:55px; 
+color:#FFAF03;
+text-align:center;
+width:900px;
+height:0px;
+margin:45px;
+margin-left:0px;}
+
+#contentTwo .paraTwo{
+font-size:25px;
+color:#FFF;
+float:left;
+padding-left:68px;
+padding-top:42px;
+text-align:center;
+font-family:"Arial";
+padding-right:10px;}
+
+#bgImage{
+background-image:url("../images/interface.png");
+float:left;
+width:110px;
+height:30px;
+background-color:#000;
+border:hidden;
+color:#fff;
+margin-top:40px;
+margin-left:0px;
+}
+#bgImage a{
+text-decoration:none;}
+
+
+#contentThree{
+width:960px;
+height:auto;
+background-color:#E4E4E4;
+margin:0px auto;
+overflow:hidden;}
+
+.placeholder{
+font-family:"Times New Roman";
+font-weight:100px; 
+color:#000;
+margin-left:10px;
+margin-bottom:10px;}
+
+#contentThreeLeft{
+width:550px;
+height:auto;
+background-color:#E4E4E4;
+float:left;margin:30px;
+border-right:1px solid gray;
+margin-right:0px;
+color:#474C63;}
+
+#contentThreeLeftTopHeading{
+height:auto;
+margin-left:20px;
+font-size:20px;
+text-align:left;
+margin:0px;
+padding:0px;}
+
+.BLOG{
+color:#006877;
+font-size:32px;
+font-family:"Times New Roman";
+margin-top:20px;
+margin-bottom:20px;
+margin-left:10px;
+}
+
+#contentThreeLeftTopImage{
+width:178px;
+height:158px;
+background:url(../images/house.jpg);
+float:left;
+margin:10px;
+margin-top:0px;
+border:1px solid gray;}
+
+#contentThreeLeftTopPara {padding-top:0px;}
+
+#contentThreeLeftTopPara p{
+margin-left:10px;
+padding-top:0px;
+height:auto;
+font-family:"Verdana";
+line-height:200%;}
+
+#contentThreeLeftTopPara a{color:#474C63;}
+.more{text-decoration:none;}
+#contentThreeLeftBottom{
+
+width:550px;
+height:auto;
+background-color:#E4E4E4;
+margin:0px auto;
+padding-right:0px;
+float:left;
+font-family:"Verdana";
+line-height: 200%;
+margin-top:30px;}
+
+.description{margin-left:10px;}
+
+#contentThreeLeftBottomLeft{
+width:254px;
+height:auto;
+background-color:#E4E4E4;
+padding:0px 15px 0px 0px;
+float:left;
+}
+#contentThreeLeftBottomLeft a{color:#474C63;}
+
+#contentThreeLeftBottomRight{
+width:254px;
+height:auto;
+background-color:#E4E4E4;
+padding:0px 15px 0px 0px;
+float:left;}
+#contentThreeLeftBottomRight a{color:#474C63;}
+
+#contentThreeRight{
+width:361px;
+height:auto;
+background-color:#E4E4E4;
+float:right;
+margin:30px;
+overflow:hidden;
+margin-left:0px;
+margin-right:15px;}
+
+#contentThreeRightHeadingOne{
+width:100px;
+height:auto;
+background-color:#E4E4E4;
+color:#0F555F;
+font-size:32px;
+padding-top:0px;
+margin:40px;
+}
+
+#contentThreeRightImage{
+width:279px;
+height:190px;
+background:url(../images/professionals.jpg);
+margin-top:-20px;
+margin-left:40px;}
+
+#contentThreeRightpara{
+width:330px;
+height:auto;
+background-color:#E4E4E4;
+float:right;
+font-family:"Verdana";
+line-height: 200%;}
+
+#contentThreeRightHeadingTwo p{
+width:330px;
+height:auto;
+background-color:#E4E4E4;
+float:right;
+color:#0F555F;
+font-size:32px;
+padding-top:0px;
+margin-bottom:15px;
+margin-top:30px;
+margin-left:10px}
+
+#formStructure{
+border-top:1px solid gray;
+width:361px;
+margin-top:80px;}
+
+#Form{
+width:330px;
+height:auto;
+background-color:#E4E4E4;
+float:right;
+color:#0F555F;
+font-size:10px;
+padding-top:0px;
+margin:0px;
+margin-top:0px; 
+margin-left:10px}
+
+.info{padding:15px;
+border:1px solid gray;
+margin:5px;
+float:left;
+margin-left:0px;
+width:250px;}
+
+.Subscribe{
+font-size:15px;
+width:95px;
+color:#676767; 
+background-color:#CDCDCD;
+float:right;
+text-align:center;
+margin-right:60px;
+border:5px solid #CDCDCD;
+border-radius:8px;
+margin-top:5px;}
+
+/*End of main content*/
+
+/*start of footer*/
+#footer{
+margin:0px auto
+;width:970px;
+height:auto;
+padding:34px;}
+
+#footer .followUsdiv1{
+height:28px; 
+width:30px; 
+float:left; 
+margin-right:30px;
+background:url(../images/icons.png) 0px 0px;}
+
+#footer .followUsdiv2{
+height:28px; 
+width:30px; 
+float:left; 
+margin-right:30px;
+background:url(../images/icons.png) 0px -29px;}
+
+#footer .followUsdiv3{
+height:28px; 
+width:30px; 
+float:left; 
+margin-right:30px;
+background:url(../images/icons.png) 0px -53px;}
+
+
+#footer #copyright{
+float:right;
+color:#06473D;
+font-family:"Verdana";
+font-size:15px;
+padding-right:15px;}
+/*end of footer*/

@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Animations</title>
+	<style type="text/css">
+      .anim
+      {  width: 100px;
+      	height: 100px;
+      	border:3px solid blue;
+      	animation:anim1 5s;
+      	background-color: #2f368f;
+      	animation-direction: reverse;
+      }
+
+      @keyframes anim1
+      {
+      	25%{background-color: red;}
+      	
+
+      	50%{transform:translate(100px,0px);}
+      	
+
+      	75%{transform:translate(0px,100px);}
+      	
+      	100%{transform:translate(10px,10px);}
+      }
+
+      .img img
+      {
+      	border-radius: 30px;
+      }
+     
+      .try,.try1
+      {
+      	padding: 30px;float: left;
+      	width: 100px;
+      	position: relative;
+      	height: 100px;
+      	background: linear-gradient(141deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);
+      	animation:css33 4s;
+      	animation-fill-mode:forwards;
+      }
+
+      .try
+      {
+      	margin-right: 70px;
+      }
+
+      .try1
+      {
+      	
+      }
+
+
+
+      .try1
+      {
+      	margin-left: 
+      }
+
+      @keyframes css33
+      { 10%{transform:translatex(100px);}
+        20%{
+        	transform:rotatez(20deg); 
+        }30%{
+        	transform:rotatez(-10deg); 
+        }
+        40%{
+        	transform:rotatez(20deg); 
+        }
+        50%{
+        	transform:rotatez(-10deg); 
+        }
+      	60%{transform:translatex(200px) rotatez(90deg);}
+      	65%{transform:translatex(400px) rotatez(180deg);}
+      	70%{transform:translatex(600px) rotatez(270deg);}
+      	75%{transform:translatex(800px) rotatez(360deg);}
+      	80%{transform:translatex(1000px)
+        	rotatez(380deg); 
+        }
+        90%{transform:translatex(800px) rotatez(340deg); 
+        }
+        100%{
+        	transform:translatex(600px) rotatez(360deg); 
+        }
+      }
+
+     
+
+     .a
+     {
+     	background-color:rgb(255,0,0);
+     	padding: 20px;
+     }
+
+     .b
+     {
+     	background-color:rgba(255,0,0,0.3);
+     	padding: 20px;
+     }
+
+     .c
+     {
+     	background-color:rgba(255,0,0,0.6);
+     	padding: 20px;
+     }
+
+     .d
+     {
+     	background-color:rgba(255,0,0,0.9);
+     	padding: 20px;
+     }
+
+     .a1
+     {
+     	background-color:hsla(120,100%,50%,0.2);
+     	padding: 20px;
+     }
+
+     .b1
+     {
+     	background-color:hsl(120,100%,70%);
+     	padding: 20px;
+     }
+
+     .c1
+     {
+     	background-color:hsla(120,100%,90%,0.7);
+     	padding: 20px;
+     }
+
+     .d1
+     {
+     	background-color:hsl(120,100%,30%);
+     	padding: 20px;
+     }
+
+
+     .gradient
+     {
+     	padding: 40px;
+     	background:linear-gradient(to bottom right,red,yellow);
+     }
+
+    .gradient1
+    {
+    	padding: 40px;
+    	background:linear-gradient(to left,red,yellow);
+    }
+
+     .gradient3
+    {
+    	padding: 40px;
+    	background:linear-gradient(50deg,red,yellow);
+    }
+     
+     .gradient4
+     {
+     	background: linear-gradient(141deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);
+     	padding: 40px;
+     }
+     
+     .gradient5
+     {
+     	background:linear-gradient(to right,red,white 20%,blue 50%,green 80%);
+     }
+
+     .radgrad1,.radgrad2
+     {
+     	
+     	padding: 50px;
+     	width: 35%;
+     	height: 200px;
+     	margin-left: 20px;
+     }
+
+     .radgrad1
+     {
+     	background:radial-gradient(red,yellow,green);
+     }
+
+     .radgrad2
+     {
+        background:radial-gradient( circle ,red 10%,yellow 50%,green 85%);
+     }
+
+	</style>
+</head>
+<body>
+  <section>
+  	<div class="anim">
+  		
+  	</div>
+  	<div class="img">
+  		<img src="images/strawberry2.jpg" width="400px" height="400px">
+  	</div>
+   <br><br><br><br>
+  	<div class="try">
+  		<h2>Css3</h2>
+  	</div>
+  	<div class="try1">
+  		<h2>Css3</h2>
+  	</div>
+
+
+   <br><br><br><br><br>
+   <div>
+   	<div class="a"></div>
+   	<div class="b"></div>
+   	<div class="c"></div>
+   	<div class="d"></div>
+   </div>
+<br><br><br><br><br>
+   <div>
+   	<div class="a1"></div>
+   	<div class="b1"></div>
+   	<div class="c1"></div>
+   	<div class="d1"></div>
+   </div>
+<br><br><br><br><br><br>
+   <div class="gradient"></div>
+   <br><br>
+   <div class="gradient1"></div>
+<br><br>
+<div class="gradient3"></div>
+
+<div class="gradient4"></div>
+<br><br><br><br><br>
+<div class="gradient5">Hai</div>
+
+<br><br><br>
+<div class="radgrad1"></div>
+
+<br><br><br>
+<div class="radgrad2"></div>
+  </section>
+</body>
+</html>

@@ -1,0 +1,354 @@
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+
+*
+{
+	margin:0px;
+	padding: 0px;
+	box-sizing:border-box;
+}
+
+.wrapper
+{
+	width: 95.1074870274%;
+	height: 1893px;
+	
+	margin: 0 auto;
+}
+
+.heading
+{
+	height: 183px;
+	width: 100%;
+	
+	padding-left: 167px;
+	padding-right: 167px;
+	padding-top: 94.5px;
+	background:url("../images/temp15/header-bg.jpg");
+	background-repeat: repeat-x;
+}
+
+
+.logo
+{
+	float: left;
+	
+}
+
+.logo p
+{
+	
+}
+
+.slogan
+{
+	float: left;
+	
+}
+
+.slogan p
+{
+	font-style: italic;
+	color: #ebead9;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.bloody
+{
+	float: left;
+	clear: left;
+}
+
+.bloody p
+{
+	color: #cec6b2;
+}
+
+.nav
+{
+	float: right;
+	margin-top: 10px;
+}
+
+.nav a
+{
+	text-decoration: none;
+	color: white;
+	padding-top: 20px;
+	padding-right: 20px;
+	padding-left: 5px;
+
+}
+
+.arrow
+{	
+	background:url("../images/temp15/menu_down_arrow.png") 1px 3px;
+	width: 11px;
+	height: 5px;
+	display: inline-block;
+	padding-left: 5px;
+}
+
+.imgg
+{
+	height: 419px;
+	width: 100%;
+		padding-left: 168px;
+	padding-right:170px;
+	padding-top: 26px;
+	padding-bottom: 26px;
+	background:url("../images/temp15/banner-bg.jpg");
+}
+
+.content
+{
+	width: 100%;
+	height: 725px;
+	
+	padding-left: 128px;
+	padding-right:132px; 
+	padding-top:40px;
+	padding-bottom:40px;
+}
+
+.topContent
+{
+	width: 1025px;
+	height: 300px;
+	
+	margin-bottom: 20px;
+	padding-left: 40px;
+}
+
+.bottomContent
+{
+	width: 1025px;
+	height: 300px;
+	margin-left: 25px;
+	margin-bottom: 10px;
+	
+}
+
+
+.beautiful,.clean,.perfect
+{
+	float: left;
+	
+	width: 300px;
+	height: 300px;
+	margin-right: 20px;
+}
+
+.valid
+{
+	width: 298px;
+	height: 92px;
+	background:url("../images/temp15/banner-bg.jpg");
+	padding-left: 10px;
+	padding-top: 18px;
+}
+
+.leftValid
+{
+	float: left;
+}
+
+.rightValid
+{
+	float: left;
+	margin-left: 17px;
+}
+
+.rightValid p
+{
+	color: white;
+	font-size: 21px;
+}
+
+.lorem
+{
+	margin-top: 20px;
+}
+
+.lorem p
+{
+	line-height: 24px;
+	color: #74665b;
+}
+
+.more a
+{
+	text-decoration: none;
+	color: red;
+}
+
+.validd
+{
+	width: 298px;
+	height: 110px;
+	background:url("../images/temp15/banner-bg.jpg");
+	padding-left: 10px;
+	padding-top: 18px;
+}
+
+.perfect .lorem
+{
+	margin-top: 16px;
+} 
+
+.work
+{
+	border-bottom: 1px dotted #74665b;
+	margin-bottom: 10px;
+	padding-bottom: 10px;margin-left: 38px;
+}
+
+.work p
+{
+	font-weight: bold;
+	font-size: 20px;
+	color: #453c34;
+}
+
+.one,.two,.three
+{
+	
+	float: left;
+	height: 200px;
+	width: 317px;
+	margin-right: 18px;
+	margin-top: 10px;
+
+}
+
+.one
+{
+	margin-left: 10px;
+}
+
+.one img,.two img,.three img
+{
+	border:3px solid white;
+}
+
+.one p,.two p,.three p
+{
+	font-weight: bold;
+	font-size: 18px;
+	margin-top: 10px;
+}
+
+.belowContent
+{
+	padding-left: 168px;
+	padding-top: 53px;
+	height: 441px;
+	
+	background:url("../images/temp15/banner-bg.jpg");
+}
+
+.aboutus,.whyus
+{
+	float: left;
+	width: 465px;
+	
+	height: 376px;
+	margin-right: 10px;
+}
+
+.aboutus h1,.whyus h1
+{
+	font-size: 20px;
+	display: block;
+	color: white;
+	padding-bottom: 10px;
+	border-bottom: 1px solid white;
+}
+
+
+.aboutus p
+{	margin-top: 21px;
+	line-height: 20px;
+	color: white;
+}
+
+.whyus ul
+{
+	margin-left: 20px;
+	margin-top: 20px;
+	list-style-type: none;
+}
+
+/*.whyus ul li:nth-child(1)
+{
+	margin-left: 30px;
+	list-style-image: url("../images/temp15/c1.png");
+}
+
+.whyus ul li:nth-child(2)
+{
+	margin-left: 30px;
+	list-style-image: url("../images/temp15/c2.png");
+}
+
+.whyus ul li:nth-child(3)
+{
+	margin-left: 30px;
+	list-style-image: url("../images/temp15/c3.png");
+}*/
+
+.whyus ul li img
+{
+	float: left;
+	margin-right: 15px;
+}
+
+.whyus ul li 
+{
+	margin-bottom: 30px;
+}
+
+.whyus ul li p
+{
+	color: white;
+}
+
+.footer
+{
+	height: 123px;
+	
+	background-color: #403830;
+	padding-left: 165px;
+	padding-right: 131px;
+	padding-top: 20px;
+}
+
+
+.footer nav a
+{
+	text-decoration: none;
+	color: white;
+	padding-left: 10px;
+	padding-right: 10px;
+}

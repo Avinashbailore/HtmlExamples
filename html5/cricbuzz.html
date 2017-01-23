@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+
+	@media screen and (max-width: 500px)
+	{
+		body {
+			background-color:red;
+		}
+	}
+
+	/*@media screen and (min-width: 500px)
+	{
+		body {
+			background-color:blue;
+		}
+	}*/
+
+	a[href $=".com"]
+	{
+		color: red;
+	}
+
+	a[href *=".com"]
+	{
+		border: 1px solid blue;
+	}
+
+	ul li:nth-child(3)
+	{
+		border:1px solid blue;
+	}
+
+	ul li:nth-last-child(3)
+	{
+		border:1px solid blue;
+	}
+
+	ul li:first-child
+	{ 
+		border:1px solid red;
+	}
+
+
+
+	</style>
+</head>
+<body>
+ 	<a href="http://www.google.com">google</a>
+ 	<a href="http://www.google.co.in">google.co.in</a>
+ 	<ul>
+ 		<li>HAi</li>
+ 		<li>HAi</li>
+ 		<li>HAi</li>
+ 		<li>HAi</li>
+ 		<li>HAi</li>
+ 		<li>HAi</li>
+ 		<li>HAi</li>
+
+ 	</ul>
+</body>
+</html>

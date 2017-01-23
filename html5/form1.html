@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style>
+
+     /* input:enabled
+      {
+        background-color: green;
+      }*/
+
+      input:disabled
+      {
+        background-color: red;
+      }
+
+      .input:checked
+      {
+        background-color: blue;
+      }
+       .translate
+       {
+       	border:2px solid blue;
+       	transform: translate(50px,100px);
+       }
+        .rotate p
+        {
+			transform:rotate(20deg);
+        }
+
+        .rotate,.skew,.skew1,.matrix
+        {
+        	margin:20px;
+        }
+
+        .scale,.skew,.skew1,.matrix
+        {
+        	margin-top: 30px;
+        	border:3px solid blue;
+        	background-color: #ff0000;
+        	margin-left: 40px;
+        }
+        
+        .scale p
+        {
+        	border:2px solid blue;
+        	transform:scale(1,5);
+        }
+
+        .skew 
+        {
+           transform: skewX(20deg);
+        }
+
+         .skew1
+        {
+           transform: skew(20deg,20deg);
+        }
+
+        .matrix p
+        {
+        	 transform: matrix(1, -0.3, 0, 1, 0, 0);
+        	 border:3px solid blue; 
+        }
+       
+        .rotatex
+        {
+        	margin-top: 80px;
+        	background-color: #ff0000;
+        	border:2px solid blue;
+        }
+
+        .rotatex p
+        {
+        	transform: rotateX(150deg);border:2px solid blue;
+        }
+
+        .rotatey
+        {
+        	margin-top: 80px;
+        	background-color: #ff0000;
+        	border:2px solid blue;
+        }
+
+        .rotatey p
+        {
+        	transform: rotatey(150deg);border:2px solid blue;
+        }
+
+        .rotatez
+        {
+        	margin-top: 80px;
+        	background-color: #ff0000;
+        	border:2px solid blue;
+        }
+
+        .rotatez p
+        {
+        	transform: rotatez(150deg);border:2px solid blue;
+        }
+
+
+        .transition
+        {   width: 300px;
+        	transition:width 2s;
+        	transition:rotatex 3s;
+        	border:2px solid blue;
+        	background-color: red;
+        }
+
+        .transition:hover
+        {
+        	
+        	transform:rotatex(75deg);
+        	width: 500px;
+
+        }
+
+
+        .animation
+        {	
+
+        	border:2px solid blue;
+        	background-color: #6f21f3;
+        }
+
+        .animation p
+        {
+        	animation-name:example;animation-duration: 10s;
+        	position: relative;
+        	width: 50%;
+
+        }
+
+        .animation1
+        {border:2px solid blue;
+        	background-color: #6f213f;
+        	animation-name:example1;
+        	animation-duration:5s;
+        	position: relative;
+        	width: 200px;
+        	height: 100px;animation-iteration-count: 3;
+        }
+
+
+        @keyframes example
+        {
+        	0%{background-color: red; left:0px;top: 0px;}
+        	50%{background-color: green;left:20px;top: 0px;}
+        	75%{background-color: yellow;left:20px;top: 20px;}
+        	100%{background-color: white;left:0px;top: 20px;}
+        }
+
+        @keyframes example1
+        {
+
+        	0%{background-color: red; left:10px;top: 0px;}
+        	50%{background-color: green;left:20px;top: 0px;}
+        	75%{background-color: yellow;left:20px;top: 20px;}
+        	100%{background-color: white;left:0px;top: 20px;}
+        	90%{
+        		transform:rotatex(40deg);
+        	}	
+            animation-iteration-count: 3;
+        }
+        input:valid
+        {
+          background-color: yellow;
+        }
+
+        input:invalid
+        {
+          background-color: green;
+        }
+
+	</style>
+</head>
+<body>
+   <form action="post">
+   	  <input type="color"/><br>
+   	  <input type="date"/ disabled><br>
+   	  <input type="datetime"/><br>
+   	  <input type="datetime-local"/><br>
+   	  <input type="email" name="avi@gmail.com" /><br>
+   	  <input type="month"/><br>
+   	  <input type="number"/><br>
+   	  <input type="range" /><br>
+      <input type="checkbox">
+   	  <input type="search"/><br>
+   	  <input type="tel"/><br>
+   	  <input type="time"/><br>
+   	  <input type="url"/><br>
+      <input type="week"/><br>transform: skewX(20deg);
+
+      <input type="text" value="hello" readonly>
+   	  <input type="submit" value="submit">
+   </form>
+
+   <div class="translate">
+   		<p>asdfajkgdf asjdfakd jakdgjjksd fak sdfak dfkad kad fka dfka sdkfaksj fakjsd fkjas dfaks dakdjgfajkd fadf adf k
+   		</p>
+   </div>
+   <br><br><br><br><br>
+   <div class="rotate">
+     without rotating
+   		<p>asdfajkgdf asjdfakd jakdgjjksd fak sdfak dfkad kad fka dfka sdkfaksj fakjsd fkjas dfaks dakdjgfajkd fadf adf k
+   		</p>
+   </div>
+
+   	<div class="scale">
+   	    without scaling
+   		<p>asdfajkgdf asjdfakd jakdgjjksd fak sdfak dfkad kad fka dfka sdkfaksj fakjsd fkjas dfaks dakdjgfajkd fadf adf k
+   		</p>
+   </div>
+   <br><br><br><br><br>
+  
+   <div class="skew">
+     without rotating
+   		<p>asdfajkgdf asjdfakd jakdgjjksd fak sdfak dfkad kad fka dfka sdkfaksj fakjsd fkjas dfaks dakdjgfajkd fadf adf k
+   		</p>
+   </div>
+
+   <div class="skew1">
+     without rotating
+   		<p>asdfajkgdf asjdfakd jakdgjjksd fak sdfak dfkad kad fka dfka sdkfaksj fakjsd fkjas dfaks dakdjgfajkd fadf adf k
+   		</p>
+   </div>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    	<div class="matrix">
+   	    without scaling
+   		<p>asdfajkgdf asjdfakd jakdgjjksd fak sdfak dfkad kad fka dfka sdkfaksj fakjsd fkjas dfaks dakdjgfajkd fadf adf k
+   		</p>
+   </div>
+   <br><br><br><br><br>
+
+<div class="rotatex">
+     without rotating
+   		<p>asdfajkgdf asjdfakd jakdgjjksd fak sdfak dfkad kad fka dfka sdkfaksj fakjsd fkjas dfaks dakdjgfajkd fadf adf k
+   		</p>
+   </div>
+
+<div class="rotatey">
+     without rotating
+   		<p>asdfajkgdf asjdfakd jakdgjjksd fak sdfak dfkad kad fka dfka sdkfaksj fakjsd fkjas dfaks dakdjgfajkd fadf adf k
+   		</p>
+   </div>
+
+   <div class="rotatez">
+     without rotating
+   		<p>asdfajkgdf asjdfakd jakdgjjksd fak sdfak dfkad kad fka dfka sdkfaksj fakjsd fkjas dfaks dakdjgfajkd fadf adf k
+   		</p>
+   </div>
+
+   <div class="transition">
+     without trasnsition
+   		<p>asdfajkgdf asjdfakd jakdgjjksd fak sdfak dfkad kad fka dfka sdkfaksj fakjsd fkjas dfaks dakdjgfajkd fadf adf k
+   		</p>
+   </div>
+    <br><br><br><br><br><br><br><br>
+
+   <div class="animation">
+     without animatiom
+   		<p>asdfajkgdf asjdfakd jakdgjjksd fak sdfak dfkad kad fka dfka sdkfaksj fakjsd fkjas dfaks dakdjgfajkd fadf adf k
+   		</p>
+   </div>
+   <br><br><br><br><br>
+   <div class="animation1">
+     
+   </div><br><br><br><br><br>
+   <div class=""></div>
+
+
+</body>
+</html>

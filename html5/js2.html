@@ -1,0 +1,35 @@
+<html>
+<head>
+	<title>Json</title>
+</head>
+<body>
+<button onclick="fetchData()">Fetch Student Data</button></br></br>
+<div id="stddata"></div>
+<script>
+function fetchData()
+{
+	var xhr=new XMLHttpRequest();
+	var url="j.json";
+	xhr.open("GET",url,true);
+	xhr.send();
+	xhr.onreadystatechange = function()
+	{
+		if (this.readyState==4 &&  this.status == 200) 
+			{
+				var myarr = JSON.parse(this.responseText);
+				
+			}
+	};
+
+
+	function myfunction(arr)
+	{
+		document.getElementById('stddata').innerHTML=arr;
+	}
+
+		
+}
+
+</script>
+</body>
+</html>

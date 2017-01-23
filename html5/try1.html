@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.div1 {
+    border: 1px solid black;
+    height:150px;
+    width:180px;
+    background:url("images/ham.jpg");
+    background-repeat: no-repeat;
+}
+
+.div2 {
+    border: 1px solid black;
+    height:150px;
+    width:180px;
+    background:url("images/ham.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.div3 {
+    border: 1px solid black;
+    height:150px;
+    width:180px;
+    background:url("images/ham.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#example1 {
+    border: 10px solid black;
+    padding: 35px;
+    background: url("images/ham.jpg");
+    background-repeat: no-repeat;
+}
+
+#example2 {
+    border: 10px solid black;
+    padding: 35px;
+    background: url("images/ham.jpg");
+    background-repeat: no-repeat;
+    background-origin: border-box;
+}
+
+#example3 {
+    border: 10px solid black;
+    padding: 35px;
+    background: url("images/ham.jpg");
+    background-repeat: no-repeat;
+    background-origin: content-box;
+}
+
+
+#example11 {
+    border: 10px dotted black;
+    padding:35px;
+    background: yellow;
+}
+
+#example22 {
+    border: 10px dotted black;
+    padding:35px;
+    background: blue;
+    background-clip: padding-box;
+}
+
+#example33 {
+    border: 10px dotted black;
+    padding:35px;
+    background: yellow;
+    background-clip: content-box;
+}
+
+.hello h1
+{
+	padding: 20px;    margin-left: 161px;
+}
+
+.hello
+{   margin: 40px;
+	    text-shadow: 0px 20px 5px #ff0000,0px -25px 5px #ff0000,82px 0px 5px #ff0000,-76px -4px 5px #ff0000; 
+	padding: 10px;
+	border:3px solid blue;
+	width: 500px;
+	height: 100px;
+	    box-shadow: 0px 0px 16px 10px #f00000 inset,0px 0px 16px 10px #f00000;
+	   
+}
+
+</style>
+</head>
+<body>
+
+
+<div class="hello">
+	<h1>Hello</h1>
+	
+</div>
+
+
+
+<p>Original image:</p>
+<div class="div1">
+<p>Lorem ipsum dolor sit amet.</p>
+</div>
+
+<p>Using the "contain" keyword:</p>
+<div class="div2">
+<p>Lorem ipsum dolor sit amet.</p>
+</div>
+
+<p>Using the "cover" keyword:</p>
+<div class="div3">
+<p>Lorem ipsum dolor sit amet.</p>
+</div>
+
+
+<p>No background-origin (padding-box is default):</p>
+<div id="example1">
+<h2>Lorem Ipsum Dolor</h2>
+<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+<p>Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
+</div>
+
+<p>background-origin: border-box:</p>
+<div id="example2">
+<h2>Lorem Ipsum Dolor</h2>
+<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+<p>Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
+</div>
+
+<p>background-origin: content-box:</p>
+<div id="example3">
+<h2>Lorem Ipsum Dolor</h2>
+<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+<p>Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
+</div>
+
+<p>No background-clip (border-box is default):</p>
+<div id="example11">
+<h2>Lorem Ipsum Dolor</h2>
+<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+</div>
+
+<p>background-clip: padding-box:</p>
+<div id="example22">
+<h2>Lorem Ipsum Dolor</h2>
+<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+</div>
+
+<p>background-clip: content-box:</p>
+<div id="example33">
+<h2>Lorem Ipsum Dolor</h2>
+<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+</div>
+
+
+</body>
+</html>

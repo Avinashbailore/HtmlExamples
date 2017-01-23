@@ -1,0 +1,313 @@
+body
+{
+background-image: url("../images/bg-body.gif") ;
+background-repeat:repeat-x;
+}
+
+.wrapper
+{
+	width: 80%;
+	margin: 0 auto;
+}
+
+.logo
+{
+	float:left;
+}
+
+
+.headernav
+{
+	float:right;
+}
+
+.ul1
+{  margin:-10px;
+	float: right;
+}
+
+.account
+{
+	list-style-type: none;
+}
+
+.account li
+{   color: #675263;
+	display: inline-block;
+	
+	
+}
+
+.account a
+{   text-decoration: none;
+	padding:5px;
+	color: #6e374c;
+   
+}
+
+.search
+{   
+	
+margin: -28px;}
+
+
+.button
+{
+	background-color: #845569;
+	padding:10px;
+	margin-top: 5px;
+}
+
+.navigation
+{clear:both;
+	width:83%;
+	
+	padding-right: 209px;
+	padding-bottom: 0px;
+	
+	background-color: #e4e5e7;
+}
+.navigation ul
+{
+list-style-type: none;
+padding: 6px;
+    display: inline-block;
+}
+
+.navigation li
+{   
+	display:inline-block;
+	padding-left: 30px;
+	padding-right: 58px;
+	padding-bottom: 20px;
+	    background: url("../images/sprite-buttons.gif") -1px 1402px;
+
+
+}
+
+.navigation a
+{
+	
+	text-decoration: none;
+
+} 
+.sidenav
+{
+	/*border:3px solid blue;*/
+	float:left;width: 240px;
+	background-color: #f3bed0;
+	padding-bottom: 59px;
+}
+
+.sidenav ul
+{
+list-style-type: none;
+}
+
+.sidenav li
+{   
+	padding-bottom: 20px;background:url("../images/sprite-buttons.gif") 0px 0px;
+}
+.sidenav a
+{
+	text-decoration: none;
+	
+
+}
+.imgmain
+{
+	
+}
+
+.content
+{   padding-left: 10px;
+	padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+	margin-top: -16px;
+	background-color: #a36982;
+}
+
+.content2
+{
+	
+	margin: 5px;
+	float: left;
+}
+.para1
+{   width:50%;
+	float: left;
+	padding-left: 15px;
+	
+}
+
+.para1 h3
+{
+	color: #b04654;
+}
+
+.para1 p
+{   line-height: 29px;
+	color: #864623;
+}
+
+.para2
+{   width: 45%;
+	background-color: #dfdbdc;
+	float:left;
+	margin: 10px;
+}
+
+
+.foodstory
+{width:40%;
+float: left;
+color: #9b334a;
+padding-left: 10px;
+    background-color: #ebe7e8;
+    margin-left: 20px;
+    margin-top: 17px;
+}
+
+.foodstory h3
+{color: #813746;}
+.foodstory p
+ {  line-height: 32px;
+   color: #989069;
+}
+.imglist
+{   padding: 10px;
+	float: right;
+}
+ 
+
+ .imglist ul
+ {
+   list-style-type: none;
+ }
+
+.imglist li
+{
+	padding-bottom: 7px;
+
+}
+
+.last
+{ 
+	
+	width:100%;
+	background-color:#d1c2c9;
+	margin-top: 90px;
+}
+
+
+.lastpara1
+{
+	width: 50%;
+	
+	
+	
+	
+}
+
+span
+{
+	font-weight: bold;
+	color:#b26786;
+}
+
+.lastpara
+{
+	width: 80%;
+	margin: 0 auto;
+	padding-left: 0px;
+
+}
+
+.busy
+{
+	float: left;
+	width:98%;
+}
+
+.busy p
+{
+	color:#5e4451;
+}
+
+
+
+#moving
+{
+	 position: absolute;
+    
+    z-index: -1;
+}
+
+
+#over1
+{
+	margin-top: -55px;
+}
+
+
+#over1
+{
+	position: absolute;
+	z-index:0;
+}
+
+.buttons
+{
+	position:relative;
+	top: 75px;
+	right:-255px;
+}
+
+.span
+{
+	font-weight: bold;
+}
+
+
+.imgfb
+{
+	width: 45%;
+}
+
+.imgwala
+{
+	width: 45%;
+	float: left;
+}
+
+.imgwala p
+{
+    position: relative;
+    float: left; 
+}
+
+.facebook
+{
+	padding-top: 143px;
+	width: 45%;
+}
+
+.facebook ul
+{
+	list-style-type: none;
+}
+
+.facebook ul li
+{
+	padding: 7px;
+	background: url("../images/sprite-buttons.gif") 0px 0px;
+	background-repeat: no-repeat;
+}
+
+
+.suprise
+{
+	width: 45%;
+	float: right;
+}

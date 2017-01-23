@@ -1,0 +1,100 @@
+.body
+{
+	width: 99%;
+
+}
+
+.wrapper
+{
+	width: 99%;
+}
+
+
+.logo
+{
+	border:2px solid blue;
+	margin-left: 194px;
+}
+
+.home
+{
+	background-image: url("../images/buttons.png") ;
+	height: 55px;
+	width: 61px;
+	margin-left: 194px;
+	float: left;
+	border:2px solid blue;background-color: #654321;
+}
+.mainnav
+{
+border:2px solid blue;
+float: left;
+    padding: 17px;
+    background-color: #654321;
+}
+
+.mainnav nav a
+{
+   text-decoration: none;
+   border:2px solid blue;
+   display: inline-block;
+       padding-right: 68.3px;
+       color: #bbc6be;
+
+}
+
+
+
+.clear
+{
+	clear: both;
+	padding: 10px;
+	border:2px solid blue;
+
+}
+
+.mainimg
+{
+	    margin-left: 194px;
+
+}
+
+.mainimg img
+{
+	z-index: -1;
+}
+
+.mainimg p 
+{
+	    margin-top: -100px;
+    margin-left: 663px;
+    color: white;
+    font-size: 20px;
+}
+
+.about
+{
+	border:2px solid blue;
+	width: 71.7%;
+	    margin-left: 192px;
+
+}
+
+.about1 p
+{
+	    display: inline;
+}
+
+.about1 span
+{
+    background: url("../images/buttons.png") 0px 161px;
+
+	width: 53px;
+	height: 19px;
+	padding: 10px;
+}
+
+.step
+{
+	width: 71.7%;
+}

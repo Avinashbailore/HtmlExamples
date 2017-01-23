@@ -1,0 +1,181 @@
+.wrapper
+{
+	width: 1188px;
+	height: 768px;
+	background-color: blue;box-sizing:border-box;
+	padding-left: 118px;
+	padding-top: 72px;
+	padding-bottom: 91px;
+	padding-right: 120px;
+	background-color: #e6e9f0;
+	margin: 0 auto;
+
+}
+
+.main
+{
+	width: 950px;
+	height: 590px;
+	box-sizing:border-box;
+	background-color: #f0f0f0;
+	padding-top: 5px;
+}
+
+
+.sidemenu
+{
+	width: 210px;box-sizing:border-box;
+	height: 590px;
+	background-color: #f0f0f0;
+	
+	box-sizing:border-box;float: left;
+	padding-top: 29px;
+	padding-left: 13px;
+}
+
+.nav
+{
+	box-sizing:border-box;
+	margin-top: 31px;
+	border-bottom: 1px dotted #b0e2c9;border-top: 1px dotted #b0e2c9;
+	margin-bottom: 52px;
+}
+
+.nav ul
+{
+	list-style-type: none;
+	padding: 0px;
+}
+
+.nav ul li
+{    color: black;
+    box-sizing: border-box;
+    width: 175px;
+    height: 42px;
+    padding-left: 62px;
+    padding-top: 16px;
+	
+}
+
+.nav ul li a
+{
+	text-decoration: none;
+	color: #b0e2c9;
+
+}
+
+.nav ul span li
+{
+	background:url(../images/temp13/menu-separator.jpg);
+	background-repeat: no-repeat;
+}
+
+.nav ul span li a
+{
+	color: #ae9999;
+}
+.nav ul li 
+{
+
+}
+
+
+.social
+{
+	width: 186px; box-sizing: border-box;
+	height: 47px;
+	background-color: #e2e2e0;
+	padding-left: 27px;
+	
+	padding-top: 11px;
+	padding-bottom: 13px;
+
+}
+
+.fb,.twitter,.goal
+{
+	margin-right: 26px;
+}
+
+.fb
+{
+	width: 26px;
+	height: 26px;
+	float: left;
+	background:url("../images/temp13/sprite.gif") 0px 0px;
+	background-repeat: no-repeat;
+
+}
+
+.twitter
+{
+	width: 26px;	height: 25px;
+	float: left;
+	background:url("../images/temp13/sprite.gif") 0px 0px;
+	background-repeat: no-repeat;
+}
+
+.goal
+{
+	width: 26px;float: left;
+	height: 26px;background:url("../images/temp13/sprite.gif") 0px 0px;
+	
+}
+
+
+.mainContent
+{
+	background-image: url("../images/temp13/cotton-flower.jpg");
+	width: 727px;
+	height: 548px;box-sizing: border-box;
+	float: left;
+	padding-left: 432px;
+	padding-top: 83px;
+
+}
+
+.hi
+{
+	width: 294px;
+	height: 82px;
+	
+	
+}
+
+.website
+{
+	width: 273px;
+	height: 258px;    width: 268px;
+
+	
+}
+
+.hii
+{
+	float: left;
+}
+
+.temp p
+{
+	    padding: 0px;
+    margin-top: 5px;
+    margin-left: 104px;
+}
+
+.temp
+{
+	background:url("../images/temp13/bg-heading.jpg");    padding-top: 5px;
+}
+
+.website
+{
+	    padding: 1px;margin-left: 12px;
+	    background:url("../images/temp13/bg-slogan.jpg");
+
+}
+
+
+.wix,.drag
+{
+	margin-left: 7px;
+}

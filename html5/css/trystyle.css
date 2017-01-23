@@ -1,0 +1,95 @@
+.wrapper
+{
+	width: 730px;
+	height: 681px;
+	background-color: #9b937e;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+.main
+{
+
+}
+
+.welcome p
+{
+	color:black;
+	font-size: 30px;
+	border-bottom: 7px solid #3b372c; 
+}
+
+.border
+{
+	border-bottom:3px dotted #3c3522;    margin-top: -28px;
+
+}
+
+.content 
+{
+	margin-top: 35px;
+}
+
+.img img
+{
+	border:12px solid #a8a18f;
+	float: left;
+}
+
+.heading
+{
+	color: white;
+	float: right;
+	width: 56%;
+	text-align: justify;
+	
+}
+
+.para1
+{
+	width: 56%;
+	float: right;
+	text-align: justify;
+}
+
+
+.clear
+{
+	clear: both;
+}
+
+.content2
+{
+	margin-top: 20px;
+	
+}
+
+.what
+{
+	float: left;
+	width: 48%;
+
+}
+
+.what h1
+{
+	margin-left: 25px;
+}
+
+
+.what ol li
+{
+	padding: 10px;
+}
+
+.testimonials
+{
+	width:48%;
+	float: right;
+}
+
+
+.goerge
+{
+	color:#810505;
+}

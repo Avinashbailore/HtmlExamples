@@ -1,0 +1,33 @@
+<html>
+<head>
+	<title>Json</title>
+</head>
+<body>
+<button onclick="fetchData()">Fetch Student Data</button></br></br>
+<div id="stddata"></div>
+<script>
+function fetchData(){
+	var xhr = new XMLHttpRequest();
+	var content = "<table border='1'><th>State</th><th>Capital</th>"
+	xhr.open("GET", "http://services.groupkt.com/state/get/IND/all", true);
+	xhr.send();
+	xhr.onreadystatechange = function()
+	{
+		if(xhr.readyState == 4 && xhr.status == 200)
+		{
+			var res = xhr.responseText;
+			var parsedData = JSON.parse(res).RestResponse.result;
+		for(var i =0; i <parsedData.length; i++)
+		{
+			content += "<tr><td>"+parsedData[i].name+"</td><td>"+parsedData[i].capital+"</td></tr>"
+		}
+		content += "</table>";
+		 document.getElementById("stddata").innerHTML = content;
+		}
+	
+	}
+}
+
+</script>
+</body>
+</html>

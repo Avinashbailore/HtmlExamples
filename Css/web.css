@@ -1,0 +1,72 @@
+body
+{background-color:linen;
+ 
+}
+.main
+{
+border:20px solid blue;
+}
+.aa
+{
+font-size:30px;
+text-align:center;
+width=30%;
+color:red;
+display:inline;
+float:left;
+margin:0px 400px 10px 10px;
+}
+.bb
+{font-size:30px;
+width=30%;
+text-align:center;
+color:#ff0000;
+display:inline;
+float:right;
+margin:30px 30px 10px 10px;
+}
+.cc
+{font-size:30px;
+text-align:center;
+width=30%;
+color:#ff0000;
+display:inline;
+margin:0px 30px 10px 10px;
+}
+.main2
+{
+
+}
+
+
+.dd
+{
+border:5px solid red;
+width:49.2%;
+float:left;
+
+}
+
+img
+{float:right;
+}
+.ff1
+{
+border:5px solid blue;;
+width:49.3%;
+float:right;
+
+}
+.ff2
+{
+border:5px solid blue;
+width:49.3%;
+float:right;
+
+}
+
+
+
+
+
+

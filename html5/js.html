@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Java sCript</title>
+	<link rel="stylesheet" type="text/css" href="css/jstrystyle.css">
+	
+</head>
+<body>
+<div id="hero">
+<span><input type="button" onclick="myspanfunc()" value="add href"></span>
+</div>
+<button onclick="openWin()">Open newWindow</button>
+<button onclick="moveWin()">Moveto newWindow</button>
+
+
+<div id="adddiv">
+	<p id="add">THis is without removing</p>
+	<input type="button" onclick="myaddfunc()" value="add using childnode">
+	<input type="button" onclick="myremovefunc()" value="remove using childnode">
+	<input type="button" onclick="myreplacefunc()" value="replace the childnode">
+</div>
+
+
+ <h1 onclick="this.innerHTML='HAi there'">Click here to change</h1>
+ <div class="divv" onmouseover="mOver(this)" onmouseout="mOut(this)"></div>
+ <div class="divvv" onmousedown="mDown(this)" onmouseup="mUp(this)"><p>Clickme</p></div>
+ <div class="dhoni">
+ 	<img id="clickimg" onmousedown="imgDown()" onmouseup="imgUp()" src="images/dhoni.jpg">
+ 	<p>long press the image to know about the shot</p>
+ 	
+
+
+
+ </div>
+ <p id="para">alsdhfasdghkfasdhf</p>
+ <div class="dhoni2">
+ 	<img id="eventimg" src="images/dhoni.jpg">
+ 	<p ><h3 id="magic">Hover over the image</h3></p>
+ </div>
+
+ <div class="many">
+ <p id="demo"></p><input type="button" onclick="myfunc()" value="push"> <br><br>
+ <p id="demo"></p><input type="button" onclick="myfunc1()" value="length"> <br><br>
+ <p id="demo"></p><input type="button" onclick="myfunc2()" value="Tostring"> <br><br>
+ <p id="demo"></p><input type="button" onclick="myfunc3()" value="join"> <br><br>
+ <p id="demo"></p><input type="button" onclick="myfunc4()" value="shift"> <br><br>
+ <p id="demo"></p><input type="button" onclick="myfunc5()" value="unshift"> <br><br>
+ <p id="demo"></p><input type="button" onclick="myfunc6()" value="splice"> <br><br>
+ <p id="demo"></p><input type="button" onclick="myfunc7()" value="sort"> <br><br>
+ <p id="demo"></p><input type="button" onclick="myfunc8()" value="reverse"> <br><br>
+ <input type="button" onclick="myfunc9()" value="reverseNumberdesc"> <br><br>
+ <input type="button" onclick="myfunc10()" value="reverseNumberasc"> <br><br>
+ <input type="button" onclick="myfunc15()" value="submmit"> <br><br><p id="demoo"></p>
+ <input id="txt" type="text">
+ <input type="button" onclick="myfunc11()" value="submit"> <br><br>
+ <img id="image" src="images/trees.jpg"> <br><br>
+ <input type="button" onclick="myfunc16()" value="imgchange"> <br><br>
+ <p id="change3">See the Change in color</p>
+ <input type="button" onclick="myfunc17()" value="Colorchange"> <br><br>
+ <p id="hide">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean aliquam orci id nisl scelerisque tempor. Suspendisse mattis nunc massa, vel mollis odio facilisis sit amet. Suspendisse laoreet orci in leo aliquam, vitae elementum ligula lobortis. Nunc facilisis quam in enim pretium maximus. Quisque viverra dui sit amet ligula pretium, a aliquet tortor egestas.<br><br></p><p>Do u wwant to show this text or not.If no press the below buttons</p>
+ <input type="button" onclick="myfunc20()" value="Colorchange">
+ <input type="button" onclick="myfunc18()" value="hide"> 
+ <input type="button" onclick="myfunc19()" value="unhide"> <br><br> <br><br>
+ <p id="events"></p>
+ <button id="eventlist">EventListener</button>
+ <p id="events"></p>
+ 
+
+ <form></form>
+<p id="demo4"></p>
+<p id="fromm"></p>
+<p id="demooo"></p>
+ <p id="demo"></p>
+ <p id="demoo"></p>
+  <p id="prs"></p>
+</div>
+	<script>
+	//window.open();
+
+	function myspanfunc()
+	{
+
+		var spans=document.createElement('span');
+		var spantext=document.createTextNode('span text');
+		spans.appendChild(spantext);
+		//var articleobj=document.createAttribute("class");
+		//articleobj.value="classname";
+		spans.setAttribute("class","classname");
+		
+		document.getElementById('hero').appendChild(spans);
+
+
+	}
+
+	function openWin() {
+    myWindow=window.open("", "myWindow", "width=500, height=500");
+    myWindow.document.write("<p>This is 'myWindow'</p>");
+}
+
+function moveWin()
+	 {
+    myWindow.moveTo(1000, 500);
+    myWindow.focus();
+	 }
+	function myaddfunc()
+	{
+		var paraa=document.createElement("p");
+		var node=document.createTextNode("Hai there");
+		paraa.appendChild(node);
+		var elements=document.getElementById('adddiv');
+		elements.appendChild(paraa);
+
+
+		var paraa2=document.createElement("p");
+		var node1=document.createTextNode("Hai there 2");
+		paraa2.appendChild(node1);
+		var div2=document.getElementById('adddiv');
+		var second=document.getElementById('add');
+		div2.insertBefore(paraa2,second);
+	}
+
+	function myremovefunc()
+	{
+		var removediv=document.getElementById('adddiv');
+		var removedivchild=document.getElementById('add');
+		removediv.removeChild(removedivchild);
+	}
+
+	function myreplacefunc()
+ 	{
+ 		var newpara=document.createElement('p');
+ 		var newparaText=document.createTextNode("this is an replaced text");
+ 		newpara.appendChild(newparaText);
+ 		var replacediv=document.getElementById('adddiv');
+ 		var replacedivpara=document.getElementById('add');
+ 		replacediv.replaceChild(newpara,replacedivpara);
+
+	}
+
+	document.getElementById('eventlist').addEventListener("click",myfunc21);
+	function mOver(obj)
+	{	obj.style.fontSize="25px";
+		obj.style.color="red";
+		obj.innerHTML=" mouse over prop";
+	}
+
+	function mOut(obj)
+	{
+		obj.innerHTML=" mouse out prop";
+		obj.backgroundColor="#ff2345";
+	}
+
+	function mUp(obj1)
+	{	obj1.style.fontSize="25px";
+		obj1.style.color="red";
+		obj1.innerHTML=" ThankYou";
+		obj1.style.backgroundColor = "#1ec5e5";
+	}
+
+	function mDown(obj1)
+	{
+		
+		obj1.innerHTML=" Release me";
+		obj1.style.color="#D94A38";
+
+	}
+
+
+	function imgDown()
+	{
+		document.getElementById('clickimg').src="images/helicopter.jpg";
+	}
+
+	function imgUp()
+	{
+		document.getElementById("clickimg").src="images/six.jpg";
+	}
+
+	function imgDown1()
+	{
+		document.getElementById("clickimg1").src="images/six.jpg";
+	}
+
+	function imgUp1()
+	{
+		document.getElementById("eventimg").src="images/six.jpg";
+
+	}
+
+	function imgDown2()
+	{
+		document.getElementById("eventimg").src="images/helicopter.jpg";
+		document.getElementById("magic").innerHTML="Click to see the runs scored";
+	}
+
+	function original()
+	{
+		document.getElementById("eventimg").src="images/dhoni.jpg";
+		document.getElementById("magic").innerHTML="Hover over the image";
+	}
+
+	var x=document.getElementById('eventimg');
+	x.addEventListener("mouseover",imgDown2);
+	x.addEventListener("click",imgUp1);
+	x.addEventListener("mouseout",original);
+
+
+// 	function imgDown() {
+//     document.getElementById('clickimg').src = "images/six.jpg";
+// }
+// function imgUp() {
+//     document.getElementById('clickimg').src = "images/dhoni.jpg";
+// }
+
+	(	
+		function(){document.getElementById("demo4").innerHTML="hello there";}
+	)();
+
+	
+
+	for(var i=0;i<10;i++)
+	{
+
+	}
+
+	document.getElementById("demo4").innerHTML=i;
+	var d=typeof(form);
+	document.getElementById("fromm").innerHTML=d;
+    var strind="Hellooo";
+    var arr=strind.split("");
+    arr.reverse();
+    var arr2=arr.join("");
+    document.getElementById("demooo").innerHTML=arr2;
+function sayhello()
+	{
+		alert("helloo hai");
+	}
+	var person = {
+    firstName : "John",
+    lastName  : "Doe",
+    age       : 50,
+    eyeColor  : "blue",
+    fullname:function(){return this.firstName;}
+};
+	document.getElementById("prs").innerHTML=person.fullname() ;
+	var x=10+10+"xyz"+9+8+"xyz"+10+8;
+	var y="xyz"+10+8;
+	var z="" || "abc1";
+//alert(z);
+	var fruits,text,flen,i;
+	fruits=["apple","banana","watermelon"];var points = [40, 100, 1, 5, 25, 10];
+	document.getElementById("demo").innerHTML = fruits;
+	document.getElementById("demoo").innerHTML = points;
+	flen=fruits.length;
+	text="<ul>"
+	document.write(flen);
+	for (var i = 0; i<flen; i++) {
+		text+="<li>"+fruits[i]+"</li>";
+	}
+	text+="</ul>";
+
+	document.write(text);
+
+	for (var i = 0; i<flen; i++) {
+		document.write(fruits[i]);
+	}
+
+
+	function myfunc()
+	{
+		fruits.push("lemon");
+		document.getElementById("demo").innerHTML = fruits;
+	}
+
+	function myfunc1()
+	{
+		fruits[fruits.length]="lime";
+		document.getElementById("demo").innerHTML = fruits;
+	}
+
+	function myfunc2()
+	{
+		fruits.toString();
+		document.getElementById("demo").innerHTML = fruits;
+	}
+
+	function myfunc3()
+	{	
+		var fruits2=fruits.join(" + ");
+		document.getElementById("demo").innerHTML = fruits2;
+	}
+
+	function myfunc4()
+	{	document.getElementById("demo").innerHTML = fruits;
+		fruits.shift();
+		document.getElementById("demo").innerHTML = fruits;
+	}
+
+	function myfunc5()
+	{	document.getElementById("demo").innerHTML = fruits;
+		fruits.unshift("lemon");
+		document.getElementById("demo").innerHTML = fruits;
+	}
+
+	function myfunc6()
+	{	
+		fruits.splice(2,0,"lemon","kiwi");
+		document.getElementById("demo").innerHTML = fruits;
+	}
+
+	function myfunc7()
+	{	
+		fruits.sort();
+		document.getElementById('demo').innerHTML=fruits;
+	}
+
+	function myfunc8()
+	{	
+		fruits.reverse();
+		document.getElementById('demo').innerHTML=fruits;
+	}
+
+	function myfunc9()
+	{	
+		points.sort(function(a,b){return b-a});
+		document.getElementById('demoo').innerHTML=points;
+	}
+
+	function myfunc10()
+	{	
+		points.sort(function(a,b){return a-b});
+		document.getElementById('demoo').innerHTML=points;
+	}
+
+	function myfunc11()
+	{
+		var x=document.getElementById("txt").value;
+	document.getElementById("demoo").innerHTML=x;
+	}
+
+
+	function myfunc15()
+	{
+		document.write("haiss");
+	}
+
+	function myfunc16()
+	{
+		document.getElementById("image").src="images/pie.jpg";
+	}
+
+	function myfunc17()
+	{
+		document.getElementById("change3").style.color="blue";
+	}
+
+	function myfunc18()
+	{
+		document.getElementById("hide").style.visibility="hidden";
+	}
+
+	function myfunc19()
+	{
+		document.getElementById("hide").style.visibility="visible";
+	}
+
+	function myfunc20()
+	{
+		document.getElementById("hide").style.color="red";
+	}
+
+	function myfunc21()
+	{
+		document.getElementById('events').innerHTML="This is an  EventListener button";
+	}
+
+	
+
+	document.write(typeof(fruits));
+	</script>
+</body>
+</html>

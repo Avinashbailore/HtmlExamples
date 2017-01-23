@@ -1,0 +1,37 @@
+#green
+    { 
+      background-color:green;
+      border:25px solid blue;
+      text-align:center;
+       outline-color: red;
+      outline-style: dotted;
+      text-decoration:underline;
+      text-transform: uppercase;
+      font: 15px arial, sans-serif;
+       font-style: italic;
+      font-size: 100%;
+      font-weight: bold;
+      font-variant: small-caps;
+    }
+  .red
+    {
+      background-color:white;
+      border:25px solid blue;
+      text-align: justify;
+      text-decoration: underline;
+      font-weight: bold;
+      font-family: "Times New Roman", Times, serif;
+      font-size: 2.5em;
+      font-variant: normal;
+
+    }
+#white{
+      color:#ffff00;
+       font-size: 2.5em;
+font-weight: bold;
+ }
+button,.sub
+    {
+
+      background-color:red;
+    }
