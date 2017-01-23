@@ -1,0 +1,125 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Paint</title>
+		<style>
+		#paintPanel
+		{
+			border:1px solid #000;
+			width:960px;
+			margin:0 auto;
+			padding-left:30px;
+		}
+		div{
+		padding:10px;
+		}
+		</style>
+	</head>
+	<body>
+	<div id="paintPanel">
+	<h1>Paint Application using Canvas</h1>
+		<div><label>Fill Color:</label><input type="text" id="fillcolor"></input></div>
+		<div><label>Sroke Color:</label><input type="text" id="strokecolor"></input></div>
+		<div><label>Stroke Width:</label><input type="number" id="strokewidth"></input></div>
+		<div><label>Select Tool:</label><select id="dropdown" onchange="simple()"></div>
+		
+		<option>Line</option>
+		<option>Rectangle</option>
+		<option>Circle</option>
+		<option>Pen</option>
+		<option>Eraser</option>
+		</select>
+		
+		<div id="sketch">
+		  <canvas id="paint" height="400px" width="300px" style="border:solid 1px;position:absolute;"></canvas>
+		  <canvas id="paint1" height="400px" width="300px" style="border:solid 1px;"></canvas>
+		</div>
+	</div>	
+		<script>
+			var element;
+			var canvas=document.getElementById("paint");
+			var canvas1=document.getElementById("paint1");
+			var ctx=canvas.getContext('2d');
+			var ctx1=canvas1.getContext('2d');
+			var mouse={x1:0,y1:0,x2:0,y2:0};
+			var simple=function()
+			{
+				element=document.getElementById("dropdown").value;
+				console.log(element);
+			}
+			var onPaint=function(){
+				var linewidth=document.getElementById("strokewidth").value;
+				var strokecolor=document.getElementById("strokecolor").value;
+				var fillcolor=document.getElementById("fillcolor").value;
+				if(element==="Line")
+				{
+				ctx.clearRect(0, 0, canvas.width, canvas.height); 
+				ctx.beginPath();
+				ctx.lineWidth=linewidth;
+				console.log(linewidth);
+				ctx.strokeStyle=strokecolor;
+				ctx.moveTo(mouse.x1,mouse.y1);
+				ctx.lineTo(mouse.x2,mouse.y2);
+				ctx.stroke();
+				ctx.closePath();
+				}
+				else if(element==="Rectangle")
+				{
+				ctx.clearRect(0, 0, canvas.width, canvas.height); 
+				ctx.beginPath();
+				ctx.lineWidth=linewidth;
+				ctx.fillStyle=fillcolor;
+				ctx.strokeStyle=strokecolor;
+				ctx.rect(mouse.x1,mouse.y1,event.offsetX-mouse.x1,event.offsetY-mouse.y1);
+				ctx.fill();
+				ctx.stroke();
+				ctx.closePath();
+				}
+				else if(element==="Circle")
+				{
+				ctx.clearRect(0, 0, canvas.width, canvas.height); 
+				ctx.beginPath();
+				ctx.lineWidth=linewidth;
+				ctx.fillStyle=fillcolor;
+				ctx.strokeStyle=strokecolor;
+				var radius=Math.abs(event.offsetX-mouse.x1)/2;
+				ctx.arc(mouse.x1,mouse.y1,radius,0,2*Math.PI);
+				ctx.stroke();
+				ctx.fill();
+				ctx.closePath();
+				}
+				else if(element==="Pen")
+				{
+				ctx.lineWidth = linewidth;
+				ctx.lineJoin = 'round';
+				ctx.lineCap = 'round';
+				ctx.strokeStyle=strokecolor;
+				ctx.lineTo(mouse.x2,mouse.y2);
+				ctx.stroke();
+				}
+				else
+				{
+				ctx1.clearRect(event.offsetX,event.offsetY, 20, 10); 
+				ctx.clearRect(event.offsetX,event.offsetY, 20, 10); 
+				}
+				}
+			ctx.lineWidth=2;
+			function move(e){
+					mouse.x2=e.pageX-this.offsetLeft;
+					mouse.y2=e.pageY-this.offsetTop;
+					onPaint();
+				}
+			  canvas.addEventListener('mousedown',function(e)
+			  {
+					ctx.beginPath();
+					mouse.x1=e.pageX-this.offsetLeft;
+					mouse.y1=e.pageY-this.offsetTop;
+					canvas.addEventListener('mousemove',move,false);
+			},false);
+			canvas.addEventListener('mouseup',function(e){
+				canvas.removeEventListener('mousemove',move,false);
+				ctx1.drawImage(paint,0,0);
+			},false);
+		</script>
+	</body>
+</html>

@@ -1,0 +1,90 @@
+#wrapper
+{
+	border:2px solid #316F84;
+	width:900px;
+	height:800px;
+	margin:0 auto;
+}
+body,div,h3
+{
+	margin:0;
+	padding:0;
+}
+.box
+{
+	width:140px;
+	height:25px;
+	background-color:#EEEEEE;
+	border:1px solid black;
+	font-size:18px;
+	margin:0 auto;
+	margin-top:2px;
+}
+.containerHeading
+{
+	text-align:center;
+	color:white;
+	background-color:#2E727F;
+}
+.clear
+{
+clear:both;
+}
+#studentContainer
+{
+	float:left;
+	margin-left:30px;
+	width:170px;
+	height:650px;
+	border:2px solid grey;
+}
+#teamContainer
+{
+	overflow:hidden;
+	float:left;
+	width:600px;
+}
+#teamA
+{
+	margin-bottom:20px;
+	margin-left:20px;
+	float:left;
+	width:170px;
+	height:150px;
+	border:1px solid grey;
+}
+#teamB
+{
+		margin-bottom:20px;
+	margin-left:20px;
+	float:left;
+	width:170px;
+	height:150px;
+	border:1px solid grey;
+}
+#teamC
+{
+	margin-bottom:20px;
+	margin-left:20px;
+	float:left;
+	width:170px;
+	height:150px;
+	border:1px solid grey;
+}
+#teamD
+{
+	margin-bottom:20px;
+margin-left:20px;
+	float:left;
+	width:170px;
+	height:120px;
+	border:1px solid grey;
+}
+#teamE
+{
+margin-left:20px;
+	float:left;
+	width:170px;
+	height:250px;
+	border:1px solid grey;
+}

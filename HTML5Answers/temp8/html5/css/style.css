@@ -1,0 +1,37 @@
+	/*resetting Elements */
+	html,head,title,body,table,tr,td
+	{
+			margin:0;
+			padding:0;
+	}
+	
+	#border-one
+	{
+		border:1px dotted blue;
+		width:520px;
+		margin-bottom:20px;
+	}
+	#border-two
+	{
+		border:1px dotted blue;
+		width:500px;
+		padding-left:20px;
+	}
+	#form
+	{
+		background-color:#CACACA;
+		padding:20px;
+		width:480px;
+	}
+	td,th
+	{
+		border:2px solid #fff;
+	}
+	table
+	{
+		background-color:#CACACA;
+	}
+	h3
+	{
+		font-family:arial;
+	}	

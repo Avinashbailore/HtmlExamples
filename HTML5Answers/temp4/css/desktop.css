@@ -1,0 +1,121 @@
+.callPart{
+	margin-left:210px;
+}
+.logo{
+margin-left:210px;
+}
+.email{
+margin-right:210px;
+}
+
+#menu-toggle{
+	display:none;
+}
+
+#menu ul{
+display:block;
+float:right;
+margin-top:15px;
+}
+
+#menu ul li{
+float:left;
+border-bottom:none;
+}
+
+#menu ul li a{
+padding:10px 15px;
+
+}
+
+#menu ul li a:hover{
+background:#ff7600;
+}
+
+#lowerContentPart{
+	margin:0 auto;
+
+}
+.innerBox{
+	float:left;
+	width:380px;
+	text-align:left;
+	margin-top:40px;
+	margin-left:40px;
+	
+}
+.teamPictures
+{
+
+	width:300px;
+	float:left;
+	
+}
+#totalGallery
+{
+
+margin:0 auto;
+width:88%;
+}
+
+#totalGallery img{
+float:left;
+	margin-right:20px;
+	width:210px;
+}
+.pictureContent{
+margin-top:100px;
+width:50%;
+float:left;
+}
+.imgIcon
+{
+width:150px;
+float:left;
+}
+.content{
+  margin: 0 0;
+  width: 66.322204%;
+  line-height:20px;
+  float: right;
+}
+.pictureContent:last-child{
+	border-bottom:none;
+}
+.contactPart{
+padding:30px 20px 0 20px;
+}
+#contactPart .map {
+	width:65%;
+	height:auto;	
+	float:left;
+}
+
+#contactPart .map img{
+	width:100%;	
+}
+
+#contactPart  .contactInfo{
+		
+		float:right;
+		width:400px;
+}
+.quotesContent{
+width:60%;
+margin:0 auto;
+}
+.quotesContent img{
+	float:left;
+	margin-right:10px;
+	border-right:2px solid white;
+	padding-bottom:40px;
+	display:block;
+}
+.totalQuote{
+width:100%
+}
+
+.partners img{
+	width:170px;
+}
+

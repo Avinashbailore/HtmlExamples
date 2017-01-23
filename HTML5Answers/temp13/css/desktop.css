@@ -1,0 +1,63 @@
+.resetContainer
+{
+width:940px;
+margin:0 auto;
+padding:0 auto;
+}
+.headerContainer
+{
+background: url('../images/1.jpg') no-repeat;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+
+
+.boxOneImages,.lorem{
+width:25%;
+float:left;
+}
+.heading{
+padding-left:0px;
+margin-left:0;
+padding-right:20%;
+}
+.containerBoxTwo.more{
+padding-right:18%;
+}
+.containerBoxTwo, .containerBoxFour{
+padding-left:6%;
+}
+.containerBoxFour.lorem{
+width:22%;
+}
+.containerBoxTwo .lorem{
+width:27%;
+}
+.containerBoxOne,.boxOneImages{
+margin-left:6%;
+}
+.containerBoxThree{
+padding-top:100px;
+padding-left:50px;
+padding-right:50px;
+}
+.figcap{
+margin:0 auto;
+width:45%;
+float:left;
+}
+.triplet ,.image{
+width:26%;
+float:left;
+}
+.left-box{
+width:66%;
+float:left;
+margin-left:5%;
+}
+.box-right{
+width:27%;
+float:left;
+}

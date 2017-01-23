@@ -1,0 +1,199 @@
+/* Global CSS */
+*{
+	margin:0;
+	padding:0;
+}
+ul,li{
+padding:0;
+}
+body
+{
+	
+}
+img { 
+max-width: 100%; 
+height: auto; 
+width: auto\9; 
+}
+
+/*CSS start*/
+.holder{
+margin:0 auto;
+padding:0 20px;
+}
+
+
+.holder1{
+padding:0 35px;
+}
+
+span{
+color:#68A4C4;
+}
+	
+
+header{
+color:#777777;
+padding-top:35px;
+padding-bottom:48px;
+overflow:hidden;
+}
+header .holder{
+overflow:hidden;
+}
+
+
+nav ul{
+display:none;}
+
+nav a{
+text-decoration:none;
+color:black;
+padding-left:20px;
+font-size:14px;
+}
+nav ul li{
+list-style:none;
+float:right;
+}
+nav a:hover{
+color:#68A4C4;
+}
+
+#logo{
+float:left;}
+nav img{
+float:right;}
+
+.flex{
+background-color:#FCFCFC;
+position:relative;
+}
+
+.flex img{
+padding:50px 0 60px 0;
+
+}
+
+.side-box{
+display:none;
+background-color:#060402;
+color:white;
+padding:50px 30px 22px 50px;
+width:21.92592592592593%;
+
+position:absolute;
+top:390px;
+right:110px;
+opacity:0.9px;
+display:none;
+}
+.side-box p{
+padding:20px 0;
+}
+.side-box a{
+background-color:#68A4C4;
+text-decoration:none;
+padding:8px 14px;
+color:#fff;}
+
+.left{
+position:absolute;
+top:40px;
+}
+
+.right{
+position:absolute;
+top:40px;
+right:20px;
+}
+.mid_head{
+background-color:#F9F9F9;
+
+}
+.mid_head  h1{
+padding:82px 0px 55px 0px;
+text-align:center;
+}
+
+.top{
+margin-top:50px;
+margin-bottom:60px;
+}
+
+.box{
+background-color:#F8F8F8;
+text-align:center;
+margin-bottom:20px;
+border-bottom:1px solid #E9E9E9;
+}
+
+h2{
+color:#333333;
+}
+.box .holder1{
+padding:37px 0 45px 0;
+}
+.box img{
+padding:22px 0 32px 0;
+}
+.box p{
+font-size:17px;
+}
+.box a{
+text-decoration:none;
+color:white;
+background-color:#68A4C4;
+padding:26px 0;
+display:block;
+}
+.bottom{
+border-top:1px solid #E9E9E9;
+padding:77px 0 100px 0;
+}
+.bottom h3{
+padding-bottom:33px;
+}
+.bottom img{
+padding-bottom:30px;
+}
+
+
+
+.explain{
+padding:65px 0;
+background-color:#68A4C4;
+color:white;
+}
+
+.first{
+padding-bottom:30px;
+}
+.first h4{
+padding-bottom:30px;
+}
+.first li{
+list-style:none;
+}
+.first a{
+color:white;
+text-decoration:none;
+}
+
+footer{
+color:white;
+background-color:#68A4C4;
+padding:42px 0;
+}
+
+footer p{
+padding-bottom:31px;
+}
+footer img{
+padding-right:15px;
+}
+
+
+
+
+

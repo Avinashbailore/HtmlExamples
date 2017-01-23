@@ -1,0 +1,148 @@
+/* Desktop CSS */
+.container{		
+		width:1145px;
+		margin:0 auto;	
+		overflow:hidden;		
+}
+
+#mainheader{
+	background:url('images/bg.png');
+	background:100% 100%;
+	padding:20px 20px 20px 20px;
+}
+
+#menu-toggle{
+	display:none;
+}
+
+#menu ul{
+	display:block;
+	float:right;
+	margin-top:15px;
+}
+
+#menu ul li{
+	float:left;
+	background:none;
+	border-bottom:none;
+}
+
+#menu ul li a{
+	color:#CEC1D2;
+	padding:10px 15px;
+}
+
+
+#menu ul li a:hover{
+	background:#ff7600;
+}
+
+#banner{
+	background:url('../images/templatemo_carousel_bg_s.jpg') no-repeat top left;
+	background-size:100% 100%;
+	padding:150px 0;
+	text-align:center;
+	color:white;
+	font-size:24px;
+}
+
+.contentBox{
+	float:left;
+	width:31.877729%;
+	margin-right:2.18340%;
+	text-align:center;
+	//border:1px solid black;
+}
+#contentSection .contentBox:last-child{
+	margin-right:0%;
+}
+#imageBoxContainer .imageBox{
+	width:22.79746%;
+	float:left;
+	margin-right:2.93406%;
+}
+
+#imageBoxContainer .imageBox:last-child{
+	margin-right:0%;
+}
+
+#imageGallery img{
+	width:17.467249%;
+	float:left;
+	margin-right:2.5%;
+}
+.clear{
+	clear:both;	
+}
+
+#imageGallery{
+	overflow:hidden;
+}
+
+#imageGallery img{
+	margin-right:3.1%;
+}
+
+#imageGallery img:nth-child(5),#imageGallery img:nth-child(10){
+	margin-right:0%;
+	float:right;
+}
+
+.postContentBox {
+	width:50%;
+	float:left;	
+}
+
+.postContentBox .postImg {
+  width: 150px;
+  float: left;
+}
+
+.postContent {
+  margin: 0 0;
+  width: 66.322204%;
+  line-height:20px;
+  float: right;
+}
+#contactUsSection {
+	padding:30px 20px 0 20px;
+	overflow:hidden;
+}
+#contactUsSection .map{
+	width:65%;
+	height:auto;	
+	float:left;
+}
+
+#contactUsSection .map img{
+	width:100%;	
+}
+
+#contactUsSection  .conatctForm{
+		width:30%;
+		margin-left:5%;
+		float:right;
+}
+#cform{
+	width:100%;
+	padding-bottom:0px;
+	overflow:hidden;
+}
+#cform input, textarea{
+	width:100%;	
+}
+.quotedText img{
+	float:left;
+	margin-right:10px;
+	border-right:2px solid white;
+	padding-bottom:40px;
+	display:block;
+}
+
+.quotedText{
+	width:60%;
+	margin:0 auto;
+}
+.ourPartners img{
+	width:170px;
+}

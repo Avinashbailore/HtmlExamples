@@ -1,0 +1,1 @@
+Sir...for image section if I give width in percentage,it is occupying the entire section and float is not working,So I ve given in pixels.

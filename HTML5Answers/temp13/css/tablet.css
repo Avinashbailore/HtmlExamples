@@ -1,0 +1,119 @@
+.resetContainer
+{
+}
+
+.clear
+{
+clear:both;
+}
+.headerContainer
+{
+background:url('../images/tabletbg.jpg') no-repeat;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size:cover;
+}
+
+/*---main head----*/
+.mainHead
+{
+/*padding:10px;*/
+background:rgba(0,0,0,0.4);
+}
+.tabHead
+{
+
+}
+/*.tabHead,.logos
+{
+
+float:left;
+}
+.tabHead,.col,.contact
+{
+float:right;
+}*/
+
+
+
+
+
+
+
+/*---navigation---*/
+.navigation
+{
+margin:0px auto;
+width:auto;
+display: inline-block;
+}
+.navigation,.tabNav
+{
+
+background: #F0F0F0;
+}
+.tabNav,.logos
+{
+float:left;
+margin-right:110px;
+}
+
+
+.tabNav,.col
+{
+float:right;
+}
+#menu ul a
+{
+float:left;
+color: #000;
+margin-top:10px;
+margin-left:30px; 
+text-transform: uppercase;
+padding:5px;
+font-size: 16px;
+font-weight: bold;
+
+}
+
+
+
+
+/* content boxes----*/
+.box-container4 .lorem{
+width:22%;
+}
+
+.box-container3{
+padding-top:100px;
+padding-left:50px;
+padding-right:50px;
+}
+.figcap{
+margin:0 auto;
+width:45%;
+float:left;
+}
+.triplet figure{
+width:26%;
+float:left;
+}
+.left-box{
+width:68%;
+float:left;
+}
+.box-right{
+width:28%;
+float:right;
+}
+
+
+
+.containerBoxOne.boxOneImages{
+margin-left:2%;
+}
+
+
+/*footer*/
+

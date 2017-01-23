@@ -1,0 +1,120 @@
+<!doctype html>
+<html>
+	<!--Head start-->
+	<head>
+	<title>Video</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	
+	<!--Script start-->
+	<script src="js/jquery-1.9.0.min.js"></script>
+	<script type="text/javascript">
+		
+		//Onload Function
+		function byDefault(){
+			var video = document.getElementById("Video1");
+			video.defaultMuted=true;
+			video.load();
+		}
+		
+		//play-pause function
+		function vidplay() {
+			var video = document.getElementById("Video1");
+			video.defaultMuted="true";
+			var button = document.getElementById("play");
+			if (video.paused) {
+				video.play();
+				button.textContent = "Pause";
+			} else {
+				video.pause();
+				button.textContent = "Play";
+			}
+		}
+		
+		//Restart Function
+		function restart() {
+			var video = document.getElementById("Video1");
+			video.currentTime = 0;
+		}
+		
+		//Skip Function
+		function skip(value) {
+			var video = document.getElementById("Video1");
+			video.currentTime += value;
+		}      
+			
+		//Volume Up Function
+		function changeVolumeUp() {
+			var video = document.getElementById("Video1");
+			video.volume += (video.volume == 1 ? 0 : 0.1);
+		}
+		
+		//Volume Down Function
+		function changeVolumeDown() {
+			var video = document.getElementById("Video1");
+			video.volume -= (video.volume == 0 ? 0 : 0.1);
+		}
+			
+		//Mute Function
+		function mute(){
+			var video = document.getElementById("Video1");
+			var Mute = document.getElementById("Mute");
+			if(video.muted){
+				video.muted=false;
+				Mute.textContent = "Mute";
+			} else {
+				video.muted=true;
+				Mute.textContent = "Unmute";
+			}
+				
+			
+		}
+			
+			
+	</script>
+	<!--script Ends-->
+	
+	</head>
+	<!--Head Ends-->
+
+	<!--Body Starts-->
+	<body onload="byDefault()">        
+		<!--Global Start-->
+		<div id="global">
+			
+			<!--Video_wrapper Ends-->
+			<div id="video_wrapper" >
+				
+				<!--Video Start-->
+				<video id="Video1" loop muted poster="poster/poster.jpg">
+
+					 <source src="video/devstories.mp4" type="video/mp4" />
+					 <source src="video/devstories.webm" type="video/webm" />
+					 Browser doent supports html5 video tag.!!!
+				</video>
+				<!--Video Ends-->
+				
+				
+				
+				<!--Buttonbar Start-->
+				<div id="buttonbar">
+		
+					<button id="restart" onclick="restart();">Restart</button> 
+					<button id="rew" onclick="skip(-10)">Seek "-10"</button>
+					<button id="play" onclick="vidplay()">Play</button>
+					<button id="fastFwd" onclick="skip(10)">Seek "+10"</button>
+					<button id="volume-inc-button" onclick="changeVolumeUp()">Increase volume</button>
+					<button id="volume-dec-button" onclick="changeVolumeDown()"> Decrease volume </button>
+					<button id="Mute" onclick="mute();">Unmute</button>
+					
+				</div>
+				<!--Buttonbar Ends-->
+				
+				
+
+			</div>
+			<!--Video_wrapper Ends-->
+		</div>
+		<!--Global Ends-->
+	</body>
+	<!--Body Ends-->
+</html>

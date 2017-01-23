@@ -1,0 +1,101 @@
+@media (min-width: 769px) and (max-width: 900px) {
+
+*{
+	margin:0;
+	padding:0;
+}
+
+body
+{
+	font:normal 100% Arial;
+	font-family: 'Titillium Web', sans-serif;
+}
+img { 
+max-width: 100%; 
+height: auto; 
+width: auto\9; /* ie8 */ 
+}
+
+#wrapper{
+	margin:0;
+	padding:0;
+}
+body
+{
+width:100%; 
+padding:0px; 
+margin:0px;
+background-color:#999999;
+font:normal 100% Arial;
+font-family: 'Titillium Web', sans-serif;
+color: #A5A5A5;}
+.container
+{
+	width:auto;
+}
+a{
+color: #76D2C5;
+text-decoration: none;}
+
+a:hover{
+	text-decoration: none;
+}
+ul,ol{
+	list-style: none;
+}
+@media (min-width: 768px) and (max-width:900px) 
+{
+
+	#logo{
+		float:left;
+		margin:0;
+	}
+	#menu-toggle{
+		float:right;
+	}
+	#menu ul
+	{
+	padding-top: 60px
+	}
+}
+@media (min-width: 901px)
+{
+
+	
+
+}
+
+/*{
+	margin:0;
+	padding:0;
+}
+
+body
+{
+	font:normal 100% Arial;
+	font-family: 'Titillium Web', sans-serif;
+}
+img { 
+max-width: 100%; 
+height: auto; 
+width: auto\9; /* ie8 *//*
+}
+
+a,a:hover{
+	text-decoration: none;
+}
+ul,ol{
+	list-style: none;
+}
+
+
+
+#wrapper{
+
+}
+.container
+{
+	width:auto;
+} ie8 */
+
+}

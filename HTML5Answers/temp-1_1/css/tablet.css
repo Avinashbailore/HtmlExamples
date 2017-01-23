@@ -1,0 +1,64 @@
+.bannerBox{
+width:24.33%;
+float:left;
+opacity:0.5;
+padding: 2.5em 2em;
+background-color:#63C4CD;
+}
+
+
+.container{
+width:750px;
+margin:0 auto;
+//border:1px solid black;
+overflow:hidden;
+}
+
+.Content{
+margin-top:-100px;
+}
+
+
+.profileBox{
+width:23%;
+float:left;
+margin-right:50px;
+}
+
+
+
+.CareBox{
+width:23%;
+float:left;
+}
+
+.EmergencyBox{
+width:23%;
+float:right;
+}
+
+
+.imp{
+//border:1px solid black;
+width:33%;
+float:left;
+}
+
+
+.imp1{
+//border:1px solid black;
+float:left;
+width:33%;
+}
+
+
+
+.imp2{
+//border:1px solid black;
+width:33%;
+float:right;
+
+}
+
+
+

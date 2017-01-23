@@ -1,0 +1,84 @@
+@media (min-width: 901px)
+{
+
+	body
+	{
+		
+		max-width: 100%;
+	}
+
+	.header
+	{
+		width: 100%;
+		margin: 0 auto;
+	}
+	.menu 
+	{	
+	display: none;
+	text-align: center;
+	}
+
+	.nav
+	{
+		display: inline;
+	}
+
+	.nav
+	{
+	padding-top: 15px;
+		padding-bottom: 15px;
+		
+	}
+
+	.nav nav
+	{
+		padding-top: 15px;
+    padding-bottom: 15px;
+    margin-left: 20px;
+	}
+
+
+
+	.nav nav a
+	{
+	padding: 10px;
+    background-color: #3A3A3A;
+    display: inline;
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+	}
+
+	.logo
+	{
+		width: 365px;
+		height: auto;
+		text-align: center;
+		margin:0 auto;
+	}
+
+	.social
+	{
+		margin: 0 auto;
+		width: 94%;
+	}
+	
+	.try
+	{
+		margin: 0 auto;
+    width: 226px;
+	}
+
+	.photos
+	{
+
+	}
+
+	.container
+	{
+		padding-left: 100px;
+		padding-right: 100px;
+	}
+
+
+}

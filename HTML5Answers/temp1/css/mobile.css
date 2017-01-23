@@ -1,0 +1,123 @@
+
+/******************** */
+
+#logo
+{
+	text-align:center;
+	margin-bottom:15px;
+	margin-left:100px;
+}
+/* Menu CSS */
+#menu
+{
+
+
+}
+
+	#menu-toggle{
+		float:left; margin:0px 20px;
+	}
+
+#menu-toggle
+{
+	background-color:#666;
+	padding:15px;
+	color:#fff;
+	font-family: 'Titillium Web', sans-serif;
+	font-size:1.25em;
+	cursor:pointer;
+}
+#menu ul
+{
+display:none;
+}
+.menu-open #menu ul
+{
+	display: block;
+}
+#menu ul
+{
+
+}
+#menu li
+{
+border-bottom:1px solid #162c3b;
+}
+#menu li a
+{
+	padding:10px;
+	background-color:#b6d0e1;
+	display: block;
+	color:#162c3b;
+}
+
+
+
+/******************** */
+
+img{border:0px;}
+*{margin:0px; padding:0px; font-family:verdana; }
+body{
+		font:normal 100% Arial;
+		font-family: 'Titillium Web', sans-serif;
+	}
+	
+.clear{clear:both;}
+
+/*header starts here */
+header{background-color:#00C0C0; margin:0px auto; height:80px; text-align:center; background-image:url('./images/banner.jpg');}
+#topNav {margin:0px auto;width:100%; text-align:right}
+
+#logo{float:left;}
+
+#topNav ul{width:100%;margin:0px auto; border:0px solid black;}
+#topNav  ul li {float:left; padding:5px 20px; list-style:none; overflow:hidden;border:0px solid black}
+#topNav  ul li a {text-decoration:none; color:white;	}
+#search{position:absolute;left:70%; top:20px; }
+#searchBox{height:20px; padding:4px;}
+#banner{max-width:100%;margin-top:0px; background:url(../images/banner.jpg) no-repeat; height:600px; background-color:rgb(250,250,250);} 
+
+/*header part ends here */
+
+/*body ends here */
+#mainBody{margin:0px auto;width:100%; margin-top:-20px;}
+#tileContainer{margin:0px auto; text-align:center; padding:30px;}
+.tiles{ background-color:#00C0C0;opacity:0.6; border:0px solid black; text-align:center;padding:20px; color:rgb(240,240,240);margin-top:20px; margin-bottom:20px;}
+.tiles img{width:25%; border:3px solid white; padding:10px; border-radius:50%; margin-bottom:10px;}
+.tiles p{line-height:30px;font-size:14px;color:rgb(240,240,240)}
+.heading{text-align:center; color:red; margin-bottom:20px;}
+.paraStyle{line-height:20px;font-size:14px;color:rgb(40,40,40)}
+#welcomeHeading p,#afterSection p{padding:5px 10px; text-align:center; font-size:12px;}
+
+/*section starts here */
+.section{padding:30px;}
+.SectionHeading{margin-bottom:20px;}
+.section  p{line-height:25px;font-size:12px;color:rgb(155,155,155)}
+.section img{width:100%; margin-top:20px;}
+
+#afterSection{padding-top:50px}
+#bigText{text-align:center; font-size:20px !important; line-height:20px}
+#afterSection p{line-height:25px;font-size:12px;color:rgb(155,155,155); text-align:center}
+#ourProfile{background-color:#00C0C0; border:0px !important;}
+#careAdvices{background-color:grey;}
+#emergency{background-color:rgb(232,100,113);}
+#readMore{padding:3px 15px;color:red;}
+
+#footerFullWidthImage{background-image:url('../images/nature.jpg');margin:30px; height:400px;}
+#footerFullWidthImage #innerContent{text-align:center; line-height:25px;font-size:12px;color:rgb(240,240,240); float:right;  background-color:rgba(255,0,0,0.3); padding:10px; margin:100px 10px 10px 10px;}
+
+/*footer starts here */
+#footerTileContainer{margin:0px auto; text-align:center; padding-bottom:50px; width:100%;}
+#footerTileContainer .tiles{  background-color:white; border:0px solid black; text-align:center;padding:30px; color:rgb(240,240,240) }
+#footerTileContainer .tiles img{width:25%; border:3px solid white; padding:10px; border-radius:50%; margin-bottom:10px;}
+#footerTileContainer .tiles .redHeading{padding:3px 15px;color:red;}
+#footerTileContainer .tiles p{line-height:25px;font-size:12px;color:rgb(40,40,40)}
+footer{background-color:rgb(244,244,244);overflow:hidden;}
+#footerLinks{ height:200px; margin:0px auto; width:80%; }
+.linksBlock{width:100%; height:150px; float: left;}
+.linksBlock ul li:first-child{font-size:16px;margin-bottom:5px;color:red	}
+.linksBlock ul{width:100%;margin:0px auto;}
+.linksBlock  ul li {list-style:none;font-size:12px;color:rgb(40,40,40); line-height:20px }
+.linksBlock  ul li a {text-decoration:none;font-size:1em;color:rgb(155,155,155)}
+
+#copyRight{ text-align:center;height:40px; background-color:rgb(227,69,84); line-height:40px; color:white;}

@@ -1,0 +1,199 @@
+/* Golbal CSS FOR DESTOP VERSION */
+header, section, footer, aside, nav, main, article, figure {
+     display: block; 
+} 
+html,body,div,img,a,ul,li,input,h1,p,h2,h3,h4,h5,h6{
+	margin:0;
+	padding:0;	
+}
+{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+body
+{
+	font:normal 100% Arial;
+	color:#fff;
+}
+img { 
+max-width: 100%; 
+height: auto; 
+width: auto\9; /* ie8 */ 
+}
+a,a:hover{
+	text-decoration: none;
+}
+ul,ol{
+	list-style: none;
+}
+/*THIS IS CSS FOR DESTOP VERSION*/
+/*THIS IS WRAPPER CSS*/
+
+#wrapper{
+	height:auto;
+}
+/*THIS IS HEADER CSS*/
+header {
+	background-image:url(../images/header-bg.gif);
+	background-repeat:repeat;
+	height:auto;
+	padding:20px 200px 20px 250px;
+}
+.logo{
+	float:left;
+	width:40%;
+}
+.navigation{
+	float:right;
+	margin:0px;
+	width:60%;
+	padding:0px;
+	padding-top:35px;
+}
+.navigation a:link,.navigation a:visited{
+	float:left;
+	display:block;
+	text-decoration:none;
+	color:#fff;
+	text-align:center;
+	padding:5px 15px 5px 15px;
+	font-size:18px;
+	font-family:Arial, Helvetica, sans-serif;
+}
+.navigation a:hover,.navigation a:active{
+	color:#A83715;
+}
+.clear{
+	clear:both;
+}
+/*HERE IS CSS FOR BANNER*/
+#banner{
+	padding:20px 200px 20px 250px;
+	display:block;
+	height:auto;
+	border:1px solid #000;
+	background-image:url(../images/header-content-bg.gif);
+	background-repeat:repeat;
+}
+#banner div{
+	background-image:url(../images/slider-1.jpg);
+	background-size:100% 100%;
+	background-repeat:no-repeat;
+	height:549px;
+}
+.bannerpara1{
+     font-size:40px;
+	 color:#fff;
+	 padding:80px 20px 10px 100px;
+	 }
+.bannerpara2{
+     font-size:60px;
+	 color:#fff;
+	 font-weight:bold;
+	 padding:0px 20px 10px 100px;
+	 }
+.bannerpara3{
+     font-size:40px;
+	 color:#fff;
+	 padding:0px 20px 10px 100px;
+ }
+.bannerpara4{
+     font-size:60px;
+	 color:#fff;
+	 font-weight:bold;
+	 padding:0px 20px 10px 100px;
+}
+.bannerlink {
+	margin-top:30px;
+}
+.bannerlink a{
+	 background-color:#fff;
+	 padding:18px 47px 19px 50px;
+	  width:80px;
+	  height:60px;
+	  background-color:#000;
+	  margin-left:100px;
+	  margin-top:30px;
+	  color:#fff;
+}
+/*HERE BANNER CSS END*/
+/*THIS IS CSS FOR TOP CONTAINER*/	
+.topcontainer{
+	padding:0px 120px 0px 210px;
+	
+}
+.article{
+	float:left;
+	width:32%;
+}
+/*HERE TOP CONTAINER CSS END*/
+/*HERE MIDDLE CONTAINER CSS START*/
+.middlecontainer{
+	width:20%;
+	float:left;
+	margin-top:30px;
+}
+/*HERE MIDDLE CONTAINER CSS END*/
+/*HERE BOTTOM CONTAINER CSS START*/
+
+.bottomleft{
+	float:left;
+	width:40%;
+	
+}
+.bottomright{
+	float:left;
+	width:39%;
+	margin-left:10px;
+	
+}
+.Secondnavigation{
+	height:90px;
+}
+.slogan h3{
+	width:170px;
+	margin-left:20px;
+}
+.bottomcontainer{
+	padding:0px 120px 0px 210px;
+	
+}
+.middlecontainer{
+	display:block;
+	margin-top:45px;
+	margine-left:10px;
+}
+.slogan h3{
+	
+	width:140px;
+}
+.Secondnavigation{
+	height:30px;
+}
+.detail{
+	border-bottom:none;
+}
+/*HERE BOTTOM CONTAINER CSS END*/
+
+
+/*THIS IS FOOTER CSS*/
+footer h3{
+    color:#000;
+	font-size:16px;
+	font-family:Arial, Helvetica, sans-serif;
+	word-break:break-all;
+	padding:20px 20px 5px 590px;
+	line-height:25px;
+	margin-top:35px;
+}
+footer p{
+    color:#000;
+	font-size:18px;
+	font-family:Arial, Helvetica, sans-serif;
+	word-break:break-all;
+	padding:0px 20px 20px 495px;
+	line-height:25px;
+	margin-top:5px;
+}
+/*HERE FOOTER SECTION END*/

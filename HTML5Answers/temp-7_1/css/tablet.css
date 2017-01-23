@@ -1,0 +1,66 @@
+@media(min-width:768px)and (max-width:900px)
+{
+*{
+margin:0px;
+padding:0px;
+box-sizing:border-box;
+}
+#mainContent
+{
+width:100%;
+overflow:hidden;
+margin-bottom:70px;
+
+}
+
+.banner
+{
+width:22.65625%;
+float:left;
+margin:50px 15px 10px 0px;
+position:relative;
+
+}
+#Maincontent.banner:last-child{
+float:right;
+margin-right:0; 	
+}
+.subContainer
+{
+
+float:left;
+width:22.6266%;
+border:1px solid #E3E9E9;
+margin:50px 15px 10px 0px;
+}
+.head
+{
+overflow:hidden;
+}
+#aboutUsContent
+{
+float:left;
+width:54.5691%;
+margin:97px 15px 10px 0px;
+}
+
+.head_two
+{
+float:right;
+width:41.12271%;
+margin:90px 15px 10px 0px;
+}
+
+
+.before_header
+{
+margin-left:10px;
+overflow:hidden;
+
+}
+
+
+
+
+
+}

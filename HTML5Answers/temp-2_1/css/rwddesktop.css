@@ -1,0 +1,97 @@
+@media (min-width: 901px)
+{
+
+	
+	.container
+	{
+		padding-left: 110px;
+		padding-right: 110px;
+	}
+	.nav
+	{	width: 60%;
+		display: inline-block;
+		float: right;
+		/*margin-right: 150px;*/
+		
+		margin-top: 20px;
+
+	}
+
+	.hello
+	{
+		/*padding-left: 20px;*/
+		padding-right: 120px;
+	}
+
+	.nav ul
+	{
+		text-decoration: none;
+		list-style-type: none;
+		
+	}
+
+	.nav ul li
+	{
+		float: left;
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+
+	.header img
+	{
+		display: none;
+	}
+
+	.nav ul span li
+	{
+		color: #68a4c4;
+	}
+
+	.leftarrow,.rightarrow
+	{
+		display: none;
+	}
+
+	.desktop
+	{
+		height: 345px;
+		
+		background-size: 100% 100%;
+	}
+
+	.op
+	{
+		background-color: #2a2928;
+    opacity: 0.7;
+    height: 215px;
+    float: right;
+    margin-top: -300px;
+    margin-right: 83px;
+    padding-bottom: 42px;
+    padding-top: 15px;
+    padding-left: 11px;
+    padding-right: 28px;
+    color: white;
+    display: inline;
+
+	}
+
+
+	.op a
+	{
+		background-color: #68A4C4;
+    text-decoration: none;
+    padding: 8px 14px;
+    color: #fff;
+    position: relative;
+    top: 16px;
+
+	}
+
+	.modern,.cust,.fully,.valid,.box
+	{
+		    width: 22.88732394366197%;
+    float: left;
+    margin-right: 30px;
+	}
+}

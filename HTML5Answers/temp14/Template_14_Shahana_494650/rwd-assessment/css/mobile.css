@@ -1,0 +1,103 @@
+html,head,body,div,li,a,ul,p{
+margin:0;
+padding:0;
+font-size:100%;
+box-sizing:border-box;
+}
+img { 
+max-width: 100%; 
+height: auto; 
+width: auto\9; /* ie8 */ 
+}
+.main{
+}
+.header-top{
+background-color:#F7F7F7;
+height:12px;
+}
+.header-bottom{
+height:6px;
+background-color:#1A1A1A;
+}
+.logo_nav-box{
+background-color:FFFFFF;
+margin:0 auto;
+width:90%;
+padding-top:24px;
+overflow:hidden;
+}
+.logo{
+}
+.nav-box{}
+.nav{
+padding-top:31px;
+padding-bottom:33px;
+width:78%;
+}
+ul{width:100%;}
+li{
+list-style:none;
+display:inline;
+margin-top:35px;
+width:78%;}
+a{
+text-decoration:none;
+color:#4D4D4D;
+margin-top:35px;
+padding-top:18px;
+width:78%;
+}
+#home,#contacts,#services,#clients,#company{
+ margin-right:26px;
+ font-size:17px;
+ margin-top:18px;
+ padding-right:11px;
+ width:78%;
+ font-family:Arial;
+ }
+#home{color:rgb(238,44,49);}
+.center-box{
+height:100px;
+background-color:#F7F7F7;
+display:none;
+}
+.mid-container{
+background-color:#FFFFFF;
+}
+.mid-container1{
+margin:0 auto;
+width:90%;
+}
+.news{
+color:rgb(47,47,47);
+font-size:21px;
+font-family:Arial;
+padding-top:30px;
+
+}
+.dates{width:100%;margin:0 auto;overflow:hidden;}
+.box_date{border:1px solid;width:23%;height:90px;border-radius:10px;float:left;background-color:#F5F5F5;}
+.no24,.no21,.no09{text-align:center;padding-top:20px;width:100%}
+.month{text-align:center;width:100%}
+.box{width:100%}
+.pa1{color:#F41E24;line-height:20px;}
+.para{float:left;line-height:20px;padding-left:26px;padding-bottom:25px;width:75%;color:rgb(47,47,47);font-family:Arial;}
+.clear{clear:both;}
+.dates1{}
+#dec21{margin-top:24px;}
+.box1{border:1px solid yellow;width:100%;padding-top:33px;text-align:center;}
+.secondary{}
+.secondary-image{padding-top:50px;width:40%;}
+.leader{color:#4D4D4D;width:100%}
+.lead{color:#ED1E24;}
+.lll{color:#ED1E24;display:inline;}
+.para1{font-size:17px;line-height:30px;color:#4D4D4D;font-family:Arial;display:inline;}
+.para2{padding-top:19px;line-height:30px;color:#4D4D4D;font-family:Arial;display:inline;}
+.footer{background-color:#F7F7F7;}
+.social{height:50px;}
+.nav12{color:#4D4D4D;font-family:Arial;}
+.social1{width:50%;margin-top:55px;padding-left:8px;}
+#nav11{display:inherit;margin-top:10px;}
+.nav1{padding-top:10px;padding-left:8px;}
+.contact,.legal{line-height:25px;padding-top:10px;padding-left:8px;font-family:Arial;color:#4D4D4D;}
+.legal{padding-bottom:68px;}

@@ -1,0 +1,71 @@
+         html,div,li,a,ul,header,footer{ 
+		 margin:0px;
+		 padding:0px;
+		 font-size:100%;
+		 box-sizing:border-box;}
+		.main-container{border:1px solid black;
+		background-color:#E2ECEE}
+		
+		.sub_main-container{
+		width:95%;
+		border:1px solid #426A72;
+		overflow:hidden;
+		background-color:#FFFFFF;
+		margin-top:8px;
+		}
+		.Available-box{
+		margin-left:10px;
+		border:1px solid #999999;
+		width:200px;
+		float:left;
+		overflow:hidden;
+		}
+		.Available_student-tag{
+		border:1px solid #999999;
+		width:200px;
+		text-align:center;
+		background-color:#2B747B;
+		color:#E3FFFF;
+		}
+		.student-id{
+		border:1px solid;
+		width:150px;padding-left:10px;
+		margin:0 auto;height:40px;
+		margin-top:2px;
+		background-color:#EEEEEE
+		}
+		.student_box{
+		border:1px solid;
+		width:200px;
+		}
+		.team-a,.team-b,.team-c,.team-d,.team-e{
+		border:1px solid #999999;
+		width:200px;
+		margin-left:10px;
+		float:left;
+		overflow:hidden;
+		height:200px;
+		}
+		.teams_box2,.teams_box1{
+		width:100%;
+		float:left;
+		}
+		.teams_box2{
+		margin-top:20px;
+		}
+		.clear{ clear:both;}
+		.main-team_box{
+		width:70%;
+		float:left;
+		}
+		.team-A,.team-B,.team-C,.team-D,.team-E{
+		border:1px solid black;
+		height:50px;
+		background-color:#2B747B;
+		color:#E3FFFF;
+		text-align:center;
+		padding-top:12px;
+		}
+		.team-e{
+		height:300px;
+		}

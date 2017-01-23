@@ -1,0 +1,56 @@
+@media (min-width: 768px) and (max-width:900px) {
+
+header .holder{
+overflow:hidden;}
+ 
+header #menu{
+display:block;
+}
+
+h1{
+padding:0
+}
+
+header .holder{
+padding-top:35px;
+padding-bottom:48px;
+overflow:hidden;
+}
+#logo{
+float:left;}
+
+.side-box{
+margin-top:-150px;
+display:none;
+float:right;
+position:absolute;}
+
+.left{
+display:none;
+}
+
+.right{
+display:none;
+}
+
+nav{
+float:right;}
+
+nav img{
+display:none;}
+
+nav ul{
+display:block;}
+
+footer .holder{
+overflow:hidden;
+}
+
+footer div p{
+float:left;}
+.external{
+float:right;
+}
+
+}
+

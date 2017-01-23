@@ -1,0 +1,68 @@
+
+
+
+#wrapper{
+	background-color:white;
+	
+	margin:0 auto;
+	width:950px;
+
+}
+
+.heading
+{
+text-align:center;
+}
+
+.feilds{
+padding-top:25px;
+padding-left:50px;
+
+width: 316px;
+margin:0 auto;
+}
+
+fieldset{
+	width:250px;
+	height:60px;
+}
+
+.last
+{
+width:270px;
+
+box-shadow:  1px 1px  1px 2px  #F19B9C;
+margin-top:10px;
+}
+
+.age
+{
+width:270px;
+margin-top:10px;
+
+}
+
+.favorite
+{
+width:270px;
+box-shadow:  1px 1px 1px 2px #F19B9C;
+margin-top:10px;
+
+}
+
+
+.message{
+width:270px;
+
+margin-top:10px;
+height:90px;
+}
+
+.first
+{
+
+margin-top:10px;
+box-shadow:  1px 1px  1px 2px  #F19B9C;
+width:270px;
+}
+

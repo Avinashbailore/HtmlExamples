@@ -1,0 +1,370 @@
+.container1
+{
+width:415px;
+margin:0 auto;
+
+	
+}
+.container
+{
+
+margin:0 auto;
+}
+
+
+.header
+{
+padding-top:7px;
+padding-bottom:7px;
+}
+#menu
+{
+
+overflow:hidden;
+}
+#menu-toggle{
+	display: none;
+	}
+	#menu ul
+	{
+	
+	display: block;
+	
+	}
+	#menu li
+	{
+		float:left;
+		margin-left:21px;
+		border:none;
+	}
+	
+	#menu li a
+{
+	padding:10px;
+	background-color:#3A3A3A;
+	display: block;
+	color:white;
+	text-decoration:none;
+	font-size:17px;
+}
+
+
+.logo
+{
+width:395px;
+height:109px;
+margin:0 auto;
+
+margin-bottom:36px;
+}
+
+.box
+{
+overflow:hidden;
+}
+
+.leftcontainer
+{
+width:65%;
+float:left;
+
+}
+.rightcontainer
+{
+width:30%;
+float:right;
+
+}
+
+.firstbox
+{
+
+overflow:hidden;
+}
+
+.bird
+
+{
+width:48%;
+float:left;
+
+}
+
+.giraffe
+{
+width:48%;
+float:right;
+}
+
+.secondbox
+{
+
+overflow:hidden;
+}
+
+.tiger
+
+{
+width:48%;
+float:left;
+
+}
+
+.leopard
+{
+width:48%;
+float:right;
+}
+.thirdbox
+{
+
+overflow:hidden;
+}
+
+.squirrel
+
+{
+width:48%;
+float:left;
+
+}
+
+.frog
+{
+width:48%;
+float:right;
+}
+
+.giraffe {
+  margin-top: 0px;
+}
+
+.heading {
+  font-size: 8px;
+  
+}
+.line1 {
+  
+  width: 15px;
+  margin-top: 7px;
+}
+
+.heading h1 {
+  width: 136px;
+  
+}
+
+.line2 {
+  width: 15px;
+  margin-top: -11px;
+}
+
+.heading1 {
+  font-size: 8px;
+  
+}
+.line3 {
+  
+  width: 15px;
+  margin-top: 7px;
+}
+
+.heading1 h1 {
+  width: 136px;
+  
+}
+.heading2 {
+  font-size: 8px;
+  
+}
+.heading2 h1 {
+  width: 60px;
+  
+}
+
+.line4 {
+  width: 15px;
+  margin-top: -11px;
+}
+.para1
+{
+font-size:14px;
+}
+.para
+{
+font-size:14px;
+}
+
+.rightcontainer {
+ 
+   padding-top: 0px;
+  
+}
+
+.about_us {
+  
+  padding-top: 11px;
+  padding-bottom: 105px;
+  margin-top: 0px; 
+ 
+}
+
+.base {
+  
+  padding-top: 37px;
+}
+.tag h3 {
+ 
+  font-size: 16px;
+}
+
+.sideline {
+ width: 123px;
+  margin-top: 7px;
+ }
+ 
+ .topics {
+  
+  font-size: 15px;
+
+}
+.latest h4 {
+  font-size: 16px;
+}
+.sideline2 {
+  
+  width: 60px;
+  
+  margin-top: 6px;
+  
+}
+.post1 {
+  
+  padding-top: 38px;
+  width: 103px;
+  margin: 0 auto;
+}
+
+.post1 img {
+   margin-left: 0px; 
+  
+  /* float: left; */
+}
+.date {
+   /* float: left;*/
+  margin-left: 0px;
+  margin-top: 7px;
+  font-size: 13px;
+  text-align: center; 
+}
+
+
+.archive h4 {
+ 
+  font-size: 16px;
+}
+
+.sideline3 {
+   width: 94px;
+ 
+  margin-top: 9px;
+ }
+ 
+ #search2 {
+  
+  padding: 15px 10px 15px 15px;
+  
+}
+
+.gallery h5 {
+ 
+  font-size: 16px;
+}
+
+.sideline4 {
+   width: 94px;
+ 
+  margin-top: 9px;
+ }
+ 
+ .first img {
+   display: inline; 
+  height: 63px;
+  
+}
+.second img {
+   display: inline; 
+  height: 63px;
+  
+}
+.third img {
+   display: inline; 
+  height: 63px;
+  
+}
+.fourth img {
+   display: inline; 
+  height: 63px;
+  
+}
+.first {
+  width: 189px;
+  height: 63px;
+}
+
+.second {
+  width: 189px;
+  height: 63px;
+}
+
+.third {
+  width: 189px;
+  height: 63px;
+}
+
+.fourth {
+  width: 189px;
+  height: 63px;
+}
+
+.pictures
+{
+width:97%;
+margin:0 auto;
+}
+
+.popular h6 {
+ 
+  font-size: 16px;
+}
+
+.sideline5 {
+   width: 65px;
+ 
+  margin-top: 9px;
+ }
+ 
+ 
+ .footer
+ {
+ 
+ overflow:hidden;
+ }
+ .copyright
+ {margin-top: 26px;
+ float:left;
+ width:30%
+ }
+ 
+ .top
+ {
+ float:left;
+ width:30%
+ }
+ 
+ .links3
+ {
+ float:right;
+ width:31%;
+ margin-top:34px;
+ }

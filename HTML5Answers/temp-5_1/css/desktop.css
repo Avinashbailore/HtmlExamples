@@ -1,0 +1,64 @@
+/*structural css*/
+.container
+{
+	width:1165px;
+	margin: 0 auto;
+}
+.bannerContent{
+width:973px;
+}
+/* heading section*/
+#menu li a{
+padding:30px 83px 38px;
+}
+.altheading{
+display:none;
+}
+.heading{
+display:block;
+}
+/*banner section*/
+#banner{
+background-size:100% 100%;
+height:577px;
+}
+.bannerContent{
+margin:82px 82px 40px 82px;
+font-size:1.2em;
+}
+.link{
+margin-left:82px;
+margin-bottom:50px;
+}
+.carousel{
+margin-left:67px;
+}
+/*lower section*/
+.lowerSection{
+overflow:hidden;
+}
+.lowerSectionContent{
+width:732px;
+float:left;
+
+}
+.imageSection{
+width:381px;
+float:right;
+}
+/*staffSection*/
+.staffSection{
+margin-top:75px;
+}
+.staffSection h2{
+padding-bottom:34px;
+}
+.person p{
+padding:6px;
+}/*image section*/
+.firstImage,.secondImage{
+height:278px;
+}
+.imageContent{
+margin-top:0px;
+}

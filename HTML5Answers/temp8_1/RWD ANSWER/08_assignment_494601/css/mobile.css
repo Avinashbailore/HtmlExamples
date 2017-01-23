@@ -1,0 +1,476 @@
+/* Golbal CSS FOR MOBILE VERSION AND NOTEPAD */
+header, section, footer, aside, nav, main, article, figure {
+     display: block; 
+} 
+html,body,div,img,a,ul,li,input,h1,p,h2,h3,h4,h5,h6{
+	margin:0;
+	padding:0;	
+}
+{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+
+body
+{
+	font:normal 100% Arial;
+	color:#fff;
+}
+img { 
+max-width: 100%; 
+height: auto; 
+width: auto\9; /* ie8 */ 
+}
+
+a,a:hover{
+	text-decoration: none;
+}
+ul,ol{
+	list-style: none;
+}
+/*THIS IS CSS FOR MOBILE VERSION*/
+/*THIS IS WRAPPER CSS*/
+
+#wrapper{
+	height:auto;
+}
+/*THIS IS HEADER CSS*/
+header{
+	background-image:url(../../494601_assignment/images/transp.png);
+	height:auto;
+	padding-bottom:5px;
+}
+.headerbg{
+	background-image:url(../images/header-bg.gif);
+	background-repeat:repeat;
+	height:auto;
+}
+.logo{
+	padding-top:20px;
+}
+/*THIS IS NAVIGATION CSS*/
+.navigation{
+	padding:50px 20px 0px 15px;
+}
+.navigation a:link,.navigation a:visited{
+	float:left;
+	display:block;
+	text-decoration:none;
+	color:#fff;
+	text-align:center;
+	padding:10px 22px 10px 22px;
+	font-size:22px;
+	font-family:Arial, Helvetica, sans-serif;
+}
+.navigation a:hover,.navigation a:active{
+	color:#A83715;
+}
+.clear{
+	clear:both;
+}
+/*HERE IS NAVIGATION CSS END*/
+/*THIS IS HEADER CSS END*/
+
+/*THIS IS MAIN CONTENT TOP CSS*/
+#banner{
+	display:none;
+}
+/*THIS IS CSS FOR TOP CONTAINER*/
+.topcontainer{
+ height:auto;
+}
+.article{
+	height:auto;
+}
+.think{
+	height:auto;
+	padding:20px;
+}
+.think h2{
+	color:#000;
+	font-size:50px;
+	font-weight:bold;
+	font-family:Arial, Helvetica, sans-serif;
+	padding:25px 20px 0px 15px;
+}
+.think p{
+	color:#000;
+	font-size:16px;
+	font-family:Arial, Helvetica, sans-serif;
+	word-break:break-all;
+	line-height:25px;
+	margin-top:20px;
+	padding:0px 20px 0px 15px
+}
+.think a{
+	color:#A83715;
+	font-size:18px;
+}
+.readmore{
+	padding:30px 25px 10px 20px;
+}
+.button{
+	height:15px;
+	padding:15px;
+	background-color:#F7F7F7;
+	width:100px;
+}
+/*HERE CSS FOR TOP CONTAINER END*/
+/*THIS IS CSS FOR MIDDLE CONTAINER*/
+.middlecontainer{
+display:none;
+}
+/*HERE CSS FOR MIDDLE CONTAINER END*/
+/*THIS IS FOR CSS BOTTOM CONTAINER*/
+.bottomcontainer{
+     height:auto;
+}
+.welcome{
+	border-bottom:3px solid #E8E8E8;
+}
+.welcome h2{
+	color:#000;
+	font-size:30px;;
+	font-family:Arial, Helvetica, sans-serif;
+	padding:25px 20px 0px 35px;
+}
+.welcome p{
+	color:#000;
+	font-size:16px;
+	font-family:Arial, Helvetica, sans-serif;
+	word-break:break-all;
+	line-height:25px;
+	margin-top:20px;
+	padding:0px 20px 20px 35px
+}
+.paragraph{
+	color:#9999B0;
+	font-size:16px;
+	font-family:Arial, Helvetica, sans-serif;
+	word-break:break-all;
+	padding:20px 20px 20px 35px;
+	line-height:25px;
+	margin-top:5px;
+}
+.slogan{
+	   padding:40px 0px 20px 35px;
+	   border-bottom:3px solid #E8E8E8;
+}
+.link{
+	width:150px;
+	height:30px;
+	background-color:#CC4116;
+    padding:30px;
+	float:left;
+}
+.link a{
+	font-size:24px;
+	font-family:Verdana, Geneva, sans-serif;
+	color:#FFF;
+	text-align:center;
+}
+.slogan h3{
+	float:left;
+	color:#000;
+	font-size:30px;;
+	font-family:Arial, Helvetica, sans-serif;
+	padding:0;
+	width:150px;
+	margin-left:16px;
+}
+.detail{
+	border-bottom:3px solid #E8E8E8;
+}
+.detail p{
+	color:#9999B0;
+	font-size:16px;
+	font-family:Arial, Helvetica, sans-serif;
+	word-break:break-all;
+	padding:20px 20px 20px 35px;
+	line-height:25px;
+	margin-top:5px;
+}
+.bottomright h2{
+	color:#000;
+	font-size:30px;;
+	font-family:Arial, Helvetica, sans-serif;
+	padding:0;
+	padding:20px 20px 20px 35px;
+	
+}
+.Secondnavigation{
+	background-color:#F2F2F2;
+	margin-left:20px;
+	border-top:1px solid #000;
+	border-left:1px solid #000;
+	height:30px;
+	padding:10px 20px 20px 15px;
+}
+
+.Secondnavigation a:link,.Secondnavigation a:visited{
+	float:left;
+	display:block;
+	text-decoration:none;
+	color:#000;
+	text-align:center;
+	padding:20px 10px 20px 10px;
+	font-size:16px;
+	width:74px;
+	height:10px;
+	font-family:Arial, Helvetica, sans-serif;
+}
+.Secondnavigation a:hover,.Secondnavigation a:active{
+	color:#fff;
+	background-color:#000;
+}
+.keyboard{
+	height:auto;
+	margin-top:20PX;
+	padding-top:10px;
+	padding-left:20px;
+}
+.keyboardleft{
+width:100px;
+height:100px;
+float:left;
+background-image:url(../images/page1-img2.jpg);
+background-repeat:no-repeat;
+background-size:100% 100%;
+}
+.keyboardright{
+width:65%;
+height:auto;
+float:left;
+margin-left:10px;
+}
+.keyboardright .para1{
+    color:#000;
+	font-size:16px;
+	font-family:Arial, Helvetica, sans-serif;
+	word-break:break-all;
+	padding:0px 10px 20px 15px;
+	line-height:25px;
+	
+}
+.keyboardright .para2{
+    color:#D3B099;
+	font-size:16px;
+	font-family:Arial, Helvetica, sans-serif;
+	word-break:break-all;
+	padding:0px 10px 20px 15px;
+	line-height:25px;
+	
+}
+.keyboardrightdetail{
+width:95%;
+height:auto;
+}
+.keyboardrightdetail .number{
+width:50%;
+height:auto;
+float:left;
+border-right:1px solid #E8E8E8;
+}
+.keyboardrightdetail .knowlege{
+width:40%;
+height:100;
+float:left;
+margin-left:5px;
+margin-top:30px;
+}
+.knowlege a{
+color:#CB6415;
+}
+.number p{
+    color:#000;
+	font-size:16px;
+	padding:30px 2px 20px 5px;
+	}
+
+.screen{
+	height:auto;
+	margin-top:20PX;
+	padding-top:10px;
+	padding-left:20px;
+}
+.screenleft{
+width:100px;
+height:100px;
+float:left;
+background-image:url(../images/page1-img3.jpg);
+background-repeat:no-repeat;
+background-size:100% 100%;
+
+
+}
+.screenright{
+width:65%;
+height:auto;
+float:left;
+margin-left:10px;
+}
+.screenright .para1{
+    color:#000;
+	font-size:16px;
+	font-family:Arial, Helvetica, sans-serif;
+	word-break:break-all;
+	padding:0px 10px 20px 15px;
+	line-height:25px;
+	
+}
+.screenright .para2{
+    color:#D3B099;
+	font-size:16px;
+	font-family:Arial, Helvetica, sans-serif;
+	word-break:break-all;
+	padding:0px 10px 20px 15px;
+	line-height:25px;
+	
+}
+.screenrightdetail{
+width:95%;
+height:auto;
+}
+.screenrightdetail .number{
+width:50%;
+height:auto;
+float:left;
+border-right:1px solid #E8E8E8;
+}
+.screenrightdetail .knowlege{
+width:40%;
+height:100;
+float:left;
+margin-left:5px;
+margin-top:30px;
+}
+.knowlege a{
+color:#CB6415;
+}
+.number p{
+    color:#000;
+	font-size:16px;
+	padding:30px 2px 20px 5px;
+	}
+/*THIS IS CSS FOR BOTTOM CONTAINER END*/
+
+/*THIS IS FOOTER CSS*/
+footer{
+	height:auto;
+	background-color:#F4F4F4;
+}
+footer h3{
+    color:#000;
+	font-size:16px;
+	font-family:Arial, Helvetica, sans-serif;
+	word-break:break-all;
+	padding:20px 20px 5px 125px;
+	line-height:25px;
+	margin-top:35px;
+}
+footer p{
+    color:#000;
+	font-size:18px;
+	font-family:Arial, Helvetica, sans-serif;
+	word-break:break-all;
+	padding:0px 20px 20px 40px;
+	line-height:25px;
+	margin-top:5px;
+}
+footer p a{
+            color:#C73715;
+}
+
+
+/*THIS IS CSS FOR NOTEPAD VERSION*/
+@media (min-width: 768px) and (max-width:900px) 
+{
+/*NOTEPAD CSS FOR TOP SECTION*/
+.navigation{
+	margin:20px 0px 0px 200px;
+	padding-top:20px;
+}
+.navigation a:link,.navigation a:visited{
+	float:left;
+	display:block;
+	text-decoration:none;
+	color:#fff;
+	text-align:center;
+	padding:10px 16px 10px 16px;
+	font-size:18px;
+	font-family:Arial, Helvetica, sans-serif;
+}
+.navigation a:hover,.navigation a:active{
+	color:#A83715;
+}
+.article{
+	float:left;
+	width:32%;
+}
+.clear{
+	clear:both
+}
+.Secondnavigation{
+	height:90px;
+}
+.slogan h3{
+	width:170px;
+	margin-left:20px;
+}
+.slogan h3{
+	
+	width:140px;
+}
+/*NOTEPAD CSS FOR MIDDLE SECTION*/
+.middlecontainer{
+	display:none
+}
+/*NOTEPAD CSS FOR BOTTOM SECTION*/
+.bottomleft{
+	float:left;
+	width:50%;
+	
+}
+.bottomright{
+	float:left;
+	width:45%;
+	margin-left:20px;
+	
+}
+
+.bottomright{
+	float:left;
+	width:35%;
+	margin-left:100px;
+	
+}
+.keyboardright{
+width:55%;
+
+}
+.screenright{
+width:55%;
+height:auto;
+float:left;
+margin-left:10px;
+}
+/*NOTEPAD CSS FOR FOOTER SECTION*/
+footer h3{
+    color:#000;
+	font-size:16px;
+	font-family:Arial, Helvetica, sans-serif;
+	word-break:break-all;
+	padding:20px 20px 5px 355px;
+	line-height:25px;
+	margin-top:35px;
+}
+footer p{
+    color:#000;
+	font-size:18px;
+	font-family:Arial, Helvetica, sans-serif;
+	word-break:break-all;
+	padding:0px 20px 20px 295px;
+	line-height:25px;
+	margin-top:5px;
+}

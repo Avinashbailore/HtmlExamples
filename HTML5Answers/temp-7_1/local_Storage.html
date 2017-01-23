@@ -1,0 +1,94 @@
+<!doctype html>
+<html>
+	<head>
+		<title>HTML5</title>
+	</head>
+	<style>
+	td,tbody,tr,thead
+	{
+	background-color:grey;
+	border:1px solid black;
+	
+	}
+	
+	</style>
+	<body>		
+		<input type="text" name="name" id="item" placeholder="ITEM"/>
+		<input type="text" name="name" id="quantity"    placeholder="QUANTITY"/>
+		
+		
+		<div style="margin-top:20px">
+		<span><button onclick="save()">Save</button></span>
+		<span><button onclick="modify()">Modify</button></span>
+		<span><button onclick="cancel()">Clear</button></span>
+		</div>
+		<div>
+		<table>
+		<thead>
+		<th>Name</th>
+		<th>Quantity</th>
+        </thead>
+		<tbody  id="output">
+		</tbody>
+		
+		</table>
+		</div>
+		<div><button onclick="clearAll()">ClearAll</button></div>
+	</body>
+	<script>
+	var output1="";
+	for(var i=0;i<localStorage.length;i++){
+		output1=output1+"<tr><td>"+localStorage.key(i)+"</td>"+"  "+"<td>"+localStorage.getItem(localStorage.key(i))+"</td></tr>";
+		output.innerHTML=output1;
+	}
+	var save=function()
+	{
+	var output1="";
+	var item=document.getElementById("item").value;
+	var quantity=document.getElementById("quantity").value;
+	var output=document.getElementById("output");
+	if(localStorage)
+	{
+	localStorage.setItem(item,quantity);
+	for(var i=0;i<localStorage.length;i++){
+		output1=output1+"<tr><td>"+localStorage.key(i)+"</td>"+"  "+"<td>"+localStorage.getItem(localStorage.key(i))+"</td></tr>";
+		output.innerHTML=output1;
+	}
+	}
+	}
+	var modify=function()
+	{
+	output1="";
+	if(localStorage)
+	{
+	var item=document.getElementById("item").value;
+	var quantity=document.getElementById("quantity").value;
+	var output=document.getElementById("output");
+	var pres=quantity;
+	localStorage.removeItem(item,quantity);
+	localStorage.setItem(item,pres);
+	for(var i=0;i<localStorage.length;i++){
+		output1=output1+"<tr><td>"+localStorage.key(i)+"</td>"+"  "+"<td>"+localStorage.getItem(localStorage.key(i))+"</td></tr>";
+		output.innerHTML=output1;
+	}
+	}}
+	function cancel()
+	{
+	var item=document.getElementById("item").value;
+	localStorage.removeItem(item,quantity);
+	output1="";
+	for(var i=0;i<localStorage.length;i++){
+		output1=output1+"<tr><td>"+localStorage.key(i)+"</td>"+"  "+"<td>"+localStorage.getItem(localStorage.key(i))+"</td></tr>";
+		output.innerHTML=output1;
+	}
+	}
+	function clearAll()
+	{
+		localStorage.clear();
+		output.innerHTML="";
+	}
+</script>
+</html>
+
+	
+	

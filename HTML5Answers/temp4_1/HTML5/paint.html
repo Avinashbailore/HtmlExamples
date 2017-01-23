@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<title>My Canvas Paint Applicaion</title>
+<style>
+header{
+	width:960px;
+	margin:0 auto;
+}
+#wrapper{
+	width:960px;
+	margin:0 auto;
+	border:2px solid gray;
+}
+div{
+	padding:20px;
+}
+#canvasOne{
+	position:absolute;
+	top:344px;
+	left:225px;
+}
+#can{
+	width:900px;
+	margin:0 auto;
+}
+
+</style>
+
+</head>
+<body>
+		<header> <h1>Paint Application Using Canvas</h1></header>
+		
+		<section id="wrapper">		
+		<form>
+			<div>  Fill Color : <input type="text" id="fillColor"  value="none"/> </div>
+			<div>  Stroke Color : <input type="text" id="strokeColor" value="black"/> </div>
+			<div>  Stroke width : <input type="number" id="strokeWidth" required min="1" max="10"/> </div> 
+			<div>  Draw tool : 
+						  <select id="dataTool" onchange="selectDrawTool()">
+							<option value="line">Line</option>
+							<option value="rectangle">Rectangle</option>
+							<option value="circle">Circle</option>
+							<option value="pencil">Pencil</option>
+							<option value="eraser">Eraser</option>						
+						  </select> 
+			</div>
+		
+		</form>
+		
+		<div id="can">
+			<canvas id="canvasOne" height="450px" width="900px" style="border:1px solid"> </canvas>
+			<canvas id="canvasTwo" height="450px" width="900px" style="border:1px solid"> </canvas>
+		</div>
+		
+		</section>
+
+</body>
+<script>
+
+		var selectedElement;
+		var selectDrawTool=function(){
+				selectedElement = document.getElementById("dataTool").value;			
+		};
+		var started = false;	
+		
+		var canvasOne = document.getElementById("canvasOne");
+		var canvasTwo = document.getElementById("canvasTwo");
+		var context = canvasOne.getContext("2d");
+		var destContext = canvasTwo.getContext('2d');
+		
+		context.lineWidth=1;		
+	
+		canvasOne.addEventListener('mousedown',mouseDown,false);
+		canvasOne.addEventListener('mousemove',mouseMove,false);
+		canvasOne.addEventListener('mouseup',mouseUp,false);
+		
+		var x0,y0;
+		function mouseDown(event) {
+		   started = true;
+		   x0 = event.offsetX;
+		   y0 = event.offsetY;
+		};
+		
+		function mouseMove(event) {
+			var lineWidth=document.getElementById("strokeWidth").value,
+				 strokeColor=document.getElementById("strokeColor").value,
+				 fillColor=document.getElementById("fillColor").value;
+	
+			if(!started){
+				return;
+			}else{	
+					if(selectedElement==="rectangle"){
+					
+							context.clearRect(0, 0, canvasOne.width, canvasOne.height); 						 
+							
+							context.beginPath();
+							context.lineWidth=lineWidth;
+							context.fillStyle=fillColor;
+							context.strokeStyle=strokeColor;
+							
+							 var x = Math.min(x0, event.offsetX),
+								 y = Math.min(y0, event.offsetY),
+								 w = Math.abs(event.offsetX - x0),
+								 h = Math.abs(event.offsetY - y0);							
+							
+							context.strokeRect(x, y, w, h);
+							context.fill();
+							context.stroke();
+							context.closePath();
+							
+						} else if(selectedElement==="line"){
+							context.clearRect(0, 0, canvasOne.width, canvasOne.height); 
+							context.beginPath();
+							context.lineWidth=lineWidth;
+							context.strokeStyle=strokeColor;
+							context.moveTo(x0,y0);
+							context.lineTo(event.offsetX, event.offsetY);
+							context.stroke();
+							context.closePath();
+							
+						} else if(selectedElement==="circle"){
+							context.clearRect(0, 0, canvasOne.width, canvasOne.height); 
+							context.beginPath();
+							context.lineWidth = lineWidth;
+							context.fillStyle = fillColor;					
+							context.strokeStyle = strokeColor;
+							var radius = Math.abs((x0 - event.offsetX));
+							context.arc(x0, y0, radius, 0, 2 * Math.PI);							
+							context.fill();
+							context.stroke();
+							context.closePath();
+							
+						} else if(selectedElement==="pencil"){
+							context.lineWidth = lineWidth;
+							context.lineJoin = 'round';
+							context.lineCap = 'round';
+							context.strokeStyle=strokeColor;
+							context.lineTo(event.pageX-this.offsetLeft,event.pageY-this.offsetTop);
+							context.stroke();
+						} else{
+							destContext.clearRect(event.offsetX,event.offsetY, 50, 50); 
+							context.clearRect(event.offsetX,event.offsetY, 50, 50); 
+						}
+				}
+      
+   };
+
+	function mouseUp(event) {
+		if(started){
+		  mouseMove(event);
+		  started = false;
+		 destContext.drawImage(canvasOne, 0, 0);
+		 }
+	};
+
+</script>
+</html>

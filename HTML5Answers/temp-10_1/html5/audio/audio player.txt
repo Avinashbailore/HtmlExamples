@@ -1,0 +1,6 @@
+1. use html5 audio and create a webpage.
+2. audio should be played onload of page.
+3. all controls should be show be default.
+4. after audio has been played it should be replayed automatically.
+5. by default audio has to be muted.
+6. if browser donesnt supports audio tag show a message "browser doent support html5 audio tag"

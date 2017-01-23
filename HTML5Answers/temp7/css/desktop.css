@@ -1,0 +1,59 @@
+@media(min-width:901px)
+{
+*{
+margin:0px;
+padding:0px;
+box-sizing:border-box;
+}
+.information
+{
+width:100%;
+overflow:hidden;
+}
+.description
+{
+width:100%;
+overflow:hidden;
+}
+
+.specificfeatures
+{
+width:21.65625%;
+float:left;
+margin:50px 15px 10px 0px;
+border:1px solid black;
+position:relative;
+}
+.functionalities{
+width:21.65625%;
+float:left;
+margin:50px 15px 10px 0px;
+border:1px solid black;
+position:relative;
+
+}
+.maincontainer .functionalities:last-child{
+float:right;
+margin-right:0; 	
+}
+.content{
+float:right;
+width:47%;
+margin-right:10px;
+border:1px solid red;
+position:relative;
+}
+.footerpart{
+width:100%;
+overflow :hidden;
+}
+.moreinfo{
+margin-top:40px;
+width:45%;
+}
+.socialmedia{
+margin-top:40px;
+width:45%;
+}
+
+}

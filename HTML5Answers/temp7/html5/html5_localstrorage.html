@@ -1,0 +1,107 @@
+<!doctype html>
+<html>
+	<head>
+		<title>HTML5</title>
+	</head>
+	<style>
+	.box{
+	border:1px solid grey;
+			width:400px;
+	}
+	.firstbox{
+	        border:1px solid grey;
+			width:400px;
+			margin-bottom:30px;
+	
+	}
+	.secondbox{
+	border:1px solid grey ;
+			width:500pxpx;
+			margin-bottom:30px;
+	}
+	</style>
+	<body>
+    <div class ="firstbox">	
+		<label>Item:<input type="text" name="name" id="item" placeholder="ITEM"/></label>
+	<label>	<input type="text" name="name" id="quantity"    placeholder="QUANTITY"/></label>
+	</div>
+		<div class ="box">
+		<button onclick="save()">Save</button>
+		<button onclick="modify()">Modify</button>
+		<button onclick="cancel()">Clear</button>
+		</div>
+		<div class ="second box">
+		<table id = "bill"  text-align = "center">
+            <thead>
+  
+                    <th>Name</th>
+                    <th>Value</th>
+            </thead>
+			<tbody id="output">
+			</tbody>
+		</table>
+		<div class ="output"><button onclick="clearAll()">ClearAll</button>
+		<span>* Removes All Items</span>
+		</div>
+		</div>
+		
+		
+	</body>
+	<script>
+	var output1="";
+	for(var i=0;i<localStorage.length;i++){
+		output1=output1+"<div>"+localStorage.key(i)+" "+localStorage.getItem(localStorage.key(i))+"</div>";
+		output.innerHTML=output1;
+	}
+	var save=function()
+	{
+	var output1=""
+	var item=document.getElementById("item").value;
+	var quantity=document.getElementById("quantity").value;
+	var output=document.getElementById("output");
+	
+	if(localStorage)
+	{
+	localStorage.setItem(item,quantity);
+	for(var i=0;i<localStorage.length;i++){
+		output1=output1+"<div>"+localStorage.key(i)+" "+localStorage.getItem(localStorage.key(i))+"</div>";
+		output.innerHTML=output1;
+	}
+	}
+	}
+	var modify=function()
+	{
+	output1="";
+	if(localStorage)
+	{
+	var item=document.getElementById("item").value;
+	var quantity=document.getElementById("quantity").value;
+	var output=document.getElementById("output");
+	var pres=quantity;
+	localStorage.removeItem(item);
+	localStorage.setItem(item,pres);
+	for(var i=0;i<localStorage.length;i++){
+		output1=output1+"<div>"+localStorage.key(i)+" "+localStorage.getItem(localStorage.key(i))+"</div>";
+		output.innerHTML=output1;
+	}
+	}}
+	function cancel()
+	{
+	var item=document.getElementById("item").value;
+	localStorage.removeItem(item);
+	output1="";
+	for(var i=0;i<localStorage.length;i++){
+		output1=output1+"<div>"+localStorage.key(i)+" "+localStorage.getItem(localStorage.key(i))+"</div>";
+		output.innerHTML=output1;
+	}
+	}
+	function clearAll()
+	{
+		localStorage.clear();
+		output.innerHTML="";
+	}
+</script>
+</html>
+
+	
+	

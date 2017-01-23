@@ -1,0 +1,323 @@
+/* Golbal CSS */
+*{
+	margin:0;
+	padding:0;
+}
+
+body
+{
+	font:normal 100% Arial;
+	font-family: 'Titillium Web', sans-serif;
+}
+img { 
+max-width: 100%; 
+height: auto; 
+width: auto\9; /* ie8 */ 
+}
+ul li
+{
+	list-style:none;
+}
+a
+{
+	text-decoration:none;
+}
+.clear
+{
+	clear:both !important;
+}
+a,a:hover{
+	text-decoration: none;
+
+}
+ul,ol{
+	list-style: none;
+}
+
+/* Wrapper Section */
+#wrapper
+{
+	background-color:grey;
+}
+#container    /* Container Section */
+{
+	margin:0 auto;
+	background:white;
+}
+.content
+{
+ padding:15px;	
+}
+#social ul li       /* Social Networks Navigation */
+{
+	float:left;
+	padding:3px;
+	
+}
+#social img
+{
+	border:0;
+}
+header #topSection
+{
+	background-color:white;
+	padding-left:5px;
+}
+/* Top Navigation*/
+#searchImage                        
+{
+	border:1px solid lightgrey;
+	float:left;
+	padding:3px;
+	border-right:0;
+}
+#searchImage img
+{
+	border:0;
+}
+#searchBox  .search
+{
+	padding:3.5px;
+	padding-right:20px;
+	float:left;
+}
+#searchContainer
+{
+	margin:2px;
+	padding-bottom:5px;
+}
+/* Title Part*/
+#title
+{
+	background-color:#76D2C5;
+	padding:30px;
+}
+#title img
+{
+	border:0;
+}
+/* Bottom Navigation */
+nav  ul 
+{
+	background-color:#91DBD1;
+	}
+nav  ul li
+{
+	padding-right:33px;
+	float:left;
+	padding-top:13px;
+	padding-bottom:15px;
+	padding-left:20px;
+}
+nav a
+{
+	color:white;
+}                                        /* Image Section*/
+.imageBox
+{
+	border:1px solid #EEEEEE;
+	padding:5px;
+	padding-bottom:10px;
+	margin-bottom:20px;
+}
+.top
+{
+  padding:18px;
+  
+}
+.top h1
+{
+	font-family:Arial;
+	font-weight:normal;
+	font-size:18px;
+	text-align:center;
+	color:black;
+	opacity:0.5;
+	
+}
+.fig img
+{
+	padding:5px;
+	border-top:1px solid #EEEEEE;
+	border-bottom:1px solid #EEEEEE;
+	width:200px;
+	margin-top:8px;
+}
+fig
+{
+	padding-top:15px;
+}
+.para p
+{
+	color:lightgrey;
+	padding:10px;
+	text-align:justify;
+	font-size:15px;
+}
+.para a
+{
+	color:lightgrey;
+}
+.middle
+{
+	border-top:1px solid #EEEEEE;
+	border-bottom:2px solid #EEEEEE;
+	padding-left:5px;
+	padding-right:10px;
+}
+.bottom p
+{
+	color:lightgrey;
+	padding:25px;
+	font-style:italic;
+	
+}
+.bottom a
+{
+	color:lightblue;
+}
+.paddingsection
+{
+	padding:13px;
+}
+.info 		/* Info Section */  /*Footer Top Section */
+{
+	border:1px solid #EEEEEE;
+	margin-bottom:30px;
+}
+h2
+{
+	font-family:Verdana;
+	color:black;
+	opacity:0.5;
+	padding:10px;
+	text-align:center;
+	font-weight:normal;
+	padding-top:20px;
+}
+.image
+{
+	float:left;
+	padding:8px;
+	width:80px;
+}
+.about
+{
+	padding:15px;
+}
+.text
+{
+	text-align:justify;
+	color:lightgrey;
+	padding-top:3px;
+}
+
+.links  a,.text a
+{
+	color:#9CE4EA;
+}
+.links ul li
+{
+	text-align:center;
+	padding:15px;
+	border-bottom:1px solid lightgrey;
+}
+.popular                                                    /* Popular Section */
+{
+	margin-bottom:20px;
+}
+.left img
+{
+	width:60px;
+	height:40px;
+	float:left;
+	border:1px solid lightgrey;
+	padding:2px;
+}
+.right
+{
+	padding-left:10px;
+	float:left;
+}
+.right p
+{
+	font-style:italic;
+	color:lightgrey;
+	font-size:15px;
+}
+.right a 
+{   font-style:normal;
+	color:#9CE4EA;
+}
+ #footerbody				/* Footer Body */
+ {
+	background-color:#77d1c4;
+ }
+ #gallary
+ {
+	padding:8px;
+ }
+#gallary img					/*glary Section */
+{
+	//width:70px;
+	height:74px;
+	border:2px solid white;
+	
+}
+h3
+{
+	color:white;
+	font-size:30px;
+	font-family:calibri;
+	font-weight:normal;
+	padding:5px;
+	border-bottom:1px solid white;
+}
+ .subgallary
+{
+	padding:5px;
+	//float:left;
+}
+.f1 img
+{
+	float:left;
+}
+.logo                                                   /* Logo Section  */
+{
+	padding:5px;
+}
+.data p,.paragraph
+{
+	color:white;
+	font-size:15px;
+	line-height:25px;
+	text-align:left;
+	padding-bottom:25px;
+}
+.data a,.paragraph a
+{
+	color:white;
+	text-decoration:underline;
+}
+#contact						/* Contact Section */
+{
+	padding-bottom:25px;
+}
+.paragraph
+{
+	line-height:20px;
+	padding-bottom:10px;
+}
+footer							/* Footer Section  */
+{
+	 background-color:#91d9ce;
+	 color:white;
+	 padding:15px;
+	 line-height:20px;
+	 font-size:17px;
+}
+footer a
+{
+	color:white;
+	text-decoration:underline;
+}

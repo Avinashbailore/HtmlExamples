@@ -1,0 +1,5 @@
+1.Sir, please check template with network connectivity bcz i have used font-families from google fonts.
+
+2.Sir @media query is working fine in Google CHrome and IE but not working in firefox..may be my machine has older version..
+
+3.I did n't adjust some paddings due to lack of time.

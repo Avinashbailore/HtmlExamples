@@ -1,0 +1,432 @@
+/* Golbal CSS */
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+
+body{
+	font:normal 100% Arial;
+	font-family: 'Titillium Web', sans-serif;
+}
+img { 
+max-width: 100%; 
+height: auto; 
+width: auto\9; /* ie8 */ 
+}
+
+a,a:hover{
+	text-decoration: none;
+}
+ul,ol{
+	list-style: none;
+}
+
+/* Structural CSS */
+#background{
+background:url('../images/bg.jpg');
+background-size:100%;
+}
+
+.header{
+background-color:#373A40;
+border:1px solid black;
+}
+
+
+/* MENU */
+#menu{
+
+}
+#menu-toggle{
+	background-color:#373A40;
+	padding:15px;
+	color:#fff;
+	font-family: 'Titillium Web', sans-serif;
+	font-size:1em;
+	cursor:pointer;
+	color:white;    
+	width:90px;
+	margin:0 auto;
+	font-size:25px;
+}
+#menu ul{
+display:none;
+}
+.menu-open #menu ul{
+	display: block;
+}
+#menu ul{}
+#menu li{
+border-bottom:1px solid #162c3b;
+}
+#menu li a{
+	padding:10px;
+	background-color:#ffffff;
+	display: block;
+	color:#162c3b;
+}
+
+.zavada-bg img{
+margin-top:10px;
+
+}
+.anchors{
+width:215px;    /* 94%; 215px */
+margin:0 auto;
+margin-top:20px;
+}
+.anchors a{
+width:100%;  /* NO EFFECT */
+}
+.textbox{
+width:170px;     /* 170px; 72%; 55.555557% */
+margin:0 auto;
+}
+.anchor-text{    
+margin:0 auto;
+width:94%;
+margin-top:20px;
+margin-bottom: 65px;
+}
+#text{
+border-radius:30px;}
+.imgone img{
+margin-top:40px;}
+
+
+/* FIRST BOX */ 
+.firstbox{                /* CHANGE !!!! */ 
+width:94.4444%;
+background-color:#ffffff;
+margin:0 auto;
+margin-top:28px;}
+
+.A-Blue-Morning{              /* CHANGE !!!! */ 
+padding-top:40px;
+}
+.A-Blue-Morning h2{             /* CHANGE !!!! */ 
+color:#4C4C4C;
+text-align:center;
+}
+.content {                    /* CHANGE !!!! */ 
+padding-top:55px;
+text-align:center;
+}
+.content p{
+color:#000000;}
+
+.sites {
+margin-top:25px;
+}
+.imagess{
+width:138px;
+margin:0 auto;
+margin-bottom: 30px;}
+
+.readmore{                     /* CHANGE !!!! */ 
+border:1px solid #57A8C1;     
+width:98px;
+margin:0 auto;
+border-radius:30px;
+font-size:16px;
+padding:8px;
+}
+.readmore a{                  /* CHANGE !!!! */ 
+color:#57A8C1;
+}
+.commentuser{
+margin-top:35px;
+overflow:hidden;
+font-size:12px;
+}
+.user{
+float:right;
+}
+.comment{
+float:left;
+}
+/* FIRST END */ 
+
+
+/* SECOND */
+.secondbox{
+background-color:#3A3A3A;
+width:94.4444%;
+margin:0 auto;
+margin-top:28px;}
+
+.ABlueMorning-two{
+padding-top:40px;
+}
+.ABlueMorning-two h2{
+text-align:center;
+color:#CC8828;
+margin:0 auto;
+}
+.content-two{
+text-align:center;}
+.content-two p{
+color:#ffffff;
+}
+.readmore-two a{                       
+color:#CC8828;
+}
+
+.readmore-two{                             
+border:1px solid #CC8828;     
+width:98px;
+margin:0 auto;
+border-radius:30px;
+font-size:16px;
+padding:8px;
+
+
+}                         
+
+/* THIRD */ 
+.thirdbox{
+background-color:#57A8C1;
+width:94.4444%;
+margin:0 auto;
+margin-top:28px;
+}
+.ABlueMorning-three{
+padding-top:40px;
+}
+.ABlueMorning-three h2{
+text-align:center;
+color:#ffffff;
+margin:0 auto;}
+
+.content-three p{
+color:#ffffff;
+}
+.content-three{
+text-align:center;}
+.readmore-three a{                         
+color:#ffffff;
+}
+
+.readmore-three{           
+width:98px;
+margin:0 auto;
+border-radius:30px;
+font-size:16px;
+padding:8px;                      
+border:1px solid #ffffff; }
+
+
+/* FOURTH */ 
+.fourthbox{
+background-color:#ffffff;
+width:94.4444%;
+margin:0 auto;
+margin-top:28px;
+}
+.ABlueMorning-four{
+padding-top:40px;
+}
+.ABlueMorning-four h2{
+text-align:center;
+color:#000000;
+margin:0 auto;}
+
+.content-four p{
+color:#000000;
+}
+.content-four{
+text-align:center;}
+
+.readmore-four{                     
+border:1px solid #57A8C1;     
+width:98px;
+margin:0 auto;
+border-radius:30px;
+font-size:16px;
+padding:8px;
+}
+.readmore-four a{                  
+color:#57A8C1;
+}
+
+/* FIFTH */ 
+.fifthbox{
+background-color:#3A3A3A;
+width:94.4444%;
+margin:0 auto;
+margin-top:28px;}
+
+.ABlueMorning-five{
+padding-top:40px;
+}
+.ABlueMorning-five h2{
+text-align:center;
+color:#CC8828;
+margin:0 auto;
+}
+.content-five p{
+color:#ffffff;
+}
+.content-five{
+text-align:center;}
+.readmore-five a{                              
+color:#CC8828;
+}
+
+.readmore-five{                               
+border:1px solid #CC8828;     
+width:98px;
+margin:0 auto;
+border-radius:30px;
+font-size:16px;
+padding:8px;
+} 
+/*   fifth end */ 
+   
+   
+/* SIXTH */ 
+.sixthbox{
+background-color:#57A8C1;
+width:94.4444%;
+margin:0 auto;
+margin-top:28px;
+}
+.ABlueMorning-six{
+padding-top:40px;
+}
+.ABlueMorning-six h2{
+text-align:center;
+color:#ffffff;
+margin:0 auto;}
+.content-six{
+text-align:center;}
+
+.content-six p{
+color:#ffffff;
+}
+
+.readmore-six a{                      /*   NO  CHANGE !!!! */ 
+color:#ffffff;
+}
+
+.readmore-six{           
+width:98px;
+margin:0 auto;
+border-radius:30px;
+font-size:16px;
+padding:8px;                      /*   NO   CHANGE !!!! */ 
+border:1px solid #ffffff; }
+
+/*   sixth end */ 
+
+
+/*   CONTAINER-FOUR */ 
+
+.container-four-main{
+background-color:#ffffff;
+width:94.4444%;
+margin:0 auto;
+margin-top:68px;
+}
+.container-four-center{
+width:88.795321%;
+margin:0 auto;
+}
+
+.tags-content p{
+text-align:center;
+color:#000000;
+}
+
+.tags-content h2{
+color:#CC8828;
+}
+.pic-content h2{
+color:#CC8828;
+}
+
+.one,.two,.three,.four,.five {
+overflow:hidden;}
+.one{
+margin-top:44px;}
+
+.leopard{float:left;
+margin-right:11px;
+}
+.tiger{float:left;
+margin-right:11px;
+}
+.tree{float:left;
+margin-right:11px;
+}
+.dear{float:left;
+margin-right:11px;
+}
+.monkey{float:left;
+margin-right:11px;
+}
+.name-date{float:left;
+}
+
+
+.archives h2{
+color:#9B4800;
+}
+.archives{
+margin-top:86px;
+}
+.archives-content{
+background-color:grey;
+border:1px solid grey;
+margin-top:35px;}
+
+
+.gallery h2{
+color:#9B4800;
+}
+.gallery{
+margin-top:70px;
+}
+
+.popular-post h2{
+color:#9B4800;
+}
+.popular-post{
+margin-top:20px;
+
+}
+.popular-one,.popular-two,.popular-three{
+overflow:hidden;
+margin-top:35px;
+}
+.popular-three{
+padding-bottom:80px;}
+
+/*   CONTAINER-FOUR  ENDS  */ 
+
+/*   FOOTER  */ 
+#footer{
+background-color:#B9AF94;
+}
+.footer-content{
+text-align:center;
+padding-top:42px;
+}
+.back-to-top{
+text-align:center;
+color:#ffffff;
+padding:26px;
+}
+.footer-imagess{
+width:138px;
+margin:0 auto;
+}
+
+/*   FOOTER ENDS */ 
+
+
+
+
+
+

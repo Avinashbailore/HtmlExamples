@@ -1,0 +1,102 @@
+
+    #social
+	{
+	 float:left;
+	}
+	#searchContainer			  	/* Search Container */
+	{
+		float:right;
+		 margin-top:10px;
+	}
+	#searchImage
+	{
+		float:left;
+	}
+	#searchBox
+	{
+		float:left;
+	}
+	section								
+	{
+		float:left;	
+	}
+	#title img						/* Title Part */
+	{
+		margin-left:224px;;
+	}
+	nav ul li							/* Navigation Section */
+	{
+		padding-right:66px;
+	}
+	#imageSection					/* Image Section  */
+	{
+		float:left;
+		padding-right:5px;
+		width:40%;
+	}	
+	.imageBox
+	{
+		width:400px;
+	}
+	.fig img
+	{
+	 float:left;
+	}
+	.para
+	{
+		line-height:25px;
+	}
+	.info						/* Information Section */
+	{
+		padding:5px;
+		width:100%;
+	}
+	.paddingSection
+	{
+	 padding:5px;
+	
+	}
+	#footerTop			/* footer section   */
+	{
+		float:left;
+		width:40%;
+	}
+	
+    .f1 img
+	{
+		float:none;
+	}
+	#gallary                    /* Gallary   */
+	{
+		float:left;
+		width:30%;
+	}
+	.subgallary
+	{
+		float:none;     /* Removing  Float */
+		padding-right:50px;
+	}
+	#logosection
+	{
+		float:left;
+		width:35%;
+		padding-top:10px;
+	}
+	#contact
+	{
+		float:left;
+		width:30%;
+		padding-top:10px;
+		padding-left:10px;
+	}
+	.template
+	{
+		padding:5px;
+	}
+	#copy				/* Footer Section */	
+	{
+		text-align:center;
+	}
+	
+
+

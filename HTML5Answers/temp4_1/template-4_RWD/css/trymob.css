@@ -1,0 +1,554 @@
+*,ul,li{
+	margin: 0px;
+	padding: 0px;
+	box-sizing:border-box;
+}
+
+ul,li{
+	list-style-type: none;
+}
+
+img{
+	max-width: 100%;
+	height: auto;
+}
+
+a{
+	text-decoration: none;
+	color: black;
+}
+
+
+.wrapper
+{
+	height: auto;
+}
+
+.header
+{
+	height: auto;
+}
+
+
+.clear
+{
+	 clear: both;
+	 
+}
+.container
+{
+	margin: 0 auto;
+	height: auto;
+	padding-left: 16px;
+	padding-right: 16px;
+	
+
+}
+
+.phone
+{
+	background-color: #eeeeee;
+	padding-top: 13px;
+	padding-bottom: 27px;
+}
+
+.phone .container img
+{
+	float: left;
+	margin-right: 5px;
+}
+
+.phone .container p
+{
+	float: left;
+}
+
+.msg
+{
+	float: right;
+}
+
+.msg img
+{
+	float: left;
+}
+
+.msg p
+{
+	float: left;
+
+}
+
+.msg p,.phone .container p
+{
+	color: #ff7500;font-size: 15px;
+	
+}
+
+.logo
+{
+	padding-top: 33px;
+	padding-bottom: 70px;
+
+}
+
+.logo img
+{
+	float: left;
+}
+
+
+.toggle
+{
+	float: right;
+	margin-right: 10px;
+	margin-top: 14px;
+}
+
+.nav
+{
+	display: none;
+}
+
+.welcome
+{
+	background-image: url("../images/templatemo_carousel_bg.jpg");
+	background-size: 100% 100%;
+	padding-top: 200px;
+	padding-bottom: 200px;
+}
+
+.innerwelcome
+{
+	width: 70%;
+	margin: 0 auto;
+	text-align: center;
+
+}
+
+.innerwelcome h1,.innerwelcome p
+{
+	color: white;
+	margin-bottom: 10px;
+}
+
+
+.innerwelcome h1
+{
+	font-family: 'Verdana';
+    font-weight: normal;
+}
+
+.innerwelcome p
+{
+	    margin: 12px 0px 25px 0px;
+    font-family: 'Batang';
+}
+
+.view,.free
+{
+	display: block;
+	margin: 0 auto;
+	margin-top: 10px;
+	margin-bottom: 20px;color: white;font-size: 18px;
+}
+
+.view
+{
+	background-color: #2ecc71;
+	border:1px solid #2ecc71;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+
+
+
+
+}
+
+.free
+{
+	background-color: #ff7600;
+	border:1px solid #ff7600;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+
+}
+
+.middle
+{
+	    padding: 78px 20px 38px 20px;
+	    text-align: center;
+	        border-bottom: 1px solid #929292;
+}
+
+.middle h2
+{
+	font-size: 35px;
+}
+
+.middle h2 span
+{
+	text-align: center;
+    padding: 10px 20px;
+    color: #FF7500;
+    font-size: 35px;
+}
+
+.middle p
+{
+	margin-top: 20px;
+	font-size: 15px;
+    font-weight: normal;
+    color: #929292;
+    padding-top: 15px;
+    font-family: 'verdana';
+}
+
+.lowerContent
+{
+	padding-top:60px;
+}
+
+.innerBox
+{
+	clear: both;
+}
+
+.innerBox img
+{
+	float: left;
+}
+
+.innerBox h3
+{
+	float: left;
+	margin-top: 20px;
+	margin-left: 5px;font-family: 'arial';
+
+}
+
+.innerBox p
+{
+	clear: left;
+	text-align: justify;
+    margin: 15px 5px;
+    color: #929292;
+    font-family: 'Adobe Fangsong Std R';
+    padding: 10px;
+    line-height: 20px;
+}
+
+.innerBox a
+{
+	display: inline-block;
+    color: white;
+    background: #FF7600;
+    padding: 10px;
+    float: right;
+
+}
+
+
+.team
+{
+	clear: both;
+	padding: 70px 20px;
+	margin-top: 120px;
+	background: url(../images/background.png) repeat;
+}
+
+
+.team h3 span
+{
+	    margin: 100px auto;
+    background: url(../images/background.png) repeat;
+    font-family: 'Adobe Garamond Pro';
+    font-size: 14px;
+    font-weight: noraml;
+    display: block;
+    margin-top: -6px;
+    width: 40%;
+    color: white;
+}
+
+.teampics 
+{
+	margin: 0 auto;
+	margin-bottom: 10px;
+}
+
+.teampics p
+{
+	text-align: center;
+	margin-top: 10px;
+	color: white;
+}
+
+
+.portfolio
+{
+	text-align: center;
+    margin-top: 60px;
+    padding: 18px;
+}
+
+.our h3 span
+{
+	    padding: 0 15px;
+    font-size: 13px;
+    font-family: 'Adobe Caslon Pro';
+    font-weight: normal;
+    text-align: center;
+    display: block;
+}
+
+.navs nav
+{
+	text-align: center;
+    margin: 50px auto;
+}
+
+.navs nav a span
+{
+	    color: #ff7600;
+}
+
+.pics
+{
+
+}
+
+.pics img
+{
+	margin: 8px auto;
+	display: block;
+}
+
+.loadm
+{
+	margin-top: 70px;
+}
+
+.loadm a
+{
+	background: #ff7600;
+    color: #fff;
+    font-size: 1.125em;
+    width: 130px;
+    padding: 12px 0;
+    margin: 0 auto;
+    margin-top: 70px;
+    cursor: pointer;
+    border-bottom: 2px solid #d35400;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.picss
+{
+	display: none;
+}
+
+.blog
+{
+	    margin-top: 60px;
+    margin-bottom: 70px;
+        border-bottom: 1px solid #CCCCCC;
+}
+
+.hh h3 span
+{
+	padding: 0 15px;
+    font-size: 15px;
+    font-family: 'Adobe Caslon Pro';
+    font-weight: normal;
+    text-align: center;
+    display: block;
+    margin: 0px auto;
+    margin-top: -10px;
+    width: 40%;
+}
+
+
+.hh
+{
+	margin-bottom: 70px;
+}
+
+.btnDate
+{
+	    background: #ff7600;
+    color: #ffffff;
+    font-size: 14px;
+    padding: 8px 0px;
+    cursor: pointer;
+    width: 130px;
+    text-align: center;
+    border-bottom: 2px solid #d35400;
+    float: right;
+    margin-top: -12px;
+
+}
+
+.graphic h4,.graphic p
+{
+	float: left;
+	clear: left;
+}
+
+.posttext
+{
+	clear: both;
+	padding: 20px 0;
+    text-align: justify;
+    line-height: 20px;
+
+}
+
+.bro
+{
+	margin-bottom: 40px;
+}
+
+.textOrange
+{
+	color: orange;
+}
+
+.contactus
+{
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+
+.map img
+{
+	margin-bottom: 5px;
+}
+
+.contactInfo
+{
+	margin-top:5px;
+	    padding-bottom: 50px;
+}
+
+.address
+{
+	clear: both;
+	margin-top: 5px;
+	margin-bottom: 7px;
+}
+
+.address img
+{
+	
+	float: left;
+	margin-right: 10px;
+
+}
+
+.forms
+{
+	    width: 280px;
+}
+
+.forms input,textarea
+{
+	    width: 280px;
+	    margin-bottom: 20px;
+	    padding: 5px;
+}
+
+.sendButton
+{
+	float: right;
+	font-size: 1.25em;
+    cursor: pointer;
+    width: 70px;
+    text-align: center;
+    border-bottom: 2px solid #d35400;
+    
+    background: #ff7600;
+    color: #fff;
+}
+
+.lorem
+{
+	background-color: #8996a0;
+	padding-bottom: 20px;
+	margin-bottom: 60px;
+}
+
+.moe
+{
+	float: right;
+}
+
+
+.partners
+{
+	text-align: center;
+	 border-bottom: 2px solid #CCCCCC;
+		    text-align: center;
+}
+
+.partners h3 
+{
+	margin-bottom: 30px;
+}
+
+.partners img
+{
+	    margin-bottom: 45px;
+}
+
+
+.footer
+{
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.social,.top,#copyRight
+{
+	text-align: center;
+
+}
+
+.social img
+{
+	margin-right: 5px;
+}
+
+.top
+{
+	clear: both;
+	margin-top: 45px;
+	
+}
+
+.top a
+{
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-right: 20px;
+	padding-left: 20px;
+	background: #ff7600;
+	color: white;
+}
+
+#copyRight
+{
+	margin-top: 45px;
+	text-align: center;
+}
+
+#cpName
+{
+	color: #428bca;
+}

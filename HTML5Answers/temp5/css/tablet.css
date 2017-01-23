@@ -1,0 +1,139 @@
+
+/********* HeaderCSS **************/
+#logo{
+		padding-right:30px;
+		padding-top:5px;
+		padding-left:5px;
+		padding-bottom:5px;
+		float:left;
+		margin:0;
+	}
+#menu-toggle{
+	display: none;
+	}
+	#menu ul
+	{
+	display: block
+	}
+#menu ul li
+{
+ float:left;
+ border-bottom:2px solid white;
+ 
+}
+#menu li a
+{
+	background-color:#05A6B3;
+	display: block;
+	color:#fff;
+	padding:35px;
+	padding-right:35px;
+	border-right:1px solid #3CBAC4;
+}
+/******************************************** Banner Section*********/
+#bannerContainer{
+background:url("../images/banner.jpg") no-repeat;
+background-size:100% 100%;
+
+padding:29px 14px 22px 14px;
+}
+#slideNav
+{
+display:block;
+}
+/************************************************ bannerBoxContent ***************/
+.box{
+float:left;
+width:25%;
+box-sizing:border-box;
+padding:10px;
+background-color:#00E0F2;
+font-weight:normal;
+}
+/******************* Banner Text Content *********************************/
+#bannerTextContent
+{
+overflow:hidden;
+}
+.sectionContent
+{
+box-sizing:border-box;
+width:50%;
+float:left;
+}
+.arrow
+{
+display:none;
+}
+/******************* blogSectionContent ******************************************************/
+#blogSectionContent
+{
+overflow:hidden;
+}
+.blockContent
+{
+box-sizing:border-box;
+width:25%;
+float:left;
+}
+#arrowTop
+{
+display:block;
+}
+
+.newsBlockImageContent
+{
+overflow:hidden;
+}
+.Image
+{
+width:30%;
+float:left;
+}
+.Text
+{
+width:70%;
+float:right;
+}
+
+/*********************** UPCOMING EVENTS BLOCK *********************************/
+
+.firstImage,.secondImage{
+margin-left:10px;
+margin-right:10px;
+background:url('../images/n-2.jpg') no-repeat;
+background-size:100% 100%;
+}
+.secondImage{
+background:url('../images/n-3.jpg') no-repeat;
+background-size:100% 100%;
+}
+
+/***************staffMembersContainer *********************************************/
+#staffMembersContainer
+{
+margin:0 auto;
+overflow:hidden;
+}
+.staffMember
+{
+width:18%;
+float:left;
+margin-left:10px;
+}
+/*************** Footer *****************/
+#footerContents
+{
+overflow:hidden;
+}
+
+.addressPart
+{
+width:32%;
+float:left;
+}
+.socialBox
+{
+width:35%;
+float:left;
+}

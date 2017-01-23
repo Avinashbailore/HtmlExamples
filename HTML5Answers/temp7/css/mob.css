@@ -1,0 +1,162 @@
+/* Golbal CSS */
+*{
+	margin:0;
+	padding:0;
+}
+body
+{
+	font:normal 100% Arial;
+	font-family: 'Titillium Web', sans-serif;
+}
+img { 
+max-width: 100%; 
+height: auto; 
+width: auto\9; /* ie8 */ 
+}
+a,a:hover{
+	text-decoration: none;
+}
+ul,ol{
+	list-style: none;
+}
+/* structural css */
+#wrappercontent{
+}
+#heading{
+background-color:#242424;
+}
+#heading h1{
+text-align:center;
+color:white;
+}
+#heading  h2{
+text-align:center;
+color:#797979;
+}
+.menucontainer{
+background-color:#85CCD9;
+text-align:center;
+}
+.anchor ul li{
+color:#285962;
+font-size:12px;
+display: block;
+padding-left:11px;
+float:left;
+}
+.anchor{
+width:275px;
+margin:0 auto;
+overflow:hidden;
+padding:30px 40px;
+}
+.maincontainer{
+padding-top:20px;
+padding-bottom:20px;
+}
+.image{
+margin-top:40px;
+background-color:white;
+background-size:100% 100%;
+}
+.image img{
+background-size:100% 100%;
+}
+.specificfeatures
+{
+padding-top:30px;
+padding-left:15px;
+padding-bottom:25px;
+}
+.individualfeatures{
+float:left;
+overflow:hidden;
+}
+.information{
+color:#6F6F6F;
+padding-top:15px;
+text-align:justify;
+}
+h3{
+margin-top:20px;
+}
+.functionalities{
+background-color:#E3E9E9;
+padding-bottom:25px;
+}
+.display img{
+background-size:100% 100%;
+overflow:hidden;
+padding-top:20px;
+}
+.description{
+color:#6F6F6F;
+margin-top:37px;
+}
+.home{
+color:white;
+padding:10px 10px;
+background-color:#FC6433;
+margin-top:10px;
+}
+.redirectbutton{
+margin-top:38px;
+}
+#orangecolor{
+color:orange:
+}
+.bizzimage{
+float:left;
+color:#6F6F6F;
+width:215px;
+margin-right:15px;
+}
+#orangecolor
+{
+color:orange;
+}
+.clear
+{
+clear:both;
+}
+.info{
+color:#6F6F6F;
+}
+.content{
+padding-bottom:50px;
+
+}
+.calendar{
+margin-top:10px;
+}
+.calendarbox{
+background-color:#16445C;
+float:left;
+overflow:hidden;
+width:53px;
+height:59px;
+margin-right:20px;
+color:white;
+}
+.moreinfo{
+padding-top:40px;
+padding-left:20px;
+}
+.latest{
+}
+.separate{
+}
+.footerpart{
+background-color:#85CCD9;
+padding-bottom:80px;
+opacity:0.58;
+}
+.socialmedia{
+margin-top:20px;
+float:right;
+}
+.footerpart{
+}
+
+
+

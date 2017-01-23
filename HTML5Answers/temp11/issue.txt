@@ -1,0 +1,8 @@
+my desktop version is working correctly but
+I have mentioned width for images for floating purpose.
+
+This is bringing me an issue of height adjustment with elasticity.
+
+tried but couldnt achieve because of time.
+
+ThankYOu.

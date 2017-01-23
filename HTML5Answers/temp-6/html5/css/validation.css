@@ -1,0 +1,57 @@
+#wrapper{
+	background-color:white;
+	
+	margin:0 auto;
+	width:950px;
+
+}
+
+.heading
+{
+text-align:center;
+
+}
+fieldset{
+	width:250px;
+	height:60px;
+}
+.radio
+{
+box-shadow:  1px 1px  1px 3px  #F19B9C;
+}
+.feilds{
+padding-top:25px;
+padding-left:50px;
+width: 316px;
+margin:0 auto;
+}
+.last
+{
+width:270px;
+margin-top:10px;
+box-shadow:  1px 1px  1px 3px  #F19B9C;
+}
+.first
+{
+width:270px;
+margin-top:10px;
+box-shadow:  1px 1px  1px 3px  #F19B9C;
+}
+.age
+{
+width:270px;
+margin-top:10px;
+}
+
+.favorite
+{
+width:270px;
+margin-top:10px;
+box-shadow:  1px 1px  1px 2px  #F19B9C;
+}
+
+.message{
+width:270px;
+height:90px;
+margin-top:10px;
+}

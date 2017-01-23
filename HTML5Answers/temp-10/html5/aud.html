@@ -1,0 +1,51 @@
+<!doctype html>
+<html>
+<head>
+	<title>audio</title>
+	<!--internal style starts-->
+	<style>
+	*
+	{
+		margin:0;
+		padding:0;
+		box-sizing:border-box;
+	}
+	#wrapper
+	{
+		height:625px;
+		width:100%;
+		background-color:#f1f1f1;
+		padding-top:240px;
+		text-align:center;
+		
+	}
+	.box
+	{
+		margin:0 auto;
+		
+		width:34%;
+		border:5px solid black;
+	}
+	</style>
+	
+	<!--internal style ends-->
+	
+	
+</head>
+<body>
+	<div id="wrapper">
+	<h1>Audio Track</h1>
+		<div class="box">
+		
+		<audio controls loop autoplay muted>
+			<source src="Sleep Away.mp3" type="audio/mpeg">
+			<source src="Sleep Away.ogg" type="audio/ogg">
+			<source src="Sleep Away.wav" type="audio/wav">
+			browser doesn't support html5 audio tag
+		</audio>
+		
+		</div>
+	</div>
+</body>
+</html>
+		

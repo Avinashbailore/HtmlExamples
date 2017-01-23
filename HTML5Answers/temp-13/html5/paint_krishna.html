@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<head>
+	<title>Canvas Paint Application</title>
+	<style>
+		#wrapper{
+			margin:0 auto;
+			height:700px;
+			width:700px;
+			border:2px solid #000;
+		}
+		fieldset{
+		border:none;
+		margin-top:35px;
+		}
+		legend{
+		font-size:40px;
+		margin-bottom:15px;
+		}
+		section{
+		margin-bottom:15px;
+		}
+	</style>
+</head>
+<body>
+	<div id="wrapper"">
+		<form>
+			<fieldset>
+				<legend>Paint Application Using Canvas</legend>
+				<section><label for="color">Fill Color:</label><input type="color" id="color"></section>
+				<section><label for="stroke">Stroke Color:</label><input type="color" id="stroke"></section>
+				<section>Stroke width:<input type="number" min="1" max="15" id="stroke-wide"></section>
+				<section>Drawing Tool:
+					<select list="tools" id="selection" onchange="reference()">   <!--calling function reference() on changin selection.  -->
+						<datalist id="selection">
+										<option>--select tools--</option>
+										<option value="line">Line</option>
+										<option value="rect">Rectangle</option>
+										<option value="pencil">Pencil</option>
+										<option value="circle">Circle</option>
+										<option value="eraser">Eraser</option>
+						</datalist>
+					</select>
+				</section>
+				<div id="sketch">
+					<canvas id="canv" height="400px" width="450px" style="border:solid 2px;position:absolute;"></canvas>
+					<canvas id="canv1" height="400px" width="450px" style="border:solid 1px;"></canvas>
+				</div>
+			</fieldset>
+		</form>
+	</div>
+	<script>
+			var element, strok;
+			var canvas=document.getElementById("canv");
+			var canvas1=document.getElementById("canv1");
+			var strok=document.getElementById("stroke-wide");
+			var ctx=canvas.getContext('2d');
+			var ctx1=canvas1.getContext('2d');
+			var mouse={x1:0,y1:0,x2:0,y2:0};
+			function reference()  //called on selecting a tool from drop-down.
+			{
+				element=document.getElementById("selection").value;
+				console.log(element);
+			}
+			
+			function onPaint(){
+			switch(element){
+				case "line":
+				ctx.clearRect(0, 0, canvas.width, canvas.height); 
+				ctx.beginPath();
+				ctx.moveTo(mouse.x1,mouse.y1);
+				ctx.lineTo(mouse.x2,mouse.y2);
+				ctx.lineWidth=strok.value;
+				ctx.stroke();
+				ctx.closePath();
+				break;
+				
+				case "rect":
+				//ctx.clearRect(0, 0, canvas.width, canvas.height); 
+				ctx.beginPath();
+				//ctx.lineWidth="2";
+				ctx.rect(mouse.x1,mouse.y1,event.offsetX-mouse.x1,event.offsetY-mouse.y1);
+				ctx.lineWidth=strok.value;
+				ctx.stroke();
+				ctx.closePath();
+				break;
+				
+				case "pencil":
+				ctx.lineTo(mouse.x2,mouse.y2);
+				ctx.lineWidth=strok.value;
+				ctx.stroke();
+				
+				break;
+				case "circle":
+				//ctx.clearRect(0, 0, canvas.width, canvas.height); 
+				ctx.beginPath();
+				ctx.lineWidth="2";
+				var radius=Math.abs(event.offsetX-mouse.x1)/2;
+				ctx.arc(mouse.x1,mouse.y1,radius,0,2*Math.PI);
+				ctx.lineWidth=strok.value;
+				ctx.stroke();
+				ctx.closePath();
+				
+				break;
+				default:
+				ctx1.clearRect(event.offsetX,event.offsetY, 20, 10); 
+				ctx.clearRect(event.offsetX,event.offsetY, 20, 10); 
+				
+				}//switch ends here.
+			}   //function onPaint() ends here.
+				ctx.lineWidth=strok.value;
+			function move(e){
+					mouse.x2=e.pageX-this.offsetLeft;
+					mouse.y2=e.pageY-this.offsetTop;
+					onPaint();
+				}
+			  canvas.addEventListener('mousedown',function(e)
+			  {
+					ctx.beginPath();
+					mouse.x1=e.pageX-this.offsetLeft;
+					mouse.y1=e.pageY-this.offsetTop;
+					canvas.addEventListener('mousemove',move,false);
+			},false);
+			canvas.addEventListener('mouseup',function(e){
+				canvas.removeEventListener('mousemove',move,false);
+				ctx1.drawImage(paint,0,0);
+			},false);
+</script>
+</body>
+
+
+
+</html>

@@ -1,0 +1,70 @@
+<!doctypehtml>
+<html>
+<head>
+<title>drag and drop</title>
+<link rel="stylesheet" type="text/css" href="stylesheet.css"/>
+</head>
+<body>
+<div id="wrapper">
+	<div class="container" id="container" ondrop="drop(event)" ondragover="allowDrop(event)">
+	<aside>
+		<h1>Available Students</h1>
+		<div class="para">
+		<p id="para1" draggable="true" ondragstart="drag(event)">student A</p>
+		<p id="para2" draggable="true" ondragstart="drag(event)">student B</p>
+		<p id="para3" draggable="true" ondragstart="drag(event)">student C</p>
+		<p id="para4" draggable="true" ondragstart="drag(event)">student D</p>
+		<p id="para5" draggable="true" ondragstart="drag(event)">student E</p>
+		<p id="para6" draggable="true" ondragstart="drag(event)">student F</p>
+		<p id="para7" draggable="true" ondragstart="drag(event)">student G</p>
+		<p id="para8" draggable="true" ondragstart="drag(event)">student H</p>
+		<p id="para9" draggable="true" ondragstart="drag(event)">student I</p>
+		<p id="para10" draggable="true" ondragstart="drag(event)">student J</p>
+		<p id="para11" draggable="true" ondragstart="drag(event)">student K</p>
+		<p id="para12" draggable="true" ondragstart="drag(event)">student L</p>
+		<p id="para13" draggable="true" ondragstart="drag(event)">student M</p>
+		<p id="para14" draggable="true" ondragstart="drag(event)">student N</p>
+		<p id="para15" draggable="true" ondragstart="drag(event)">student O</p>
+		</div>
+	</aside>
+	<section>
+	<div id="mainBox">
+		<div class="box" ondrop="drop(event)" ondragover="allowDrop(event)"id="box1">
+			<h2>Team a</h2>
+		</div>
+		<div class="box" ondrop="drop(event)" ondragover="allowDrop(event)"id="box2">
+			<h2>Team B</h2>
+		</div>
+		<div class="box" ondrop="drop(event)" ondragover="allowDrop(event)" id="box3">
+			<h2>Team C</h2>
+		</div>
+	</div>
+	<div id="subBox">
+		<div class="box" ondrop="drop(event)" ondragover="allowDrop(event)"id="box4">
+			<h2>Team D</h2>
+		</div>
+		<div class="box" ondrop="drop(event)" ondragover="allowDrop(event)" id="box5">
+			<h2>Team E</h2>
+		</div>
+	</div>
+	</section>
+	</div>
+</div>
+</body>
+<script>
+function allowDrop(ev) {
+    ev.preventDefault();
+}
+
+function drag(ev) {
+    ev.dataTransfer.setData("text", ev.target.id);
+}
+
+function drop(ev) {
+    ev.preventDefault();
+    var data = ev.dataTransfer.getData("text");
+    ev.target.appendChild(document.getElementById(data));
+}
+
+</script>
+</html>

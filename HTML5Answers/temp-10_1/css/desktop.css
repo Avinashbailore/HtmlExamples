@@ -1,0 +1,63 @@
+/* Desktop */
+
+#menu-toggle 
+{
+display:none;
+}
+#menu ul
+{
+display:block;
+}
+#Home
+{
+height:25px;
+line-height:25px;
+}
+#content1ImgDiv
+{
+float:left;
+}
+#content1C
+{
+	width:40%;
+	float:right;
+}
+#content1Main
+{
+overflow:hidden;
+padding:90px 0;
+}
+#Content2C1
+{
+width:45%;
+float:left;
+}
+#Content2C2
+{
+width:45%;
+float:right;
+}
+#content2Main,#content3Main,#content4Main.#content5Main
+{
+overflow:hidden;
+}
+#content3_1,#content3_2,#content3_3
+{
+float:left;
+width:25%;
+}
+.content4Box
+{
+float:left;
+width:25%;
+}
+.content5ImgDiv
+{
+float:left;
+width:45%;
+}
+.content5Inner{
+float:left;
+width:45%;
+height:322px;
+}

@@ -1,0 +1,90 @@
+
+
+
+@media (min-width: 901px)
+{
+
+.networking, .col-box{
+float:left;
+}
+.navigator, #menu{
+float:right;
+margin-right:10%;
+}
+.navigator ul li p{
+display:inline-block;
+}
+.search-form{
+width:50%;
+margin:0 auto;
+}
+.italia, .lorem{
+width:25%;
+float:left;
+}
+.heading{
+padding-left:0px;
+margin-left:0;
+padding-right:20%;
+}
+.box-container2 .more{
+padding-right:18%;
+}
+.box-container2, .box-container4{
+padding-left:6%;
+}
+.box-container4 .lorem{
+width:22%;
+}
+.box-container2 .lorem{
+width:27%;
+}
+.box-container1 .italia{
+margin-left:6%;
+}
+.box-container3{
+padding-top:100px;
+padding-left:50px;
+padding-right:50px;
+}
+.figcap{
+margin:0 auto;
+width:45%;
+float:left;
+}
+.triplet figure{
+width:26%;
+float:left;
+}
+.left-box{
+width:66%;
+float:left;
+margin-left:5%;
+}
+.box-right{
+width:27%;
+float:left;
+}
+.mega-footer{
+padding-left:18px;
+width:98%;
+}
+.col12{
+width:30%;
+float:left;
+margin-right:15px;
+}
+.pics{
+width:24%;
+float:left;
+padding-top:20px;
+}
+.pics a img{
+width:90%;
+}
+
+
+
+	
+
+}/*media query stops*/

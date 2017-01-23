@@ -1,0 +1,111 @@
+html,head,body,div,li,a,ul,p{
+margin:0;
+padding:0;
+font-size:100%;
+box-sizing:border-box;
+}
+.main{
+}
+.header-top{
+background-color:#F7F7F7;
+height:12px;
+border:1px solid;
+}
+.header-bottom{
+height:6px;
+background-color:#1A1A1A;
+}
+.logo_nav-box{
+background-color:FFFFFF;
+margin:0 auto;
+width:80%;
+padding-top:24px;
+overflow:hidden;
+border:none;
+}
+.logo{
+width:50%;
+}
+.nav-box{
+width:100%;
+float:left;
+overflow:hidden;
+padding-left:72px;
+}
+.nav{
+padding-top:31px;
+padding-bottom:33px;
+width:75%;
+}
+ul{width:100%}
+li{
+list-style:none;
+display:inline;
+margin-top:18px;
+}
+a{text-decoration:none;
+color:#4D4D4D;
+margin-top:18px;
+padding-top:18px;
+}
+#home,#contacts,#services,#clients,#company{
+ margin-right:26px; 
+ font-size:17px;
+ margin-top:18px;
+ padding-right:11px;
+ width:78%;
+ font-family:Arial;
+ }
+#home{color:rgb(238,44,49);}
+.center-box{
+height:100px;
+background-color:#F7F7F7;
+display:none;
+}
+.mid-container{
+background-color:#FFFFFF;
+}
+.mid-container1{
+margin:0 auto;
+width:80%;
+}
+
+.news-box{
+width:50%;
+float:left;
+}
+.news{
+color:rgb(47,47,47);
+font-size:21px;
+font-family:Arial;
+padding-top:30px;
+
+}
+.dates{width:100%;margin:0 auto;overflow:hidden;}
+.box_date{border:1px solid;width:20%;height:85px;border-radius:10px;float:left;background-color:#F5F5F5;}
+.no24,.no21,.no09{text-align:center;padding-top:20px;width:100%}
+.month{text-align:center;}
+.pa1{color:#F41E24;line-height:16px;}
+.para{float:left;padding-left:26px;padding-bottom:25px;width:80%}
+.para{float:left;padding-left:26px;padding-bottom:25px;}
+.clear{clear:both;}
+.dates1{}
+.box1{border:1px solid yellow;width:100%;padding-top:33px;text-align:center;}
+.secondary{ width:50%;float:left;}
+.secondary-image{padding-top:50px;width:25%;}
+.leader{width:100%}
+.lead{color:#ED1E24;}
+.lll{color:#ED1E24;display:inline;}
+.para1{font-size:17px;line-height:25px;}
+.para2{padding-top:19px;line-height:25px;}
+.para1{font-size:17px;line-height:30px;color:#4D4D4D;font-family:Arial;display:inline;}
+.para2{padding-top:19px;line-height:30px;color:#4D4D4D;font-family:Arial;display:inline;}
+.footer1{border:none;;padding-bottom:77px;}
+.footer{border:none;background-color:#F7F7F7;}
+.social{border:none;height:106px;width:25%;float:left;}
+.social1{border:1px solid;width:100%;margin-top:55px;padding-left:10px;}
+.nav12{color:#4D4D4D;font-family:Arial;}
+#nav11{display:inherit;margin-top:10px;}
+.nav1{padding-top:10px;padding-left:8px;width:25%;float:left;font-family:Arial;color:#4D4D4D;}
+.contact,.legal{line-height:25px;padding-top:10px;padding-left:8px;width:25%;float:left;font-family:Arial;color:#4D4D4D;}
+.legal{padding-bottom:68px;width:25%}

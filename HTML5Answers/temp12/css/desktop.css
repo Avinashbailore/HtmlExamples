@@ -1,0 +1,104 @@
+
+	#wrapper                            /* Wrapper Section */
+	{
+		width:100%;
+		background-color:grey;
+	}
+	#container                       /* Container Section  */
+	{
+		margin:0 auto;
+		padding:15px;
+		width:64%;
+	}
+	header                                         /*Header  Part  */
+	{
+		padding:15px;
+	}
+	#social                                    /* Top Navigation */
+	{
+	 float:left;
+	}
+	#searchContainer                  /* Search Container  */
+	{
+		 float:right;
+		 margin-top:10px;
+		 margin-left:30%;
+	}
+	#searchBox
+	{
+		float:left;
+	}
+	section             
+	{
+		float:left;	
+	}
+	#title img                               /* Title Part   */
+	{
+		margin-left:22%;
+	}
+	nav ul li                                    /* Navigation Section  */
+	{
+		padding-right:66px;
+	}
+	#imageSection                         /* Image section  */
+	{
+		
+		float:left;
+		padding-right:5px;
+		width:40%;
+	}
+	.imageBox                                 /* Image box  */
+	{
+		width:400px; 
+	}
+	.fig img
+	{
+	 float:left;
+	}
+	.para     
+	{
+		line-height:25px;
+	}
+	.info                                              /*  Info Part  */
+	{
+		margin-left:10px;
+		padding:10px;
+	}
+	.paddingSection
+	{
+	  padding:5px;
+	
+	}
+	#footerTop				/* Footer Top  */
+	{
+		float:left;
+		width:40%;
+	}
+	
+  #gallary					/* Gallary  */
+	{
+		float:left;
+		width:30%;
+	}
+	#logosection			/* Logo Section */
+	{
+		float:left;
+		width:33%;
+		padding-top:10px;
+		padding-left:15px;
+	}
+	#contact                                  /* Contact Section */
+	{
+		float:left;
+		width:30%;
+		padding-top:10px;
+		padding-left:10px;
+	}
+	.template
+	{
+		padding:5px;
+	}
+	#copy                                    /* Footer Section */
+	{
+		text-align:center;
+	}

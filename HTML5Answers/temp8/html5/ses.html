@@ -1,0 +1,103 @@
+<!doctype html>
+<html>
+	<head>
+		<title>HTML5</title>
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+	</head>
+	<body>
+		<h1>Enter Items And Quantity</h1>
+		<div id="border-one">
+		<div id="form">
+			<label>Item:</label><input type="text" name="name" id="item" placeholder="ITEM"/>
+			<label>Quantity:</label><input type="text" name="name" id="quantity"    placeholder="QUANTITY"/>
+		</div>
+		<div id="form">
+			<button onclick="save()">Save</button>
+			<button onclick="modify()">Modify</button>
+			<button onclick="cancel()">Remove</button>
+			
+		</div>
+		</div>
+		<div id="border-two">
+		<h3>Shopping List</h3>
+		<div id = "tab">
+        <table id = "list" cellspacing = "0px" cellpadding = "10px" text-align = "center">
+            <thead>
+  
+                    <th>Name</th>
+                    <th>Value</th>
+            </thead>
+
+            <tbody id="output">
+
+            </tbody>
+        </table>
+		<span><button onclick="clearAll()">ClearAll</button></span>
+		<span>* Removes All Items</span>
+		</div>
+		</div>
+		
+	</body>
+	<script>
+	var output1="";
+	output.innerHTML="";
+	for(var i=0;i<sessionStorage.length;i++){
+		output1=output1+"<tr><td>"+sessionStorage.key(i)+"</td>"+" "+"<td>"+sessionStorage.getItem(sessionStorage.key(i))+"</td></tr>";
+		output.innerHTML=output1;
+	}
+	var save=function()
+	{
+	var output1=""
+	var item=document.getElementById("item").value;
+	var quantity=document.getElementById("quantity").value;
+	var output=document.getElementById("output");
+	if(document.getElementById("item").value!="")
+	{
+	if(sessionStorage)
+	{
+	sessionStorage.setItem(item,quantity);
+	for(var i=0;i<sessionStorage.length;i++){
+		output1=output1+"<tr><td>"+sessionStorage.key(i)+"</td>"+" "+"<td>"+sessionStorage.getItem(sessionStorage.key(i))+"</td></tr>";
+		output.innerHTML=output1;
+	}
+	}
+	}
+	document.getElementById("item").value="";
+	document.getElementById("quantity").value="";
+	}
+	var modify=function()
+	{
+	output1="";
+	if(sessionStorage)
+	{
+	var item=document.getElementById("item").value;
+	var quantity=document.getElementById("quantity").value;
+	var output=document.getElementById("output");
+	var pres=quantity;
+	sessionStorage.removeItem(item);
+	sessionStorage.setItem(item,pres);
+	for(var i=0;i<sessionStorage.length;i++){
+		output1=output1+"<tr><td>"+sessionStorage.key(i)+"</td>"+" "+"<td>"+sessionStorage.getItem(sessionStorage.key(i))+"</td></tr>";
+		output.innerHTML=output1;
+	}
+	}}
+	function cancel()
+	{
+	var item=document.getElementById("item").value;
+	sessionStorage.removeItem(item);
+	output1="";
+	for(var i=0;i<sessionStorage.length;i++){
+		output1=output1+"<tr><td>"+sessionStorage.key(i)+"</td>"+" "+"<td>"+sessionStorage.getItem(sessionStorage.key(i))+"</td></tr>";
+		output.innerHTML=output1;
+	}
+	}
+	function clearAll()
+	{
+		sessionStorage.clear();
+		output.innerHTML="";
+	}
+</script>
+</html>
+
+	
+	

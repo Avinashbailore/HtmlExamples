@@ -1,0 +1,372 @@
+/* Golbal CSS */
+*{
+	margin:0;
+	padding:0;
+}
+
+body
+{
+	font:normal 100% Arial;
+	font-family: 'Titillium Web', verdana;
+}
+img { 
+max-width: 100%; 
+height: auto; 
+width: auto\9; /* ie8 */ 
+}
+
+a,a:hover{
+	text-decoration: none;
+}
+ul,ol{
+	list-style: none;
+}
+
+/* Structural CSS */
+#wrapper
+{
+		
+}
+
+/* Header Container Section CSS */
+#headerContainer
+{
+background-color:#222222;
+}
+#menu{
+overflow:hidden;
+}
+#menu-toggle
+{
+	float:right;
+	background-color:#222222;
+	padding:10px;
+	color:#fff;
+	font-family:verdana;
+	font-size:15px;
+	cursor:pointer;
+	height:25px;
+	width:30px;
+	margin-top:3px;
+	border:1px solid #ffffff;
+	margin:13px 17px;
+	border-radius:5px;
+	
+}
+#menu-toggle span{
+border:1px solid #888888;
+display:block;
+margin-top:4px;
+margin-bottom:4px;
+}
+
+#menu ul
+{
+display:none;
+}
+.menu-open #menu ul
+{
+	display: block;
+}
+#menu li
+{
+border-bottom:1px solid #3CBAC4;
+}
+#menu li a
+{
+	padding:10px;
+	background-color:#05A6B3;
+	display: block;
+	color:#fff;
+}
+/******************************************** Banner Section*********/
+
+#bannerContainer{
+background:url("../images/banner.jpg") no-repeat;
+background-size:100% 100%;
+
+padding:29px 14px 22px 14px;
+}
+
+.bannerContent h2
+{
+color:#fff;
+font-size:1.2em;
+}
+.bannerContent p{
+color:#ffffff;
+font-size:0.7em;
+padding-bottom:20px;
+}
+.bannerContent h1{
+color:#05A6B3;
+font-size:1.5em;
+}
+.heading{
+display:none;
+}
+#bannerContainer a{
+border:2px solid #fff;
+padding:4px 8px;
+color:white;
+}
+#slideNav
+{
+display:none;
+padding-top:20px;
+overflow:hidden;
+padding-bottom:20px;
+}
+.blue
+{
+
+float:left;
+width:3px;
+height:3px;
+border:1px solid white;
+background-color:#00E0F2;
+}
+.orange
+{
+margin-left:10px;
+float:left;
+width:3px;
+height:3px;
+border:1px solid white;
+background-color:#EF6286;
+}
+
+/************************************************ bannerBoxContent ***************/
+#bannerBoxContent
+{
+overflow:hidden;
+color:#fff;
+}
+.box p
+{
+font-size:0.7em;
+}
+.box{
+float:left;
+width:50%;
+box-sizing:border-box;
+padding:10px;
+background-color:#00E0F2;
+font-weight:normal;
+}
+.box:nth-last-child(3){
+background-color:#02CDDD;
+}
+.box:nth-last-child(2){
+background-color:#05B7C5;
+}
+.box:nth-last-child(1){
+background-color:#05A6B3;
+}
+
+/*************** bannerText Content *************************/
+#bannerTextContent
+{
+padding-top:10px;
+padding-bottom:20px;
+}
+.sectionContent
+{
+padding-left:10px;
+}
+.sectionContent h3
+{
+font-size:1em;
+}
+.sectionContent h2
+{
+padding-top:20px;
+color:#EF6286;
+}
+.sectionContent p
+{
+font-size:0.75em;
+color:grey;
+padding-bottom:10px;
+}
+.sectionContent a{
+color:#05A6B3;
+padding:3px 15px;
+border:3px solid #05A6B3;
+font-size:0.7em;
+}
+/******************* blogSectionContent ******************************************************/
+#blogSectionContent
+{
+background-color:#EBEBEB;
+overflow:hidden;
+margin-bottom:33px;
+padding-top:30px;
+}
+.blockContent
+{
+box-sizing:border-box;
+width:50%;
+float:left;
+padding-left:20px;
+padding-bottom:20px;
+text-align:center;
+}
+.blockContent h3{
+color:#EF6286;
+}
+.blockContent p{
+color:#B3B1B2;
+}
+#arrowTop
+{
+display:none;
+}
+/******************************* newsBlogContent **************************************/
+
+.newsBlockContent
+{
+
+padding-left:10px;
+padding-right:10px;
+border-bottom:1px solid grey;
+}
+.newsBlockContent h2
+{
+color:#EF6286;
+}
+.newsBlockContent p
+{
+font-size:0.75em;
+color:grey;
+}
+.newsBlockImageContent
+{
+padding-top:20px;
+padding-left:10px;
+padding-right:10px;
+border-bottom:1px solid grey;
+}
+.Text p
+{
+padding-top:10px;
+font-size:0.75em;
+color:grey;
+}
+.newsText
+{
+padding-top:20px;
+padding-left:10px;
+padding-right:10px;
+
+}
+.newsText p
+{
+padding-top:10px;
+font-size:0.75em;
+color:grey;
+}
+/*********************** UPCOMING EVENTS BLOCK *********************************/
+#upcomingEventsContainer h2
+{
+margin-left:10px;
+color:#EF6286;
+}
+.firstImage,.secondImage{
+margin-left:10px;
+margin-right:10px;
+background:url('../images/n-2.jpg') no-repeat;
+height:280px;
+}
+.secondImage{
+background:url('../images/n-3.jpg') no-repeat;
+}
+.imageContent
+{
+background-color:#15A7B3;
+opacity:0.8;
+padding:17px;
+width:auto;
+text-align:center;
+color:#fff;
+position:relative;
+top:200px;
+}
+/************************************* staffMembers *****************************/
+#staffMembersContainer h2
+{
+text-align:center;
+color:#EF6286;
+}
+.staffMember
+{
+text-align:center;
+}
+/*******************************************megaFooter *********************************/
+#megaFooter
+{
+background-color:#212121;
+}
+#footerContents
+{
+text-align:center;
+}
+.addressPart
+{
+overflow:hidden;
+padding-top:30px;
+margin:0 auto;
+}
+.addressPart img
+{
+float:left;
+padding-left:90px;
+}
+.addressPart p
+{
+color:#fff;
+font-size:0.9em;
+}
+.socialBox p
+{
+color:#fff;
+font-size:0.9em;
+padding-left:10px;
+padding-top:10px;
+}
+.socialLogos{
+padding-top:20px;
+overflow:hidden;
+margin:0 auto;
+width:161px;
+}
+.facebook,.twitter,.wifi,.google{
+float:left;
+background:url('../images/social-icons.png') no-repeat;
+
+width:32px;
+height:32px;
+margin-left:8px;
+}
+.facebook:hover{
+background-position:1px -34px;
+}
+.twitter:hover{
+background-position:-34px -34px;
+}
+.wifi:hover{
+background-position:-70px -34px;
+}
+.google:hover{
+background-position:-103px -34px;
+}
+.twitter{
+background-position:-33px 1px;
+}
+.wifi{
+background-position:-69px 1px;
+}
+.google{
+background-position:-102px 1px;
+}
+

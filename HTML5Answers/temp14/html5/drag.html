@@ -1,0 +1,133 @@
+<!doctype html>
+<html >
+	<head>
+		<title>new3</title>
+	    <link rel="stylesheet" href="css/drag_drop.css"  type="text/css" />
+	</head>
+	<body>
+	<div class="main-container">
+		<div class="sub_main-container">
+		   <header>
+			<div class="Available-box">
+				<div class="Available_student-tag">
+				<h3>Available Student</h3>
+				</div>
+			<div class="student_box" class="box" ondragover="dropover(event)" 
+		ondrop="dropped(event)" id="student-box">
+				<div class="student-id" id="student_a" draggable="true" ondragstart="dragstart(event);">
+				<p>Student	A</p>
+				</div>
+				<div class="student-id" id="student_b" draggable="true" ondragstart="dragstart(event);">
+				<p>Student	B</p>
+				</div>
+				<div class="student-id" draggable="true" ondragstart="dragstart(event)" id="student_c">
+				<p>Student	C</p>
+				</div>
+				<div class="student-id" id="student_d" draggable="true" ondragstart="dragstart(event);">
+				<p>Student	D</p>
+				</div>
+				<div class="student-id" id="student_e" draggable="true" ondragstart="dragstart(event);">
+				<p>Student	E</p>
+				</div>
+				<div class="student-id" id="student_f" draggable="true" ondragstart="dragstart(event);">
+				<p>Student	F</p>
+				</div>
+				<div class="student-id" id="student_g" draggable="true" ondragstart="dragstart(event);">
+				<p>Student	G</p>
+				</div>
+				<div class="student-id" id="student_h" draggable="true" ondragstart="dragstart(event);">
+				<p>Student	H</p>
+				</div>
+				<div class="student-id" id="student_i" draggable="true" ondragstart="dragstart(event);">
+				<p>Student	I</p>
+				</div>
+				<div class="student-id" id="student_j" draggable="true" ondragstart="dragstart(event);">
+				<p>Student	J</p>
+				</div>
+				<div class="student-id" id="student_k" draggable="true" ondragstart="dragstart(event);">
+				<p>Student	K</p>
+				</div>
+				<div class="student-id" id="student_l" draggable="true" ondragstart="dragstart(event);">
+				<p>Student	L</p>
+				</div>
+				<div class="student-id" id="student_m" draggable="true" ondragstart="dragstart(event);">
+				<p>Student	M</p>
+				</div>
+				<div class="student-id" id="student_n" draggable="true" ondragstart="dragstart(event);">
+				<p>Student	N</p>
+				</div>
+				<div class="student-id" id="student_o" draggable="true" ondragstart="dragstart(event);">
+				<p>Student	O</p>
+				</div>
+				<div class="student-id" id="student_p" draggable="true" ondragstart="dragstart(event);">
+				<p>Student	Q</p>
+				</div>
+				<div class="student-id" id="student_q" draggable="true" ondragstart="dragstart(event);">
+				<p>Student	R</p>
+				</div>
+				<div class="student-id" id="student_r" draggable="true" ondragstart="dragstart(event);">
+				<p>Student	S</p>
+				</div>
+				<div class="student-id" id="student_t" draggable="true" ondragstart="dragstart(event);">
+				<p>Student	T</p>
+				</div>
+				<div class="student-id" id="student_u" draggable="true" ondragstart="dragstart(event);">
+				<p>Student	U</p>
+				</div>
+			</div>
+			</div>
+			</header>
+		<footer>
+	     <div class="main-team_box">
+		 <div class="teams_box1">
+			<div class="team-a"  ondragover="dropover(event)" 
+		  ondrop="dropped(event)" id="div2">
+			<p class="team-A">Team a</p>
+			</div>
+			<div class="team-b"   ondragover="dropover(event)" 
+		  ondrop="dropped(event)" id="div3">
+			<p class="team-B">Team B</p>
+			</div>
+			<div class="team-c"  ondragover="dropover(event)" 
+		  ondrop="dropped(event)" id="div4">
+			<p class="team-C">Team C</p>
+			</div>
+		  <div class="clear"></div>
+		</div>
+	
+	   <div class="teams_box2">
+		<div class="team-d"   ondragover="dropover(event)" 
+		ondrop="dropped(event)" id="div4">
+		<p class="team-D">Team D</p>
+		</div>
+		<div class="team-e"  ondragover="dropover(event)" 
+		ondrop="dropped(event)" id="div5">
+		<p class="team-E">Team E</p>
+		</div>
+		<div class="clear"></div>
+	</div>
+		<div class="clear"></div>
+	</div>
+	</footer>
+	</div>
+	</div>
+	</body>
+	<script>
+		function dropover(event){
+			event.preventDefault();
+			console.log("dragged");
+		}
+		function dropped(event){
+			event.preventDefault();
+			console.log("dropped");
+			var img = event.dataTransfer.getData("text",event.target.id)
+			console.log(img);
+			var img1 = document.getElementById(img);
+			document.getElementById(event.target.id).appendChild(img1);
+			
+		}
+		function dragstart(event){
+			event.dataTransfer.setData("text",event.target.id);
+		}
+	</script>
+	</html>

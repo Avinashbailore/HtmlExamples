@@ -1,0 +1,88 @@
+@media (min-width:901px)
+{
+.banner-background
+ {
+background:url('../images/bg.jpg');
+height:auto;
+padding:0 100px;
+}
+#menu ul li 
+{
+width:16%;
+}
+.navigation
+{
+width:107%;
+}
+.bannerImage
+{
+background:url('../images/1.jpg') no-repeat;
+background-size: 100%;
+padding:190px 35px;
+}
+#imageSection
+{
+margin:0 auto;
+width:83%;
+}
+.images
+{
+width:23.2%;
+}
+.text-container
+{
+width:52%;
+float:left;
+text-align:left;
+margin-left:120px;
+}
+.text-container h2
+{
+text-align:left;
+}
+.list-items
+{
+font-size:11px;
+padding-bottom:10px;
+text-align:left;
+}
+.list-items ol li
+{
+padding:10px 0px;
+font-size:1.2em;
+margin-left:0px;
+}
+.more1
+{
+margin-top:12px;
+margin-left:0px;
+}
+.image-container
+{
+width:25%;
+float:left;
+margin-left:80px;
+}
+.image-container img
+{
+width:41%;
+}
+
+.links
+{
+width:50%;
+float:left;
+margin-left:70px;
+}
+
+.about,.advice ,.join-in,.follow-us,.copy-rt
+{
+width:24%;
+float:left;
+overflow:hidden;
+}
+.follow-us,.copy-rt
+{
+margin-top:0px;
+width:18%;
+}

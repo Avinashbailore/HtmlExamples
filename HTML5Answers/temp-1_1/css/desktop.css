@@ -1,0 +1,104 @@
+#menu-toggle{
+display:none;
+}
+
+
+.menu ul{
+display: block;
+}
+
+
+.menu{
+width:760px;
+//border:1px solid black;
+overflow:hidden;
+margin-left:300px;
+margin-top:-40px;
+}
+
+.menu li{
+float:left;
+padding-right:50px;
+}
+
+.search {
+margin-top:10px;
+}
+
+.container{
+width:1143px;
+margin:0 auto;
+//border:1px solid black;
+overflow:hidden;
+}
+
+
+.bannerBox{
+width:27.33%;
+float:left;
+opacity:0.5;
+padding: 2.5em 2em;
+background-color:#63C4CD;
+}
+
+.Content{
+margin-top:-100px;
+}
+
+.Box{
+width:43%;
+float:left;
+}
+
+
+.profileBox{
+width:27%;
+float:left;
+margin-right:50px;
+}
+
+
+
+.CareBox{
+width:27%;
+float:left;
+}
+
+.EmergencyBox{
+width:27%;
+float:right;
+}
+
+
+
+
+
+.imp{
+//border:1px solid black;
+width:29%;
+float:left;
+margin-right:60px;
+}
+
+
+.imp1{
+//border:1px solid black;
+float:left;
+width:29%;
+}
+
+
+
+.imp2{
+//border:1px solid black;
+width:29%;
+float:right;
+
+}
+
+.Services{
+float:left;
+margin-left:20px;
+width:22%;
+}
+

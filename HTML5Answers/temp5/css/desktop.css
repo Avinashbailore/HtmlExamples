@@ -1,0 +1,177 @@
+
+/********* HeaderCSS **************/
+#logo{
+		padding:15px 80px;
+		float:left;
+		margin:0;
+	}
+#menu-toggle{
+	display: none;
+	}
+	#menu ul
+	{
+	display: block
+	}
+#menu ul li
+{
+ float:left;
+ border-bottom:2px solid white;
+}
+#menu li a
+{
+	background-color:#05A6B3;
+	display: block;
+	color:#fff;
+	padding:45px 70px;
+	border-right:1px solid #3CBAC4;
+}
+/**************** bannerContainer ************************************/
+.headingHide
+{
+display:none;
+}
+.bannerContent p
+{
+	font-size:1em;
+	line-height:25px;
+}
+.bannerContent h1
+{
+font-size:2em;
+}
+.bannerContent h2
+{
+font-size:1.5em;
+color:white;
+}
+.heading{
+
+display:block;
+padding-bottom:20px;
+}
+#bannerContainer
+{
+background:url("../images/banner.jpg") no-repeat;
+padding:150px;
+}
+#slideNav
+{
+padding-top:150px;
+display:block;
+}
+.box{
+float:left;
+width:25%;
+box-sizing:border-box;
+}
+#bannerBoxContent
+{
+overflow:hidden;
+}
+
+#bannerTextContent
+{
+overflow:hidden;
+width:70.27%;
+margin:0 auto;
+}
+.sectionContent
+{
+box-sizing:border-box;
+width:50%;
+float:left;
+}
+
+#blogSectionContentBox
+{
+overflow:hidden;
+width:70.27%;
+margin:0 auto;
+}
+.blockContent
+{
+box-sizing:border-box;
+width:25%;
+float:left;
+}
+#arrowTop
+{
+display:none;
+}
+.newsBlockImageContent
+{
+overflow:hidden;
+}
+.Image
+{
+width:30%;
+float:left;
+}
+.Text
+{
+width:70%;
+float:right;
+}
+
+#newsBlogContent
+{
+overflow:hidden;
+width:70.27%;
+margin:0 auto;
+}
+#newsBlock
+{
+width:68.75%;
+float:left;
+box-sizing:border-box;
+}
+#upcomingEventsContainer
+{
+width:31.25%;
+float:left;
+box-sizing:border-box;
+}
+#staffMembersContainer h2
+{
+padding-bottom:20px;
+}
+#staffMembersContainer
+{
+padding-top:30px;
+overflow:hidden;
+width:70.27%;
+margin:0 auto;
+}
+.staffMember
+{
+width:18%;
+float:left;
+
+margin-left:10px;
+box-sizing:border-box;
+}
+
+
+/**************** Mega FOOTER *****************************/
+#footerContents
+{
+overflow:hidden;
+width:70.27%;
+margin:0 auto;
+}
+.addressPart img
+{
+padding-left:60px;
+}
+.addressPart
+{
+width:32%;
+float:left;
+margin-left:30px;
+
+}
+.socialBox
+{
+width:25%;
+float:left;
+}

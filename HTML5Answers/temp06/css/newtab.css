@@ -1,0 +1,122 @@
+
+
+.header
+{
+width:960px;
+margin:0 auto;
+}
+
+
+.container-top
+{
+padding-top:7px;
+padding-bottom:7px;
+}
+#menu
+{
+
+overflow:hidden;
+}
+#menu-toggle{
+	display: none;
+	}
+	#menu ul
+	{
+	
+	display: block;
+	
+	}
+	#menu li
+	{
+		float:left;
+		margin-left:21px;
+		border:none;
+	}
+	
+	#menu li a
+{
+	padding:10px;
+	background-color:#3A3A3A;
+	display: block;
+	color:white;
+	text-decoration:none;
+	font-size:17px;
+}
+.zavada-bg
+{
+width:395px;
+height:109px;
+margin:0 auto;
+margin-bottom:36px;
+}
+.fourcontainer
+{
+overflow:hidden;
+}
+
+
+.left-container
+{
+width:65%;
+float:left;}
+.container-four{
+float:right;
+width:30%;
+}
+.container-four-main{
+float:right;
+
+width: 107.4444%;
+margin: 0 auto;
+}
+.container-four-center{
+  width: 90.795321%;
+  margin: 0 auto
+}
+
+
+
+.container-top{
+overflow:hidden;
+}
+
+.container-one{
+overflow:hidden;}
+.firstbox{
+width:48%;
+float:left;
+}
+.secondbox{
+width:48%;
+float:right;
+}
+
+
+.container-two{
+overflow:hidden;}
+
+.thirdbox{
+width:48%;
+float:right;
+}
+.fourthbox{
+width:48%;
+float:right;
+}
+
+
+.container-three{
+overflow:hidden;}
+
+.fifthbox{
+width:48%;
+float:right;
+}
+.sixthbox{
+width:48%;
+float:right;
+}
+
+
+
+
